@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Source+Sans+Pro&display=swap");
+
+body {
+    background-color: #87b1f5;
+    margin: auto;
+    max-width: 700px;
+}
+
+header {
+    font-family: "Noto Serif", Arial, Helvetica;
+    background-color: #0062ff;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#autor-img {
+    text-align: right;
+}
+
+main {
+    background-color: #87b1f5;
+}
+
+.assigment-title {
+    font-family: "Noto Serif", Arial, Helvetica;
+    padding-left: 20px;
+}
+
+.assigment-lists {
+    font-family: "Source Sans Pro", sans-serif;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #0062ff;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+}
