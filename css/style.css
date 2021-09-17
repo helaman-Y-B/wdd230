@@ -59,11 +59,11 @@ footer {
 }
 
 .link:link {
-    color: rgb(4, 14, 151);
+    color: rgb(0, 13, 192);
 }
 
 .link:hover {
-    color: rgb(117, 11, 37);
+    color: rgb(212, 14, 63);
 }
 
 .link:visited {
@@ -75,6 +75,6 @@ footer {
 }
 
 #lastUpdate {
-    color: rgb(78, 3, 139);
+    color: rgb(229, 255, 0);
     margin: 0px;
 }
