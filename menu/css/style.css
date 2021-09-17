@@ -7,18 +7,32 @@ body {
 }
 
 header {
+    display: grid;
+    grid-template-columns: auto;
     font-family: "Noto Serif", Arial, Helvetica;
-    background-color: #0062ff;
-    text-align: center;
+    background-color: #277aff;
     border-radius: 15px;
+    max-height: 100px;
+}
+
+header h1 {
+    padding-left: 30px;
+    grid-column: 1;
+    text-align: center;
 }
 
 #autor-img {
-    text-align: right;
+    grid-column: 2;
+    margin-top: 10px;
+    margin-left: 50px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px black;
 }
 
 main {
     background-color: #87b1f5;
+    padding-left: 50px;
 }
 
 .assigment-title {
@@ -32,9 +46,18 @@ main {
 }
 
 footer {
-    background-color: #0062ff;
+    background-color: #277aff;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
+}
+
+#info {
+    margin: 0px;
+}
+
+#lastUpdate {
+    color: rgb(214, 214, 62);
+    margin: 0px;
 }
