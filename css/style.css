@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Source+Sans+Pro&display=swap");
 
 body {
-    background-color: #87b1f5;
+    background-color: #b1c8ec;
     margin: auto;
     max-width: 700px;
 }
@@ -10,7 +10,7 @@ header {
     display: grid;
     grid-template-columns: auto;
     font-family: "Noto Serif", Arial, Helvetica;
-    background-color: #277aff;
+    background-color: #6199f5;
     border-radius: 15px;
     max-height: 100px;
 }
@@ -33,7 +33,7 @@ header h1 {
 }
 
 main {
-    background-color: #87b1f5;
+    background-color: #b1c8ec;
     padding-left: 50px;
 }
 
@@ -50,12 +50,24 @@ main {
 }
 
 footer {
-    background-color: #277aff;
+    background-color: #6199f5;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
+}
+
+.link:link {
+    color: rgb(4, 14, 151);
+}
+
+.link:hover {
+    color: rgb(117, 11, 37);
+}
+
+.link:visited {
+    color: rgb(50, 19, 98);
 }
 
 #info {
@@ -63,6 +75,6 @@ footer {
 }
 
 #lastUpdate {
-    color: rgb(214, 214, 62);
+    color: rgb(78, 3, 139);
     margin: 0px;
 }
