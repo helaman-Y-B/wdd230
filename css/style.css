@@ -1,80 +1,80 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Source+Sans+Pro&display=swap");
 
 body {
-    background-color: #b1c8ec;
-    margin: auto;
-    max-width: 700px;
+  background-color: #b1c8ec;
+  margin: auto;
+  max-width: 700px;
 }
 
 header {
-    display: grid;
-    grid-template-columns: auto;
-    font-family: "Noto Serif", Arial, Helvetica;
-    background-color: #6199f5;
-    border-radius: 15px;
-    max-height: 100px;
+  display: grid;
+  grid-template-columns: auto;
+  font-family: "Noto Serif", Arial, Helvetica;
+  background-color: #6199f5;
+  border-radius: 15px;
+  max-height: 100px;
 }
 
 header h1 {
-    padding-left: 30px;
-    grid-column: 1;
-    text-align: center;
-    font-size: 2.5vw;
+  padding-left: 30px;
+  grid-column: 1;
+  text-align: center;
+  font-size: 2.5vw;
 }
 
 #autor-img {
-    grid-column: 2;
-    margin-top: 10px;
-    margin-left: 50px;
-    max-width: 10vw;
-    height: auto;
-    box-shadow: 5px 5px 10px black;
-    font-size: 1vw;
+  grid-column: 2;
+  margin-top: 10px;
+  margin-left: 50px;
+  max-width: 9vw;
+  height: auto;
+  box-shadow: 5px 5px 10px black;
+  font-size: 1vw;
 }
 
 main {
-    background-color: #b1c8ec;
-    padding-left: 50px;
+  background-color: #b1c8ec;
+  padding-left: 50px;
 }
 
 .assigment-title {
-    font-family: "Noto Serif", Arial, Helvetica;
-    padding-left: 20px;
-    font-size: 2vw;
+  font-family: "Noto Serif", Arial, Helvetica;
+  padding-left: 20px;
+  font-size: 2vw;
 }
 
 .assigment-lists {
-    font-family: "Source Sans Pro", sans-serif;
-    padding-left: 20px;
-    font-size: 1.5vw;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-left: 20px;
+  font-size: 1.5vw;
 }
 
 footer {
-    background-color: #6199f5;
-    border-radius: 15px;
-    padding: 10px;
-    text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.3vw;
+  background-color: #6199f5;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.3vw;
 }
 
 .link:link {
-    color: rgb(0, 13, 192);
+  color: rgb(0, 13, 192);
 }
 
 .link:hover {
-    color: rgb(212, 14, 63);
+  color: rgb(212, 14, 63);
 }
 
 .link:visited {
-    color: rgb(50, 19, 98);
+  color: rgb(50, 19, 98);
 }
 
 #info {
-    margin: 0px;
+  margin: 0px;
 }
 
 #lastUpdate {
-    color: rgb(229, 255, 0);
-    margin: 0px;
+  color: rgb(229, 255, 0);
+  margin: 0px;
 }
