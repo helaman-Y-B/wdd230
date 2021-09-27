@@ -1,0 +1,62 @@
+@media only screen and (max-width: 32.5em) {
+    #autor-img {
+        float: right;
+        max-width: 7em;
+        height: auto;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    header {
+        font-family: "Noto Serif", Arial, Helvetica;
+        background-color: #6199f5;
+        border-radius: 15px;
+    }
+
+    header h1 {
+        padding-left: 30px;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .assigment-title {
+        font-family: "Noto Serif", Arial, Helvetica;
+        padding-left: 20px;
+        font-size: 1.5em;
+    }
+
+    .assigment-lists {
+        font-family: "Source Sans Pro", sans-serif;
+        padding-left: 20px;
+        font-size: 1.5em;
+    }
+
+    footer {
+        background-color: #6199f5;
+        border-radius: 15px;
+        padding: 10px;
+        text-align: center;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 1.5em;
+    }
+
+    .link:link {
+        color: rgb(0, 13, 192);
+    }
+
+    .link:hover {
+        color: rgb(212, 14, 63);
+    }
+
+    .link:visited {
+        color: rgb(50, 19, 98);
+    }
+
+    #info {
+        margin: 0px;
+    }
+
+    #lastUpdate {
+        color: rgb(229, 255, 0);
+        margin: 0px;
+    }
+}
