@@ -14,7 +14,8 @@ header {
 }
 
 header h1 {
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
     font-size: 2.5em;
 }
 
@@ -24,6 +25,7 @@ header h1 {
     height: auto;
     box-shadow: 5px 5px 10px black;
     float: right;
+    margin-top: 20px;
 }
 
 main {
@@ -39,7 +41,7 @@ main {
 .assigment-lists {
     font-family: "Source Sans Pro", sans-serif;
     padding-left: 20px;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 footer {
@@ -48,7 +50,7 @@ footer {
     padding: 10px;
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .link:link {
