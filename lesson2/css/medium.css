@@ -1,0 +1,38 @@
+@media only screen and (max-width: 32.5em) {
+    h1 {
+        padding: 15px;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    #intro {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 2em;
+        padding-left: 15px;
+    }
+
+    #list {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 1.5em;
+    }
+
+    .principle {
+        font-size: 2em;
+    }
+
+    .company {
+        font-size: 1.5em;
+    }
+
+    .website {
+        font-size: 1.3em;
+    }
+
+    .paragraph {
+        font-size: 1.5em;
+    }
+
+    footer {
+        font-size: 1.5em;
+    }
+}
