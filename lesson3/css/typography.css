@@ -1,142 +1,193 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Ubuntu:wght@500&display=swap");
 
 body {
-  max-width: 1000px;
-  margin: auto;
-  background-color: rgb(199, 253, 189);
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(199, 253, 189);
 }
 
 header {
-  text-align: center;
-  background-color: rgb(0, 255, 170);
-  height: 100px;
-  font-size: 30px;
-  border-radius: 30px;
+    text-align: center;
+    background-color: rgb(0, 255, 170);
+    height: 100px;
+    font-size: 30px;
+    border-radius: 30px;
 }
 
 header a {
-  display: inline-block;
-  margin: 15px;
-  padding-top: 10px;
+    display: inline-block;
+    margin: 15px;
+    padding-top: 10px;
 }
 
-#for-heading {
-  text-align: center;
-  grid-column: 1;
-  background-color: white;
+.typo-line {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    height: 44.5px;
+    margin-top: 10px;
 }
 
-#heading1 {
-  font-size: 60px;
-  font-family: "Ubuntu", sans-serif, serif;
-  margin: 0px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: rgb(0, 255, 170);
-  height: 81.5px;
+.tags {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 25px;
+    margin: 5px;
+    width: 256.156px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
 }
 
-#heading2 {
-  font-size: 50px;
-  background-color: rgb(119, 255, 248);
-  font-family: "Ubuntu", sans-serif, serif;
-  margin: 0px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  height: 68px;
+.font {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 25px;
+    margin: 5px;
+    width: 256.156px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
 }
 
-#heading3 {
-  font-size: 40px;
-  background-color: rgb(7, 196, 170);
-  font-family: "Ubuntu", sans-serif, serif;
-  margin: 0px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  height: 54.5px;
+.px {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 25px;
+    margin: 5px;
+    width: 100px;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+    border-color: black;
 }
 
-#heading4 {
-  font-size: 30px;
-  background-color: rgb(6, 158, 158);
-  font-family: "Ubuntu", sans-serif, serif;
-  margin: 0px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 41px;
+#color1 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 25px;
+    margin: 5px;
+    width: 100px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
+}
+#color2 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 25px;
+    margin: 5px;
+    width: 100px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
+}
+#color3 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 25px;
+    margin: 5px;
+    width: 100px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
+}
+#color4 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 25px;
+    margin: 5px;
+    width: 100px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
+}
+#color5 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 25px;
+    margin: 5px;
+    width: 100px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
+}
+#color6 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 25px;
+    margin: 5px;
+    width: 100px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
+}
+#color7 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 25px;
+    margin: 5px;
+    width: 100px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
 }
 
-#heading5 {
-  font-size: 20px;
-  background-color: rgb(14, 149, 202);
-  font-family: "Ubuntu", sans-serif, serif;
-  margin: 0px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  height: 27.5px;
+#sample1 {
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 40px;
+    background-color: rgb(0, 255, 170);
+    margin: 5px;
+    width: 256.156px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
 }
-
-#for-main-footer {
-  text-align: center;
-  grid-column: 2;
-  background-color: white;
+#sample2 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 30px;
+    background-color: rgb(119, 255, 248);
+    margin: 5px;
+    width: 256.156px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
 }
-
-#main1 {
-  background-color: rgb(0, 255, 170);
-  font-family: "Noto Sans Display", sans-serif, helvetica;
-  font-size: 60px;
-  margin: 0px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+#sample3 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 20px;
+    background-color: rgb(7, 196, 170);
+    margin: 5px;
+    width: 256.156px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
 }
-
-#main2 {
-  background-color: rgb(119, 255, 248);
-  font-family: "Noto Sans Display", sans-serif, helvetica;
-  font-size: 50px;
-  margin: 0px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+#sample4 {
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 30px;
+    background-color: rgb(6, 158, 158);
+    margin: 5px;
+    width: 256.156px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
 }
-
-#main3 {
-  background-color: rgb(7, 196, 170);
-  font-family: "Noto Sans Display", sans-serif, helvetica;
-  font-size: 40px;
-  margin: 0px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+#sample5 {
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 25px;
+    background-color: rgb(14, 149, 202);
+    margin: 5px;
+    width: 256.156px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
 }
-
-#main4 {
-  background-color: rgb(6, 158, 158);
-  font-family: "Noto Sans Display", sans-serif, helvetica;
-  font-size: 30px;
-  margin: 0px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+#sample6 {
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 20px;
+    background-color: white;
+    margin: 5px;
+    width: 256.156px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
 }
-
-#main5 {
-  background-color: rgb(14, 149, 202);
-  font-family: "Noto Sans Display", sans-serif, helvetica;
-  font-size: 20px;
-  margin: 0px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-main {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 30px;
-  margin-top: 30px;
-}
-
-main p {
-  text-align: center;
-  grid-column: 1 / span 2;
-  font-size: 30px;
-  font-family: "Noto Sans Display", sans-serif, helvetica;
+#sample7 {
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 16px;
+    margin: 5px;
+    width: 256.156px;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
 }
