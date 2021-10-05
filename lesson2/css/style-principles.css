@@ -94,6 +94,7 @@
         border-radius: 15px;
         grid-column: 2;
         grid-row: 3;
+        margin-top: 10px;
     }
 
     #Fitts-law {
