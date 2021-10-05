@@ -1,0 +1,25 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgb(24, 82, 82);
+}
+
+header {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+video {
+  display: flex;
+}
