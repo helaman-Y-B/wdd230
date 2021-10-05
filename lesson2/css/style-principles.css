@@ -1,107 +1,138 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Source+Sans+Pro&display=swap");
+@media only screen and (min-width: 32.5em) {
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Source+Sans+Pro&display=swap");
 
-body {
-    margin: auto;
-    max-width: 700px;
-    background-color: #b1c8ec;
-}
+    body {
+        margin: auto;
+        max-width: 800px;
+        background-color: #b1c8ec;
+    }
 
-header {
-    background-color: #6199f5;
-    font-family: "Noto Serif", Arial, Helvetica;
-    border-radius: 15px;
-}
+    header {
+        background-color: #6199f5;
+        font-family: "Noto Serif", Arial, Helvetica;
+        border-radius: 15px;
+    }
 
-h1 {
-    padding: 15px;
-    text-align: center;
-    font-size: 2.5em;
-}
+    main {
+        display: grid;
+        grid-template-columns: 395px 395px;
+        grid-template-rows: auto auto auto auto;
+        column-gap: 10px;
+    }
 
-#first-paragraph {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.2em;
-    padding-left: 15px;
-}
+    #intro {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+        font-size: 2em;
+        text-align: center;
+        font-family: "Noto Serif", Arial, Helvetica;
+    }
 
-#list {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1em;
-}
+    h1 {
+        padding: 15px;
+        text-align: center;
+        font-size: 2.5em;
+    }
 
-#repetition {
-    background-color: #6199f5;
-    border-radius: 15px;
-}
+    #first-paragraph {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 1.2em;
+        padding-left: 15px;
+    }
 
-.principle {
-    font-family: "Noto Serif", Arial, Helvetica;
-    padding: 15px;
-}
+    #list {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 1.5em;
+        grid-column: 1 / span 2;
+        grid-row: 2;
+        margin-left: 300px;
+        margin-bottom: 30px;
+    }
 
-.company {
-    font-family: "Source Sans Pro", sans-serif;
-    padding-left: 15px;
-}
+    #repetition {
+        background-color: #6199f5;
+        border-radius: 15px;
+        grid-column: 1;
+        grid-row: 3;
+        max-width: 400px;
+        max-height: auto;
+    }
 
-.website {
-    font-family: "Source Sans Pro", sans-serif;
-    padding-left: 15px;
-}
+    .principle {
+        font-family: "Noto Serif", Arial, Helvetica;
+        padding: 15px;
+    }
 
-#first-img-micro {
-    padding-bottom: 50px;
-    max-width: 700px;
-    height: auto;
-}
+    .company {
+        font-family: "Source Sans Pro", sans-serif;
+        padding-left: 15px;
+    }
 
-img {
-    max-width: 700px;
-    height: auto;
-}
+    .website {
+        font-family: "Source Sans Pro", sans-serif;
+        padding-left: 15px;
+    }
 
-.paragraph {
-    font-family: "Source Sans Pro", sans-serif;
-    padding: 15px;
-    font-size: 1.2em;
-}
+    #first-img-micro {
+        padding-bottom: 50px;
+        max-width: 700px;
+        height: auto;
+    }
 
-#visual-hierarchy {
-    max-width: 700px;
-}
+    img {
+        height: auto;
+    }
 
-#Fitts-law {
-    background-color: #6199f5;
-    border-radius: 15px;
-    max-width: 700px;
-}
+    .paragraph {
+        font-family: "Source Sans Pro", sans-serif;
+        padding: 15px;
+        font-size: 1.2em;
+    }
 
-.website:link {
-    color: rgb(0, 13, 192);
-}
+    #visual-hierarchy {
+        background-color: #6199f5;
+        border-radius: 15px;
+        grid-column: 2;
+        grid-row: 3;
+    }
 
-.website:hover {
-    color: rgb(212, 14, 63);
-}
+    #Fitts-law {
+        background-color: #6199f5;
+        border-radius: 15px;
+        max-width: 800px;
+        grid-column: 1 / span 2;
+        grid-row: 4;
+        margin-top: 30px;
+    }
 
-.website:visited {
-    color: rgb(50, 19, 98);
-}
+    .website:link {
+        color: rgb(0, 13, 192);
+    }
 
-footer {
-    background-color: #6199f5;
-    border-radius: 15px;
-    padding: 10px;
-    text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.2em;
-}
+    .website:hover {
+        color: rgb(212, 14, 63);
+    }
 
-#info {
-    margin: 0px;
-}
+    .website:visited {
+        color: rgb(50, 19, 98);
+    }
 
-#lastUpdate {
-    color: rgb(229, 255, 0);
-    margin: 0px;
+    footer {
+        margin-top: 30px;
+        background-color: #6199f5;
+        border-radius: 15px;
+        padding: 10px;
+        text-align: center;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 1.2em;
+    }
+
+    #info {
+        margin: 0px;
+    }
+
+    #lastUpdate {
+        color: rgb(229, 255, 0);
+        margin: 0px;
+    }
 }

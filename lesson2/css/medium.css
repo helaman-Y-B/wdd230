@@ -1,38 +1,133 @@
-@media only screen and (max-width: 32.5em) {
-    h1 {
-        padding: 15px;
-        text-align: center;
-        font-size: 3em;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Source+Sans+Pro&display=swap");
 
-    #intro {
-        font-family: "Source Sans Pro", sans-serif;
-        font-size: 2em;
-        padding-left: 15px;
-    }
+body {
+    margin: auto;
+    max-width: 800px;
+    background-color: #b1c8ec;
+}
 
-    #list {
-        font-family: "Source Sans Pro", sans-serif;
-        font-size: 1.5em;
-    }
+header {
+    background-color: #6199f5;
+    font-family: "Noto Serif", Arial, Helvetica;
+    border-radius: 15px;
+}
 
-    .principle {
-        font-size: 2em;
-    }
+h1 {
+    padding: 15px;
+    text-align: center;
+    font-size: 3em;
+}
 
-    .company {
-        font-size: 1.5em;
-    }
+main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: auto auto auto auto auto;
+}
 
-    .website {
-        font-size: 1.3em;
-    }
+#intro {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2em;
+    padding-left: 15px;
+    grid-column: 1;
+    grid-row: 1;
+}
 
-    .paragraph {
-        font-size: 1.5em;
-    }
+#list {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.7em;
+    grid-column: 1;
+    grid-row: 2;
+    max-width: fit-content;
+    margin: 0px;
+}
 
-    footer {
-        font-size: 1.5em;
-    }
+h1 {
+    padding: 15px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#first-paragraph {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5em;
+    padding-left: 15px;
+}
+
+#repetition {
+    max-width: fit-content;
+    grid-column: 1;
+    grid-row: 3;
+    background-color: #6199f5;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#visual-hierarchy {
+    max-width: 800px;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#Fitts-law {
+    max-width: 800px;
+    grid-column: 1;
+    grid-row: 5;
+    background-color: #6199f5;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.principle {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2em;
+    padding: 15px;
+}
+
+.company {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5em;
+    padding-left: 15px;
+}
+
+.website {
+    display: inline-block;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-left: 15px;
+}
+
+.paragraph {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+.website:link {
+    color: rgb(0, 13, 192);
+}
+
+.website:hover {
+    color: rgb(212, 14, 63);
+}
+
+.website:visited {
+    color: rgb(50, 19, 98);
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #6199f5;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5em;
+}
+
+#info {
+    margin: 0px;
+}
+
+#lastUpdate {
+    color: rgb(229, 255, 0);
+    margin: 0px;
 }
