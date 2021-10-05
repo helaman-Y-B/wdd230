@@ -1,85 +1,88 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Ubuntu:wght@500&display=swap");
 
 body {
-  max-width: 1000px;
-  margin: auto;
-  background-color: rgb(199, 253, 189);
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(199, 253, 189);
 }
 
 header {
-  text-align: center;
-  background-color: rgb(0, 255, 170);
-  height: 100px;
-  font-size: 30px;
-  border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgb(0, 255, 170);
+    height: 100px;
+    font-size: 30px;
+    border-radius: 30px;
 }
 
 header a {
-  display: inline-block;
-  margin: 15px;
-  padding-top: 10px;
+    display: inline-block;
+    flex-grow: 1;
+    margin: 15px;
+    padding-top: 10px;
 }
 
 #audience-target {
-  background-color: rgb(7, 196, 170);
-  text-align: center;
-  border-radius: 30px;
+    background-color: rgb(7, 196, 170);
+    text-align: center;
+    border-radius: 30px;
 }
 
 #audience-target h1 {
-  padding-top: 20px;
+    padding-top: 20px;
 }
 
 #personas {
-  background-color: rgb(7, 196, 170);
-  border-radius: 30px;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 30px;
+    background-color: rgb(7, 196, 170);
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
 }
 
 #personas h2 {
-  grid-column: 1 / span 2;
-  text-align: center;
+    grid-column: 1 / span 2;
+    text-align: center;
 }
 
 #persona1 {
-  background-color: rgb(6, 158, 158);
-  margin: 20px;
-  border-radius: 30px;
+    background-color: rgb(6, 158, 158);
+    margin: 20px;
+    border-radius: 30px;
 }
 
 #persona2 {
-  background-color: rgb(6, 158, 158);
-  margin: 20px;
-  border-radius: 30px;
+    background-color: rgb(6, 158, 158);
+    margin: 20px;
+    border-radius: 30px;
 }
 
 #scenarious {
-  background-color: rgb(7, 196, 170);
-  border-radius: 30px;
+    background-color: rgb(7, 196, 170);
+    border-radius: 30px;
 }
 #scenarious h2 {
-  text-align: center;
-  padding-top: 20px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 p,
 li {
-  font-family: "Noto Sans Display", sans-serif, helvetica;
-  font-size: 20px;
-  padding: 10px;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 20px;
+    padding: 10px;
 }
 
 h1,
 h2 {
-  font-family: "Ubuntu", sans-serif, serif;
-  font-size: 30px;
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 30px;
 }
 
 h3 {
-  font-family: "Ubuntu", sans-serif, serif;
-  font-size: 20px;
-  padding-top: 10px;
-  padding-left: 10px;
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
 }

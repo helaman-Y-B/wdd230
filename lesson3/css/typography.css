@@ -7,6 +7,8 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: row;
     text-align: center;
     background-color: rgb(0, 255, 170);
     height: 100px;
@@ -16,12 +18,14 @@ header {
 
 header a {
     display: inline-block;
+    flex-grow: 1;
     margin: 15px;
     padding-top: 10px;
 }
 
 .typo-line {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     grid-template-columns: auto auto auto auto auto;
     text-align: center;
     height: 44.5px;
@@ -128,6 +132,7 @@ header a {
     background-color: rgb(0, 255, 170);
     margin: 5px;
     width: 256.156px;
+    height: 40px;
     border-right: 3px solid;
     border-color: black;
     border-bottom: 3px solid;
