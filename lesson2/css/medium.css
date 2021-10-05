@@ -66,6 +66,7 @@ h1 {
     max-width: 800px;
     grid-column: 1;
     grid-row: 4;
+    margin-top: 10px;
 }
 
 #Fitts-law {
