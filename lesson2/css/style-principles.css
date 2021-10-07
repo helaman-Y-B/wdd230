@@ -1,37 +1,28 @@
 @media only screen and (min-width: 32.5em) {
     @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Source+Sans+Pro&display=swap");
 
-    body {
-        margin: auto;
-        max-width: 800px;
-        background-color: #b1c8ec;
-    }
-
     header {
-        background-color: #6199f5;
-        font-family: "Noto Serif", Arial, Helvetica;
-        border-radius: 15px;
+        margin-left: 34.5px;
+        margin-right: 34.5px;
     }
 
     main {
+        margin-left: 34.5px;
+        margin-right: 34.5px;
+    }
+
+    #the-principles {
         display: grid;
-        grid-template-columns: 395px 395px;
-        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1280px;
         column-gap: 10px;
+        margin-top: 10px;
     }
 
     #intro {
-        grid-column: 1 / span 2;
-        grid-row: 1;
-        font-size: 2em;
+        grid-column: 1 / span 3;
         text-align: center;
-        font-family: "Noto Serif", Arial, Helvetica;
-    }
-
-    h1 {
-        padding: 15px;
-        text-align: center;
-        font-size: 2.5em;
+        padding: 0px;
     }
 
     #first-paragraph {
@@ -41,36 +32,16 @@
     }
 
     #list {
-        font-family: "Source Sans Pro", sans-serif;
         font-size: 1.5em;
-        grid-column: 1 / span 2;
-        grid-row: 2;
-        margin-left: 300px;
-        margin-bottom: 30px;
+        grid-column: 1 / span 3;
     }
 
     #repetition {
-        background-color: #6199f5;
-        border-radius: 15px;
-        grid-column: 1;
-        grid-row: 3;
-        max-width: 400px;
-        max-height: auto;
+        min-width: 400px;
     }
 
     .principle {
         font-family: "Noto Serif", Arial, Helvetica;
-        padding: 15px;
-    }
-
-    .company {
-        font-family: "Source Sans Pro", sans-serif;
-        padding-left: 15px;
-    }
-
-    .website {
-        font-family: "Source Sans Pro", sans-serif;
-        padding-left: 15px;
     }
 
     #first-img-micro {
@@ -84,56 +55,24 @@
     }
 
     .paragraph {
-        font-family: "Source Sans Pro", sans-serif;
-        padding: 15px;
         font-size: 1.2em;
     }
 
     #visual-hierarchy {
         background-color: #6199f5;
         border-radius: 15px;
+        min-width: 400px;
         grid-column: 2;
-        grid-row: 3;
-        margin-top: 10px;
     }
 
     #Fitts-law {
-        background-color: #6199f5;
-        border-radius: 15px;
-        max-width: 800px;
-        grid-column: 1 / span 2;
-        grid-row: 4;
-        margin-top: 30px;
-    }
-
-    .website:link {
-        color: rgb(0, 13, 192);
-    }
-
-    .website:hover {
-        color: rgb(212, 14, 63);
-    }
-
-    .website:visited {
-        color: rgb(50, 19, 98);
+        grid-column: 3;
+        min-width: 400px;
     }
 
     footer {
-        margin-top: 30px;
-        background-color: #6199f5;
-        border-radius: 15px;
-        padding: 10px;
-        text-align: center;
-        font-family: "Source Sans Pro", sans-serif;
         font-size: 1.2em;
-    }
-
-    #info {
-        margin: 0px;
-    }
-
-    #lastUpdate {
-        color: rgb(229, 255, 0);
-        margin: 0px;
+        margin-left: 34.5px;
+        margin-right: 34.5px;
     }
 }
