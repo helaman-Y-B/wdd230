@@ -1,126 +1,150 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Ubuntu:wght@500&display=swap");
 
 body {
-  background-color: #c7fdbd;
+    background-color: #c7fdbd;
 }
 
 header {
-  display: flex;
-  font-family: "Ubuntu", sans-serif, serif;
-  background-color: #07c4aa;
+    display: flex;
+    font-family: "Ubuntu", sans-serif, serif;
+    background-color: #07c4aa;
+    flex-direction: column;
+}
+
+#logo-name {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-name h1 {
+    flex: 1;
+    text-align: center;
+    margin: auto;
 }
 
 .menu {
-  margin: 0px;
-  padding: 60px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #links {
-  flex: 1;
+    flex: 1;
+    text-align: center;
 }
 
 .menu li {
-  display: none;
+    display: none;
+}
+
+.menu a {
+    padding-right: 5.5em;
+    padding-left: 5.5em;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .menu li:first-child {
-  display: block;
-  list-style-type: none;
+    display: block;
+    list-style-type: none;
+    height: 60px;
+    padding-top: 30px;
+    font-size: 30px;
+    background-color: #0e95ca;
 }
 
-a:hover {
-  background-color: #0e95ca;
-  color: white;
+li:hover {
+    background-color: #0e95ca;
+    color: white;
 }
 
 .responsive li {
-  display: block;
+    display: block;
+    height: 60px;
+    padding-top: 30px;
+    font-size: 20px;
 }
 
 #logo {
-  max-width: 120px;
-  height: auto;
-}
-
-header h1 {
-  font-size: 20px;
+    max-width: 120px;
+    height: auto;
 }
 
 #summary h1 {
-  font-family: "Ubuntu", sans-serif, serif;
-  margin-left: 10px;
+    font-family: "Ubuntu", sans-serif, serif;
+    margin-left: 10px;
 }
 
 #summary h2 {
-  font-size: 15px;
-  font-family: "Ubuntu", sans-serif, serif;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif, serif;
 }
 
 .banner {
-  max-width: fit-content;
-  height: 150px;
+    max-width: fit-content;
+    height: 150px;
 }
 
 #summary-text {
-  background-color: #c7fdbd;
-  border: solid #069e9e 5px;
-  border-radius: 10px;
-  padding-left: 10px;
+    background-color: #c7fdbd;
+    border: solid #069e9e 5px;
+    border-radius: 10px;
+    padding-left: 10px;
 }
 
 #summary {
-  font-family: "Noto Sans Display", sans-serif, helvetica;
-  background-color: #069e9e;
-  display: flex;
-  flex-direction: column;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    background-color: #069e9e;
+    display: flex;
+    flex-direction: column;
 }
 
 #forecast {
-  display: flex;
-  font-family: "Noto Sans Display", sans-serif, helvetica;
-  background-color: #069e9e;
-  flex-direction: column;
-  margin-top: 10px;
+    display: flex;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    background-color: #069e9e;
+    flex-direction: column;
+    margin-top: 0px;
 }
 
 #forecast h3 {
-  font-family: "Ubuntu", sans-serif, serif;
+    font-family: "Ubuntu", sans-serif, serif;
 }
 
 #forecast h2 {
-  font-family: "Ubuntu", sans-serif, serif;
-  margin-left: 10px;
+    font-family: "Ubuntu", sans-serif, serif;
+    margin-left: 10px;
 }
 
 #forecast-text {
-  background-color: #c7fdbd;
-  border: solid #069e9e 5px;
-  border-radius: 10px;
-  padding-left: 10px;
+    background-color: #c7fdbd;
+    border: solid #069e9e 5px;
+    border-radius: 10px;
+    padding-left: 10px;
 }
 
 article {
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 footer {
-  background-color: #0e95ca;
-  margin-top: 10px;
+    background-color: #0e95ca;
+    margin-top: 10px;
 }
 
 #footer-content {
-  display: flex;
-  flex-direction: column;
-  margin: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 0px 20px;
 }
 
 #footer-content img {
-  height: 150px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #footer-content p {
-  margin-bottom: 5px;
-  margin-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
