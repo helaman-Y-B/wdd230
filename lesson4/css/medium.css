@@ -1,2 +1,13 @@
 @media only screen and (min-width: 32.5em) {
+    .menu {
+        display: flex;
+    }
+
+    .menu:first-child {
+        display: none;
+    }
+
+    .menu li {
+        display: block;
+    }
 }

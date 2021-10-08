@@ -16,10 +16,19 @@ header {
     flex-direction: row;
 }
 
-#logo-name h1 {
+#name-frase {
     flex: 1;
     text-align: center;
     margin: auto;
+}
+
+#name-frase h1 {
+    margin-bottom: 10px;
+}
+
+#name-frase p {
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 
 .menu {
@@ -37,8 +46,8 @@ header {
 }
 
 .menu a {
-    padding-right: 5.5em;
-    padding-left: 5.5em;
+    padding-right: 4.4em;
+    padding-left: 4.4em;
 
     padding-top: 1em;
     padding-bottom: 1em;
@@ -66,85 +75,51 @@ li:hover {
 }
 
 #logo {
-    max-width: 120px;
+    max-width: 150px;
     height: auto;
 }
 
-#summary h1 {
+h2 {
     font-family: "Ubuntu", sans-serif, serif;
-    margin-left: 10px;
-}
-
-#summary h2 {
-    font-size: 15px;
-    font-family: "Ubuntu", sans-serif, serif;
-}
-
-.banner {
-    max-width: fit-content;
-    height: 150px;
-}
-
-#summary-text {
-    background-color: #c7fdbd;
-    border: solid #069e9e 5px;
-    border-radius: 10px;
-    padding-left: 10px;
+    margin-left: 20px;
 }
 
 #summary {
     font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 30px;
+    padding: 10px 0px 10px 20px;
     background-color: #069e9e;
-    display: flex;
-    flex-direction: column;
+    border: dashed;
 }
 
 #forecast {
-    display: flex;
     font-family: "Noto Sans Display", sans-serif, helvetica;
     background-color: #069e9e;
-    flex-direction: column;
-    margin-top: 0px;
+    padding: 10px 0px 10px 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    border: dashed;
 }
 
-#forecast h3 {
-    font-family: "Ubuntu", sans-serif, serif;
+#article {
+    padding: 10px 0px 10px 20px;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: #069e9e;
+    border: dashed;
 }
 
-#forecast h2 {
-    font-family: "Ubuntu", sans-serif, serif;
-    margin-left: 10px;
-}
-
-#forecast-text {
-    background-color: #c7fdbd;
-    border: solid #069e9e 5px;
-    border-radius: 10px;
-    padding-left: 10px;
-}
-
-article {
-    padding-bottom: 10px;
+#contact {
+    padding: 10px 0px 10px 20px;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: #069e9e;
+    border: dashed;
 }
 
 footer {
     background-color: #0e95ca;
     margin-top: 10px;
-}
-
-#footer-content {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 20px 0px 20px;
-}
-
-#footer-content img {
-    height: 150px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-#footer-content p {
-    margin-bottom: 5px;
-    margin-top: 5px;
 }
