@@ -1,125 +1,129 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Ubuntu:wght@500&display=swap");
 
 body {
-    background-color: #c7fdbd;
+  background-color: #c7fdbd;
 }
 
 header {
-    display: flex;
-    font-family: "Ubuntu", sans-serif, serif;
-    background-color: #07c4aa;
-    flex-direction: column;
+  display: flex;
+  font-family: "Ubuntu", sans-serif, serif;
+  background-color: #07c4aa;
+  flex-direction: column;
 }
 
 #logo-name {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 #name-frase {
-    flex: 1;
-    text-align: center;
-    margin: auto;
+  flex: 1;
+  text-align: center;
+  margin: auto;
 }
 
 #name-frase h1 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #name-frase p {
-    font-size: 15px;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .menu {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Ubuntu", sans-serif, serif;
 }
 
-#links {
-    flex: 1;
-    text-align: center;
+nav {
+  flex: 1;
+  text-align: center;
 }
 
 .menu li {
-    display: none;
+  display: none;
 }
 
 .menu a {
-    padding-right: 4.4em;
-    padding-left: 4.4em;
+  padding-right: 4.4em;
+  padding-left: 4.4em;
 
-    padding-top: 1em;
-    padding-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .menu li:first-child {
-    display: block;
-    list-style-type: none;
-    height: 60px;
-    padding-top: 30px;
-    font-size: 30px;
-    background-color: #0e95ca;
+  display: block;
+  list-style-type: none;
+  height: 60px;
+  padding-top: 30px;
+  font-size: 30px;
+  background-color: #0e95ca;
 }
 
 li:hover {
-    background-color: #0e95ca;
-    color: white;
+  background-color: #0e95ca;
+  color: white;
 }
 
 .responsive li {
-    display: block;
-    height: 60px;
-    padding-top: 30px;
-    font-size: 20px;
+  display: block;
+  height: 60px;
+  padding-top: 30px;
+  font-size: 20px;
 }
 
 #logo {
-    max-width: 150px;
-    height: auto;
+  max-width: 150px;
+  height: auto;
 }
 
 h2 {
-    font-family: "Ubuntu", sans-serif, serif;
-    margin-left: 20px;
+  font-family: "Ubuntu", sans-serif, serif;
+  margin-left: 20px;
 }
 
 #summary {
-    font-family: "Noto Sans Display", sans-serif, helvetica;
-    font-size: 30px;
-    padding: 10px 0px 10px 20px;
-    background-color: #069e9e;
-    border: dashed;
+  font-family: "Noto Sans Display", sans-serif, helvetica;
+  font-size: 25px;
+  padding: 10px 0px 10px 20px;
+  background-color: #069e9e;
+  border: dashed;
 }
 
 #forecast {
-    font-family: "Noto Sans Display", sans-serif, helvetica;
-    background-color: #069e9e;
-    padding: 10px 0px 10px 20px;
-    margin-top: 20px;
-    font-size: 30px;
-    border: dashed;
+  font-family: "Noto Sans Display", sans-serif, helvetica;
+  background-color: #069e9e;
+  padding: 10px 0px 10px 20px;
+  margin-top: 20px;
+  font-size: 25px;
+  border: dashed;
 }
 
 #article {
-    padding: 10px 0px 10px 20px;
-    font-family: "Noto Sans Display", sans-serif, helvetica;
-    font-size: 30px;
-    margin-top: 20px;
-    background-color: #069e9e;
-    border: dashed;
+  padding: 10px 0px 10px 20px;
+  font-family: "Noto Sans Display", sans-serif, helvetica;
+  font-size: 25px;
+  margin-top: 20px;
+  background-color: #069e9e;
+  border: dashed;
 }
 
 #contact {
-    padding: 10px 0px 10px 20px;
-    font-family: "Noto Sans Display", sans-serif, helvetica;
-    font-size: 30px;
-    margin-top: 20px;
-    background-color: #069e9e;
-    border: dashed;
+  padding: 10px 0px 10px 20px;
+  font-family: "Noto Sans Display", sans-serif, helvetica;
+  font-size: 25px;
+  margin-top: 20px;
+  background-color: #069e9e;
+  border: dashed;
 }
 
 footer {
-    background-color: #0e95ca;
-    margin-top: 10px;
+  background-color: #0e95ca;
+  font-family: "Noto Sans Display", sans-serif, helvetica;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
 }

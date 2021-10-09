@@ -1,0 +1,36 @@
+@media only screen and (min-width: 60em) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    background-color: #0e95ca;
+  }
+
+  .menu li {
+    display: block;
+    flex: 1;
+    height: 75px;
+  }
+
+  .menu li:first-child {
+    display: none;
+  }
+
+  .menu a {
+    margin: auto;
+    padding: 0px 20px 30px 20px;
+    font-size: 30px;
+  }
+
+  .menu li:hover {
+    background-color: black;
+    color: white;
+  }
+
+  main {
+    max-width: 1000px;
+  }
+
+  footer {
+    max-width: 1100px;
+  }
+}

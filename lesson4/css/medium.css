@@ -1,13 +1,49 @@
 @media only screen and (min-width: 32.5em) {
-    .menu {
-        display: flex;
-    }
+  .menu a {
+    padding-right: 11.5em;
+    padding-left: 11.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
 
-    .menu:first-child {
-        display: none;
-    }
+  main {
+    max-width: 700px;
+    margin: auto;
+  }
 
-    .menu li {
-        display: block;
-    }
+  header h1 {
+    font-size: 50px;
+  }
+
+  header p {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  #summary {
+    font-size: 30px;
+  }
+
+  #forecast {
+    font-size: 30px;
+  }
+
+  #article {
+    font-size: 30px;
+  }
+
+  #contact {
+    font-size: 30px;
+  }
+
+  footer {
+    font-size: 25px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+  }
 }

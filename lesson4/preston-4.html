@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Preston Weather Moment</title>
-        <meta name="author" content="Helamã Barbour" />
-        <meta name="description" content="Weather info for Preston city." />
-        <link rel="stylesheet" href="css/small-preston.css" />
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/medium.css" />
-    </head>
-    <body>
-        <header>
-            <div id="logo-name">
-                <img
-                    id="logo"
-                    src="../lesson3/img/Weather (1).png"
-                    alt="Logo"
-                />
-                <div id="name-frase">
-                    <h1>Weather Moment</h1>
-                    <p>motto/cath frase</p>
-                </div>
-            </div>
-            <div id="links">
-                <nav>
-                    <ul class="menu">
-                        <li><a onclick="toggleMenu()">Menu</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Soda Spring</a></li>
-                        <li><a href="#">Fish Heaven</a></li>
-                        <li><a href="#">Storm Center</a></li>
-                        <li><a href="#">Gallery</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <h2>Preston Idaho</h2>
-            <div id="summary">Hero W/Weather Summary</div>
-            <div id="forecast">Five Day Forecast</div>
-            <div id="article">Article</div>
-            <div id="contact">Contact Information</div>
-        </main>
-        <footer>&copy;The Weather Moment | BYU-Idaho | Helamã Barbour</footer>
-    </body>
-    <script type="text/javascript" src="js/preston.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preston Weather Moment</title>
+    <meta name="author" content="Helamã Barbour" />
+    <meta name="description" content="Weather info for Preston city." />
+    <link rel="stylesheet" href="css/small-preston.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo-name">
+        <img id="logo" src="../lesson3/img/Weather (1).png" alt="Logo" />
+        <div id="name-frase">
+          <h1>Weather Moment</h1>
+          <p>motto/cath frase</p>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <ul class="menu">
+        <li><a id="toggle-menu" onclick="toggleMenu()">Menu</a></li>
+        <li><a class="link" href="#">Home</a></li>
+        <li><a class="link" href="#">Soda Spring</a></li>
+        <li><a class="link" href="#">Fish Heaven</a></li>
+        <li><a class="link" href="#">Storm Center</a></li>
+        <li><a class="link" href="#">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Preston Idaho</h2>
+      <div id="summary">Hero W/Weather Summary</div>
+      <div id="forecast">Five Day Forecast</div>
+      <div id="article">Article</div>
+      <div id="contact">Contact Information</div>
+    </main>
+    <footer>
+      &copy;The Weather Moment | BYU-Idaho | Helamã Barbour
+      <p><span id="current-date"></span></p>
+    </footer>
+  </body>
+  <script type="text/javascript" src="js/preston.js"></script>
 </html>
