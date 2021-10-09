@@ -9,6 +9,7 @@
     display: block;
     flex: 1;
     height: 75px;
+    padding: 10px;
   }
 
   .menu li:first-child {
@@ -16,8 +17,6 @@
   }
 
   .menu a {
-    margin: auto;
-    padding: 0px 20px 30px 20px;
     font-size: 30px;
   }
 

@@ -45,14 +45,6 @@ nav {
   display: none;
 }
 
-.menu a {
-  padding-right: 4.4em;
-  padding-left: 4.4em;
-
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
 .menu li:first-child {
   display: block;
   list-style-type: none;
