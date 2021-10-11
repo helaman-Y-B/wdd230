@@ -1,0 +1,12 @@
+@media only screen and (min-width: 32.5em) {
+  header {
+    font-size: 25px;
+    border-radius: 30px;
+    height: 100px;
+  }
+
+  header a {
+    margin: 15px;
+    padding-top: 15px;
+  }
+}

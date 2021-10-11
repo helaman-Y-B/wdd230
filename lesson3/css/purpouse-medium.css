@@ -1,0 +1,36 @@
+@media only screen and (min-width: 32.5em) {
+  header {
+    font-size: 30px;
+  }
+
+  header a {
+    margin: 20px;
+  }
+
+  #text-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #purpouse {
+    max-width: 485px;
+    margin-right: 15px;
+  }
+
+  #domain {
+    max-width: 485px;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+
+  #logo {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    text-align: center;
+  }
+
+  #logo img {
+    max-width: 500px;
+    height: auto;
+  }
+}

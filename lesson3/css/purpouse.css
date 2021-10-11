@@ -1,70 +1,69 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Ubuntu:wght@500&display=swap");
 
 body {
-    max-width: 1000px;
-    margin: auto;
-    background-color: rgb(199, 253, 189);
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgb(199, 253, 189);
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    background-color: rgb(0, 255, 170);
-    height: 100px;
-    font-size: 30px;
-    border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: rgb(0, 255, 170);
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: "Noto Sans Display", sans-serif, helvetica;
 }
 
 header a {
-    display: inline-block;
-    flex-grow: 1;
-    margin: 15px;
-    padding-top: 10px;
+  display: inline-block;
+  flex-grow: 1;
+  margin: 7px;
 }
 
 #text-content {
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
 }
 
 #purpouse {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    max-width: 485px;
-    margin-right: 15px;
-    background-color: rgb(7, 196, 170);
-    border-radius: 30px;
-    text-align: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: rgb(7, 196, 170);
+  border-radius: 30px;
+  text-align: center;
 }
 
 #domain {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    max-width: 485px;
-    margin-left: 15px;
-    text-align: center;
-    background-color: rgb(7, 196, 170);
-    border-radius: 30px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(7, 196, 170);
+  border-radius: 30px;
+  margin-top: 30px;
 }
 
 #logo {
-    grid-column: 1 / span 2;
-    grid-row: 2;
-    text-align: center;
+  text-align: center;
+}
+
+#logo img {
+  max-width: 300px;
+  height: auto;
 }
 
 h1,
 h2 {
-    font-family: "Ubuntu", sans-serif, serif;
-    font-size: 30px;
+  font-family: "Ubuntu", sans-serif, serif;
+  font-size: 30px;
 }
 
 p {
-    font-family: "Noto Sans Display", sans-serif, helvetica;
-    font-size: 20px;
-    padding: 20px;
+  font-family: "Noto Sans Display", sans-serif, helvetica;
+  font-size: 20px;
+  padding: 20px;
 }
