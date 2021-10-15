@@ -1,4 +1,4 @@
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 945px) {
     .menu {
         display: flex;
         flex-direction: row;
@@ -19,7 +19,7 @@
     }
 
     .menu a {
-        font-size: 27px;
+        font-size: 20px;
         padding: 30px 0px 45px 0px;
     }
 
