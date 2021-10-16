@@ -52,10 +52,8 @@ nav {
 
 .list-item {
   display: none;
-}
-
-::marker {
-  list-style-type: none;
+  background-color: #08aef0;
+  text-decoration: none;
 }
 
 li:hover {
@@ -85,12 +83,45 @@ h2 {
   margin-left: 20px;
 }
 
+h3 {
+  margin: 0px;
+}
+
 #summary {
   font-family: "Noto Sans Display", sans-serif, helvetica;
   font-size: 25px;
-  padding: 10px 0px 10px 20px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  flex: 1;
+}
+
+#summary div {
+  border: solid black;
+  max-width: 250px;
+  font-size: 15px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: center;
+  flex: 1;
+  color: white;
   background-color: #069e9e;
-  border: dashed;
+}
+
+.weather-summary ul {
+  text-align: left;
+  padding: 0px 0px 0px 10px;
+}
+
+.weather-summary h3 {
+  margin: 10px;
 }
 
 #forecast {
@@ -103,12 +134,23 @@ h2 {
 }
 
 #article {
-  padding: 10px 0px 10px 20px;
   font-family: "Noto Sans Display", sans-serif, helvetica;
-  font-size: 25px;
-  margin-top: 20px;
+  font-size: 20px;
+  margin: 20px 5px 5px 5px;
+  border: solid 3px;
+  border-radius: 15px;
+  padding: 10px;
   background-color: #069e9e;
-  border: dashed;
+  text-align: center;
+}
+
+.bottles-img {
+  box-shadow: 2px 2px 11px 3px #000000;
+}
+
+h4 {
+  font-family: "Ubuntu", sans-serif, serif;
+  font-size: 20px;
 }
 
 #contact {
