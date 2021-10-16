@@ -20,8 +20,36 @@
     font-size: 30px;
   }
 
-  #forecast {
-    font-size: 30px;
+  .forecast {
+    display: block;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    background-color: #069e9e;
+    margin-top: 20px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cast-conteiner {
+    flex: 1;
+    text-align: center;
+    border: solid 1px black;
+  }
+
+  .cast-title {
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    background-color: #115c5c;
+    color: white;
+  }
+
+  .cast-icon {
+    max-width: 50px;
+    margin-top: 10px;
+  }
+
+  .temp-info {
+    margin: 10px 0px 10px 0px;
   }
 
   #article {
@@ -30,13 +58,23 @@
 
   #contact {
     font-size: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .map {
+    display: block;
+    flex: 1;
+    max-width: 230px;
+  }
+
+  .infos {
+    flex: 1;
+    margin: 8px;
   }
 
   footer {
-    font-size: 25px;
-    max-width: 800px;
+    font-size: 20px;
     margin: auto;
-    margin-top: 20px;
-    border-radius: 15px;
   }
 }

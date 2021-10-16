@@ -12,6 +12,33 @@
     display: none;
   }
 
+  #summary img {
+    max-height: 500px;
+  }
+
+  .weather-summary {
+    max-width: 300px;
+    top: 50px;
+    left: 40px;
+    font-size: 30px;
+  }
+
+  article {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+
+  article h4 {
+    font-size: 30px;
+  }
+
+  .bottles-img {
+    max-width: 250px;
+    margin: 20px;
+    float: right;
+  }
+
   .list-item {
     text-decoration: none;
     display: block;
@@ -32,7 +59,25 @@
     max-width: 1000px;
   }
 
-  footer {
-    max-width: 1100px;
+  #contact {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+  }
+
+  .map {
+    display: block;
+    flex: 1;
+    max-width: 300px;
+    margin: 30px;
+  }
+
+  .infos {
+    flex: 1;
+    margin: 100px;
+  }
+
+  .forecast {
+    margin: 50px;
   }
 }

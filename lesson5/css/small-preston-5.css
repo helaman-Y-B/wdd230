@@ -102,7 +102,7 @@ img {
   flex: 1;
 }
 
-#summary div {
+.weather-summary {
   border: solid black;
   max-width: 250px;
   font-size: 15px;
@@ -124,13 +124,8 @@ img {
   margin: 10px;
 }
 
-#forecast {
-  font-family: "Noto Sans Display", sans-serif, helvetica;
-  background-color: #069e9e;
-  padding: 10px 0px 10px 20px;
-  margin-top: 20px;
-  font-size: 25px;
-  border: dashed;
+.forecast {
+  display: none;
 }
 
 #article {
@@ -154,18 +149,55 @@ h4 {
 }
 
 #contact {
-  padding: 10px 0px 10px 20px;
   font-family: "Noto Sans Display", sans-serif, helvetica;
-  font-size: 25px;
   margin-top: 20px;
   background-color: #069e9e;
-  border: dashed;
+  text-align: center;
+  align-items: center;
+  border: solid 3px;
+}
+
+.map {
+  display: none;
+}
+
+.infos {
+  font-size: 15px;
+  margin-left: 2em;
+  text-align: left;
+}
+
+h5 {
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif, serif;
+  padding: 10px 0px 0px 0px;
+  margin: 0px;
+}
+
+.midia-img {
+  max-width: 40px;
+  margin: 10px;
+}
+
+.contact-inf-img {
+  flex: 1;
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.phone-email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.phone-email p {
+  flex: 1;
 }
 
 footer {
   background-color: #0e95ca;
   font-family: "Noto Sans Display", sans-serif, helvetica;
-  margin-top: 10px;
   font-size: 20px;
   padding: 10px;
   text-align: center;
