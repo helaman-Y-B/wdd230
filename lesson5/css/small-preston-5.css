@@ -134,6 +134,7 @@ img {
 .weather-summary ul {
   text-align: left;
   padding: 0px 0px 0px 10px;
+  list-style-type: none;
 }
 
 .weather-summary h3 {

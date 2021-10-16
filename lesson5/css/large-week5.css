@@ -23,6 +23,18 @@
     font-size: 30px;
   }
 
+  .weather-summary h3 {
+    font-size: 30px;
+  }
+
+  .weather-summary ul {
+    margin: 20px;
+  }
+
+  .weather-summary li:hover {
+    background-color: #069e9e;
+  }
+
   article {
     text-align: left;
     margin-left: 20px;
