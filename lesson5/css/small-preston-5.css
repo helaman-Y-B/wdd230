@@ -11,6 +11,16 @@ header {
   flex-direction: column;
 }
 
+.pancake-day {
+  background-color: #165858;
+  text-align: center;
+}
+
+.pancake-day p {
+  margin: 10px;
+  color: white;
+}
+
 .logo-name {
   display: flex;
   flex-direction: row;
@@ -84,12 +94,18 @@ h2 {
 }
 
 h3 {
-  margin: 0px;
+  margin-top: 20px;
+  font-family: "Ubuntu", sans-serif, serif;
+  text-align: center;
+}
+
+main h3 {
+  font-size: 25px;
+  display: none;
 }
 
 #summary {
   font-family: "Noto Sans Display", sans-serif, helvetica;
-  font-size: 25px;
   align-items: center;
   position: relative;
   display: flex;
@@ -105,7 +121,7 @@ img {
 .weather-summary {
   border: solid black;
   max-width: 250px;
-  font-size: 15px;
+  font-size: 12px;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -122,6 +138,7 @@ img {
 
 .weather-summary h3 {
   margin: 10px;
+  font-size: 15px;
 }
 
 .forecast {
