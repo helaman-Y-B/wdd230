@@ -53,16 +53,16 @@
                 <img src="img/Sunny-day.jpg" alt="Hero image" />
                 <div class="weather-summary">
                     <h3>Weather Summary</h3>
-                    <ul>
-                        <li>Currently: Sunny</li>
-                        <li>High: 74 °F</li>
-                        <li>Wind Chill: °F</li>
-                        <li>Humidity: 69%</li>
-                        <li>Wind Speep: 5 mph</li>
-                    </ul>
+                    <div>
+                        <p>Currently: Sunny</p>
+                        <p>High: <span id="avg-temp">69</span>°F</p>
+                        <p>Wind Chill: <span id="wind-chill"></span>°F</p>
+                        <p>Humidity: 69%</p>
+                        <p>Wind Speed: <span id="wind-speed">12</span>mph</p>
+                    </div>
                 </div>
             </div>
-            <h3>Five Day Forecast</h3>
+            <h3 class="five-daycast-h3">Five Day Forecast</h3>
             <div class="forecast">
                 <div class="cast-conteiner">
                     <h6 class="cast-title">Wed</h6>
@@ -71,7 +71,7 @@
                         src="img/sunny-icon.png"
                         alt="Sunny"
                     />
-                    <p class="temp-info">89°F</p>
+                    <p class="temp-info">70°F</p>
                 </div>
                 <div class="cast-conteiner">
                     <h6 class="cast-title">Thu</h6>
@@ -80,7 +80,7 @@
                         src="img/sunny-icon.png"
                         alt="Sunny"
                     />
-                    <p class="temp-info">87°F</p>
+                    <p class="temp-info">68°F</p>
                 </div>
                 <div class="cast-conteiner">
                     <h6 class="cast-title">Fri</h6>
@@ -89,7 +89,7 @@
                         src="img/sunny-icon.png"
                         alt="Sunny"
                     />
-                    <p class="temp-info">75°F</p>
+                    <p class="temp-info">66°F</p>
                 </div>
                 <div class="cast-conteiner">
                     <h6 class="cast-title">Sat</h6>
@@ -98,7 +98,7 @@
                         src="img/partialy-sunny-icon.png"
                         alt="partialy sunny"
                     />
-                    <p class="temp-info">70°F</p>
+                    <p class="temp-info">60°F</p>
                 </div>
                 <div class="cast-conteiner">
                     <h6 class="cast-title">Sun</h6>
@@ -107,7 +107,7 @@
                         src="img/cloudy-icon.png"
                         alt="cloudy"
                     />
-                    <p class="temp-info">67°F</p>
+                    <p class="temp-info">55°F</p>
                 </div>
             </div>
             <div id="article">
@@ -193,5 +193,14 @@
         <script src="js/preston-week-6.js"></script>
         <script src="js/pancake-day-week-6.js"></script>
         <script src="js/which-page-week-6.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ["Ubuntu", "Noto Sans Display"],
+                },
+            });
+        </script>
     </body>
 </html>
