@@ -66,9 +66,17 @@ nav {
     text-decoration: none;
 }
 
-li:hover {
-    background-color: #0e95ca;
+li a:hover {
+    background-color: #165858;
     color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+li a {
+    color: black;
 }
 
 .responsive .list-item {

@@ -1,6 +1,6 @@
-function thisIsThePage (item){
+function thisIsThePage(item) {
     if (item === "Preston") {
-        document.querySelector("#current-page").style.backgroundColor = "#165858";
+        document.querySelector("#current-page").style.backgroundColor = "#0f7fac";
         document.querySelector("#current-page").style.color = "white";
     }
     else {

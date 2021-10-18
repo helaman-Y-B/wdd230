@@ -1,5 +1,14 @@
-function toggleMenu () {
+function toggleMenu() {
+  let text = document.getElementById("toggle-menu").textContent;
   document.getElementsByClassName("menu")[0].classList.toggle("responsive");
+
+  if (text === "Menu") {
+    document.getElementById("toggle-menu").textContent = "X";
+  }
+
+  else {
+    document.getElementById("toggle-menu").textContent = "Menu";
+  }
 };
 
 function date() {
@@ -14,17 +23,17 @@ function date() {
   ]
 
   const months = [
-    "Jan", 
-    "Feb", 
-    "Mar", 
-    "Apr", 
-    "May", 
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
     "Jun",
-    "Jul", 
-    "Aug", 
-    "Sep", 
-    "Oct", 
-    "Nov", 
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
     "Dec"
   ]
 
