@@ -50,7 +50,20 @@
         <main>
             <h2>Preston Idaho</h2>
             <div id="summary">
-                <img src="img/Sunny-day.jpg" alt="Hero image" />
+                <picture>
+                    <source
+                        media="(max-width:945px)"
+                        srcset="img/wdd230_image_franklinOriginal-medium.jpg" />
+                    <source
+                        media="(max-width:1000px)"
+                        srcset="img/wdd230_image_franklinOriginal-large.jpg" />
+                    <source
+                        media="(max-width:520px"
+                        srcset="img/wdd230_image_franklinOriginal-small.jpg" />
+                    <img
+                        src="img/wdd230_image_franklinOriginal-small.jpg"
+                        alt="Hero image"
+                /></picture>
                 <div class="weather-summary">
                     <h3>Weather Summary</h3>
                     <div>
@@ -111,11 +124,21 @@
                 </div>
             </div>
             <div id="article">
-                <img
-                    class="bottles-img"
-                    src="img/Lets-recicle.jpg"
-                    alt="Lets recicle some plastic bottles"
-                />
+                <picture>
+                    <source
+                        media="(max-width:945px)"
+                        srcset="img/Lets-recicle-medium.jpg" />
+                    <source
+                        media="(max-width:1000px)"
+                        srcset="img/Lets-recicle-large.jpg" />
+                    <source
+                        media="(max-width:520px)"
+                        srcset="img/Lets-recicle-small.jpg" />
+                    <img
+                        class="bottles-img"
+                        src="img/Lets-recicle-small.jpg"
+                        alt="Lets recicle some plastic bottles"
+                /></picture>
                 <article>
                     <h4>For days like this, we need to refresh ourselves!</h4>
                     <h5>By Helamã Barbour</h5>

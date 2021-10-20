@@ -1,7 +1,4 @@
 @media only screen and (min-width: 945px) {
-    nav {
-        overflow: hidden;
-    }
     .menu {
         display: flex;
         flex-direction: row;
@@ -17,14 +14,13 @@
     }
 
     .weather-summary {
-        max-width: 300px;
         top: 50px;
-        left: 40px;
-        font-size: 30px;
+        left: 50px;
+        font-size: 20px;
     }
 
     .weather-summary h3 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .weather-summary ul {
@@ -52,6 +48,7 @@
     }
 
     .list-item {
+        display: block;
         flex: 1;
     }
 
@@ -83,12 +80,12 @@
         display: block;
         flex: 1;
         max-width: 300px;
-        margin: 30px;
+        margin: 60px;
     }
 
     .infos {
         flex: 1;
-        margin: 100px;
+        margin: 60px;
     }
 
     .forecast {

@@ -20,13 +20,16 @@
         display: block;
     }
 
-    #summary {
-        font-size: 30px;
+    .weather-summary {
+        font-size: 15px;
+        top: 15px;
+        left: 15px;
     }
 
-    .weather-summary {
-        font-size: 25px;
+    .weather-summary h3 {
+        font-size: 20px;
     }
+
     .forecast {
         display: block;
         font-family: "Noto Sans Display", sans-serif, helvetica;
@@ -71,7 +74,7 @@
     }
 
     .bottles-img {
-        max-width: 280px;
+        max-width: 250px;
         float: right;
         margin: 20px;
     }
