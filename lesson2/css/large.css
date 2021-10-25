@@ -1,0 +1,26 @@
+@media only screen and (min-width: 900px) {
+    body {
+        max-width: 1000px;
+    }
+
+    #the-priciples {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    #repetition {
+        grid-column: 1;
+        margin: 0px;
+    }
+
+    #visual-hierarchy {
+        grid-column: 2;
+    }
+
+    #Fitts-law {
+        max-width: max-content;
+        grid-column: 3;
+        grid-row: 1;
+        margin: 0px;
+    }
+}

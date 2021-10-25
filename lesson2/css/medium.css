@@ -1,112 +1,73 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Source+Sans+Pro&display=swap");
+@media only screen and (min-width: 32.5em) {
+    #the-principles {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
 
-body {
-    max-width: 1280px;
-    background-color: #b1c8ec;
-}
+    #intro {
+        grid-column: 1 / span 2;
+        text-align: center;
+        padding: 0px;
+    }
 
-header {
-    background-color: #6199f5;
-    font-family: "Noto Serif", Arial, Helvetica;
-    border-radius: 15px;
-}
+    #first-paragraph {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 1.2em;
+        padding-left: 15px;
+    }
 
-h1 {
-    padding: 15px;
-    text-align: center;
-}
+    #list {
+        font-size: 1.5em;
+        grid-column: 1 / span 2;
+        margin-bottom: 20px;
+    }
 
-#intro {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 2em;
-    padding-left: 15px;
-    grid-column: 1;
-}
+    #repetition {
+        min-width: 250px;
+        grid-column: 1;
+        grid-row: 1;
+        max-width: max-content;
+    }
 
-#list {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.7em;
-    grid-column: 1;
-    max-width: fit-content;
-    margin: auto;
-}
+    .principle {
+        font-family: "Noto Serif", Arial, Helvetica;
+    }
 
-#first-paragraph {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.5em;
-    padding-left: 15px;
-}
+    #first-img-micro {
+        padding-bottom: 50px;
+        max-width: 700px;
+        height: auto;
+    }
 
-#repetition {
-    grid-column: 1;
-    background-color: #6199f5;
-    border-radius: 15px;
-    max-width: 800px;
-}
+    img {
+        height: auto;
+    }
 
-#visual-hierarchy {
-    max-width: 800px;
-    grid-column: 1;
-}
+    .paragraph {
+        font-size: 1.2em;
+    }
 
-#Fitts-law {
-    max-width: 800px;
-    grid-column: 1;
-    background-color: #6199f5;
-    border-radius: 15px;
-}
+    #visual-hierarchy {
+        background-color: #6199f5;
+        border-radius: 15px;
+        min-width: 250px;
+        grid-column: 2;
+        grid-row: 1;
+        margin: 0px;
+        max-width: max-content;
+    }
 
-.principle {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 2em;
-    padding: 15px;
-}
+    #Fitts-law {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+        max-width: 650px;
+        margin-bottom: 20px;
+    }
 
-.company {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.5em;
-    padding-left: 15px;
-}
-
-.website {
-    display: inline-block;
-    font-family: "Source Sans Pro", sans-serif;
-    padding-left: 15px;
-}
-
-.paragraph {
-    font-family: "Source Sans Pro", sans-serif;
-    padding: 15px;
-    font-size: 1.5em;
-}
-
-.website:link {
-    color: rgb(0, 13, 192);
-}
-
-.website:hover {
-    color: rgb(212, 14, 63);
-}
-
-.website:visited {
-    color: rgb(50, 19, 98);
-}
-
-footer {
-    margin-top: 30px;
-    background-color: #6199f5;
-    border-radius: 15px;
-    padding: 10px;
-    text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.5em;
-}
-
-#info {
-    margin: 0px;
-}
-
-#lastUpdate {
-    color: rgb(229, 255, 0);
-    margin: 0px;
+    footer {
+        font-size: 1.2em;
+    }
 }
