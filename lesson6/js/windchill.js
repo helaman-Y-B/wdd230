@@ -8,4 +8,8 @@ function windChillCalc(t, s) {
 const temp = parseInt(document.querySelector("#avg-temp").textContent);
 const windSpeed = parseInt(document.querySelector("#wind-speed").textContent);
 
-windChillCalc(temp, windSpeed);
+if (parseInt(temp) <= 50 && parseInt(windSpeed) >= 3) {
+    windChillCalc(temp, windSpeed);
+} else {
+    document.querySelector("#wind-chill-text").remove("#wind-chill-text");
+}
