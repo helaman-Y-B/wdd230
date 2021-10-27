@@ -4,6 +4,8 @@ body {
     text-align: center;
     font-family: "Roboto", sans-serif, serif;
     background-color: rgb(255, 230, 0);
+    display: flex;
+    flex-direction: column;
 }
 
 picture img[data-src] {
@@ -13,4 +15,5 @@ picture img[data-src] {
 picture img {
     filter: blur(0em);
     transition: filter 0.5s;
+    margin-bottom: 15px;
 }
