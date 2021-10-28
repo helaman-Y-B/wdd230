@@ -4,7 +4,7 @@ function preloadImage(img) {
     const src = img.getAttribute("data-src");
     if (!src) {
         return;
-    }
+    };
 
     img.src = src;
     img.onload = () => {
@@ -24,8 +24,8 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
         } else {
             preloadImage(entry.target);
             imgObserver.unobserve(entry.target)
-        }
-    })
+        };
+    });
 }, imgOptions);
 
 images.forEach(image => {

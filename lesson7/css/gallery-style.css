@@ -98,6 +98,7 @@ h1 {
     margin: auto;
     margin-bottom: 20px;
     background-color: #069e9e;
+    box-shadow: 10px 10px 10px rgb(68, 68, 68);
 }
 
 .text {
@@ -115,4 +116,12 @@ picture img {
     filter: blur(0em);
     transition: filter 0.5s;
     margin-bottom: 15px;
+}
+
+footer {
+    background-color: #0e95ca;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
 }

@@ -11,4 +11,8 @@
         grid-row: 1;
         grid-column: 1 / span 2;
     }
+
+    header h1 {
+        font-size: 40px;
+    }
 }
