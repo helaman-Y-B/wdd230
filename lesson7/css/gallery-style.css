@@ -106,3 +106,13 @@ h1 {
     margin: 5px;
     font-size: 18px;
 }
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    margin-bottom: 15px;
+}
