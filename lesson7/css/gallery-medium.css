@@ -1,0 +1,14 @@
+@media only screen and (min-width: 610px) {
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        max-width: 630px;
+        margin: auto;
+    }
+
+    h1 {
+        grid-row: 1;
+        grid-column: 1 / span 2;
+    }
+}
