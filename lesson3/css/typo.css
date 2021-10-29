@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Ubuntu:wght@500&display=swap");
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(199, 253, 189);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    font-family: "Ubuntu", sans-serif, serif;
+    text-align: center;
+    background-color: rgb(0, 255, 170);
+    min-height: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+a {
+    margin: 5px;
+    flex: 1;
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif, serif;
+}
+
+.typo {
+    display: flex;
+    flex-direction: column;
+}
+
+.typo-line {
+    flex: 1;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    display: flex;
+    text-align: center;
+}
+
+.tags {
+    flex: 1;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
+    margin: 2px;
+}
+
+.font {
+    flex: 1;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
+    margin: 2px;
+}
+
+.px {
+    flex: 1;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
+    margin: 2px;
+}
+
+.color {
+    flex: 1;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
+    margin: 2px;
+}
+
+.sample {
+    flex: 1;
+    border-right: 3px solid;
+    border-color: black;
+    border-bottom: 3px solid;
+    margin: 2px;
+}
+
+#color1 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+}
+#color2 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+}
+#color3 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+}
+#color4 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+}
+#color5 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+}
+#color6 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+}
+#color7 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+}
+
+#sample1 {
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 40px;
+    background-color: rgb(0, 255, 170);
+}
+#sample2 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 30px;
+    background-color: rgb(119, 255, 248);
+}
+#sample3 {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 20px;
+    background-color: rgb(7, 196, 170);
+}
+#sample4 {
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 30px;
+    background-color: rgb(6, 158, 158);
+}
+#sample5 {
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 25px;
+    background-color: rgb(14, 149, 202);
+}
+#sample6 {
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 20px;
+    background-color: white;
+}
+#sample7 {
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 16px;
+}
