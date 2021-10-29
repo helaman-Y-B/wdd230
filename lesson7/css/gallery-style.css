@@ -104,8 +104,8 @@ h1 {
 .text {
     text-align: center;
     font-family: "Noto Sans Display", sans-serif, helvetica;
-    margin: 5px;
     font-size: 18px;
+    margin: 0px;
 }
 
 picture img[data-src] {
