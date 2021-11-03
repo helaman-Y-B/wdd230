@@ -23,20 +23,16 @@ th {
     padding: 5px;
 }
 
-.aug-oct-black {
+tbody tr:nth-child(2n + 1) {
     background-color: #e7f0ed;
 }
 
-.aug-oct-black td {
+tbody tr td {
     padding: 5px;
 }
 
-.sep-nov-dec {
+tbody tr:nth-child(2n) {
     background-color: #e7ffed;
-}
-
-.sep-nov-dec td {
-    padding: 5px;
 }
 
 #goal-achived {
