@@ -38,6 +38,7 @@ tbody tr:nth-child(2n) {
 #goal-achived {
     background-color: #628ca6;
     color: white;
+    font-style: italic;
 }
 
 tfoot {
