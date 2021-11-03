@@ -2,4 +2,53 @@
 
 body {
     font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    margin-top: 20px;
+}
+
+caption {
+    background-color: #7fb9c2;
+    font-size: 25px;
+    padding: 10px;
+}
+
+th {
+    background-color: #628ca6;
+    color: white;
+    padding: 5px;
+}
+
+.aug-oct-black {
+    background-color: #e7f0ed;
+}
+
+.aug-oct-black td {
+    padding: 5px;
+}
+
+.sep-nov-dec {
+    background-color: #e7ffed;
+}
+
+.sep-nov-dec td {
+    padding: 5px;
+}
+
+#goal-achived {
+    background-color: #628ca6;
+    color: white;
+}
+
+tfoot {
+    background-color: #7fb9c2;
+    font-size: 12px;
+}
+
+tfoot td {
+    padding: 10px;
 }
