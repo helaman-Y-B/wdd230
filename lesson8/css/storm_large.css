@@ -1,0 +1,30 @@
+@media only screen and (min-width: 945px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        background-color: #0e95ca;
+    }
+
+    #toggle-menu {
+        display: none;
+    }
+
+    .list-item {
+        display: block;
+        flex: 1;
+    }
+
+    .link {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .menu li a:hover {
+        background-color: #165858;
+        color: white;
+    }
+
+    li a {
+        color: #000000;
+    }
+}
