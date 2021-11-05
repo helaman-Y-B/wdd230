@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Ubuntu:wght@500&display=swap");
+
+body {
+    background-color: #c7fdbd;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    font-family: "Ubuntu", sans-serif, serif;
+    background-color: #07c4aa;
+    flex-direction: column;
+}
+
+.logo-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-frase {
+    flex: 1;
+    text-align: center;
+    margin: auto;
+}
+
+.name-frase h1 {
+    margin-bottom: 10px;
+}
+
+.name-frase p {
+    margin-bottom: 10px;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif, serif;
+}
+
+nav {
+    overflow: hidden;
+    text-align: center;
+}
+
+#toggle-menu {
+    display: block;
+    list-style-type: none;
+    background-color: #0e95ca;
+    font-size: 18px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.list-item {
+    display: none;
+    background-color: #08aef0;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #165858;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+li a {
+    color: black;
+}
+
+.responsive .list-item {
+    display: block;
+    list-style-type: none;
+}
+
+.link {
+    display: block;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+form {
+    background-color: rgb(6, 158, 158);
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+}
+
+.radio-option {
+    flex: 1;
+    display: flex;
+}
+
+label {
+    flex: 1;
+    margin: 10px 0px 0px 10px;
+    max-width: 200px;
+}
+
+label[for="Maybe"],
+[for="Yes"],
+[for="No"] {
+    margin: 0px;
+    flex: 1;
+}
+
+p {
+    flex: 1;
+    margin: 10px 0px 0px 10px;
+}
+
+input {
+    flex: 1;
+    margin: 0px 10px 0px 10px;
+}
+
+input[type="radio"] {
+    max-width: 13px;
+    margin: 5px;
+}
+
+#submit-button {
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+footer {
+    background-color: #0e95ca;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
