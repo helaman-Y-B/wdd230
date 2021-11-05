@@ -87,9 +87,13 @@ li a {
     height: auto;
 }
 
+main {
+    max-width: 600px;
+    margin: auto;
+}
+
 form {
     background-color: rgb(6, 158, 158);
-    max-width: 600px;
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -110,9 +114,7 @@ label {
     max-width: 200px;
 }
 
-label[for="Maybe"],
-[for="Yes"],
-[for="No"] {
+label[for="radio-opt"] {
     margin: 0px;
     flex: 1;
 }

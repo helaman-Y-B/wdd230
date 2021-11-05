@@ -55,62 +55,96 @@
         </nav>
         <main>
             <form action="" method="get">
-                <label for="name-input">Enter your full name:</label>
-                <input
-                    type="text"
-                    name="name-input"
-                    id="name-input"
-                    required
-                    minlength="5"
-                />
-                <label for="email">Enter your Email:</label>
-                <input type="email" name="email" id="email" />
-                <label for="phone-number">Enter your Phone Number:</label>
-                <input
-                    type="tel"
-                    name="phone-number"
-                    id="phone-number"
-                    required
-                />
-                <label for="zip-code">Enter your Zip Code:</label>
-                <input type="number" name="zip-code" id="zip-code" required />
-
-                <label for="storm-date">Enter the Date:</label>
-                <input type="date" name="storm-date" id="storm-date" />
-
-                <label for="storm-type">Storm Type:</label>
-                <input type="list" name="storm-type" id="storm-type" />
-
-                <label for="storm-severity">Storm Severity:</label>
-                <input
-                    type="range"
-                    name="storm-severity"
-                    id="storm-severity"
-                    min="1"
-                    max="10"
-                />
-
-                <label for="storm-region">Storm Region</label>
-                <input type="select" name="storm-region" id="storm-region" />
-
-                <p>User In-danger:</p>
-                <div class="radio-option">
-                    <input type="radio" name="Yes" id="yes-opt" value="Yes" />
-                    <label for="Yes">Yes</label>
-                </div>
-                <div class="radio-option">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <label for="name-input">Enter your full name:</label>
                     <input
-                        type="radio"
-                        name="Maybe"
-                        id="maybe-opt"
-                        value="Maybe"
+                        type="text"
+                        name="name-input"
+                        id="name-input"
+                        required
+                        minlength="5"
+                    /><br />
+                    <label for="email">Enter your Email:</label>
+                    <input type="email" name="email" id="email" /><br />
+                    <label for="phone-number">Enter your Phone Number:</label>
+                    <input
+                        type="tel"
+                        name="phone-number"
+                        id="phone-number"
+                        required
+                    /><br />
+                    <label for="zip-code">Enter your Zip Code:</label>
+                    <input
+                        type="number"
+                        name="zip-code"
+                        id="zip-code"
+                        required
                     />
-                    <label for="Maybe">Maybe</label>
-                </div>
-                <div class="radio-option">
-                    <input type="radio" name="No" id="no-opt" value="No" />
-                    <label for="No">No</label>
-                </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Storm Information</legend>
+
+                    <label for="storm-date">Enter the Date:</label>
+                    <input
+                        type="date"
+                        name="storm-date"
+                        id="storm-date"
+                    /><br />
+
+                    <label for="storm-type">Storm Type:</label>
+                    <input
+                        type="list"
+                        name="storm-type"
+                        id="storm-type"
+                    /><br />
+
+                    <label for="storm-severity">Storm Severity:</label>
+                    <input
+                        type="range"
+                        name="storm-severity"
+                        id="storm-severity"
+                        min="1"
+                        max="10"
+                    /><br />
+
+                    <label for="storm-region">Storm Region</label>
+                    <input
+                        type="select"
+                        name="storm-region"
+                        id="storm-region"
+                    /><br />
+
+                    <p>User In-danger:</p>
+                    <div class="radio-option">
+                        <input
+                            type="radio"
+                            name="radio-opt"
+                            id="yes-opt"
+                            value="Yes"
+                        />
+                        <label for="radio-opt">Yes</label>
+                    </div>
+                    <div class="radio-option">
+                        <input
+                            type="radio"
+                            name="radio-opt"
+                            id="maybe-opt"
+                            value="Maybe"
+                        />
+                        <label for="radio-opt">Maybe</label>
+                    </div>
+                    <div class="radio-option">
+                        <input
+                            type="radio"
+                            name="radio-opt"
+                            id="no-opt"
+                            value="No"
+                        />
+                        <label for="radio-opt">No</label>
+                    </div>
+                </fieldset>
 
                 <label for="text-area">Text Area</label>
                 <input type="text" name="text-area" id="text-area" />
