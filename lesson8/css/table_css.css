@@ -9,6 +9,7 @@ body {
 table {
     margin: auto;
     margin-top: 20px;
+    box-shadow: 8px 8px 8px #628ca6;
 }
 
 caption {
@@ -38,6 +39,9 @@ tbody tr:nth-child(2n) {
 #goal-achived {
     background-color: #628ca6;
     color: white;
+}
+
+#black-friday {
     font-style: italic;
 }
 
