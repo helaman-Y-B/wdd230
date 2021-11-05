@@ -11,6 +11,7 @@
         />
         <link rel="icon" href="img/favicon-wheather.ico" type="image/x-icon" />
         <link rel="stylesheet" href="css/storm_css.css" />
+        <link rel="stylesheet" href="css/storm_medium.css" />
         <title>Storm Center</title>
     </head>
     <body>
@@ -64,15 +65,22 @@
                         id="name-input"
                         required
                         minlength="5"
+                        pattern="[A-Za-z]"
                     /><br />
                     <label for="email">Enter your Email:</label>
-                    <input type="email" name="email" id="email" /><br />
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="user@gmail.com"
+                    /><br />
                     <label for="phone-number">Enter your Phone Number:</label>
                     <input
                         type="tel"
                         name="phone-number"
                         id="phone-number"
                         required
+                        placeholder="###-###-####"
                     /><br />
                     <label for="zip-code">Enter your Zip Code:</label>
                     <input
@@ -80,6 +88,8 @@
                         name="zip-code"
                         id="zip-code"
                         required
+                        pattern="(\d{5}([\-]\d{4})?)"
+                        placeholder="######-####"
                     />
                 </fieldset>
 
@@ -98,18 +108,49 @@
                         type="list"
                         name="storm-type"
                         id="storm-type"
-                    /><br />
-
+                        list="eventList"
+                    />
+                    <datalist id="eventList">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="ThunderStorm"></option>
+                        <option value="Tornado"></option></datalist
+                    ><br />
                     <label for="storm-severity">Storm Severity:</label>
-                    <input
-                        type="range"
-                        name="storm-severity"
-                        id="storm-severity"
-                        min="1"
-                        max="10"
-                    /><br />
+                    <div id="severity-info">
+                        <input
+                            type="range"
+                            name="storm-severity"
+                            id="storm-severity"
+                            min="1"
+                            max="10"
+                            value="5"
+                            step="1"
+                            list="tickmarks"
+                            oninput="showNumber(this.value)"
+                            onchange="showNumber(this.value)"
+                        />
 
-                    <label for="storm-region">Storm Region</label>
+                        <span id="severity-number">5</span>
+
+                        <datalist id="tickmarks">
+                            <option value="0"></option>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="6"></option>
+                            <option value="7"></option>
+                            <option value="8"></option>
+                            <option value="9"></option>
+                            <option value="10"></option>
+                        </datalist>
+                    </div>
+                    <br />
+
+                    <label for="storm-region">Storm Region:</label>
                     <input
                         type="select"
                         name="storm-region"
@@ -146,10 +187,17 @@
                     </div>
                 </fieldset>
 
-                <label for="text-area">Text Area</label>
-                <input type="text" name="text-area" id="text-area" />
+                <fieldset class="text-area">
+                    <legend>Description</legend>
+                    <label for="text-area">Text Area</label>
+                    <textarea
+                        type="text"
+                        name="text-area"
+                        id="text-area"
+                    ></textarea>
 
-                <input type="submit" value="Submit" id="submit-button" />
+                    <input type="submit" value="Submit" id="submit-button" />
+                </fieldset>
             </form>
         </main>
         <footer>

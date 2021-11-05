@@ -26,3 +26,7 @@ function thisIsThePage(item) {
 let pageName = document.querySelector("#current-page").textContent;
 
 thisIsThePage(pageName);
+
+function showNumber(number) {
+    document.querySelector("#severity-number").innerHTML = number;
+};
