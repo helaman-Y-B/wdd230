@@ -101,6 +101,7 @@ form {
 .radio-option {
     flex: 1;
     display: flex;
+    margin: 10px 0px 0px 10px;
 }
 
 label {
