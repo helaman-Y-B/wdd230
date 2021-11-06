@@ -133,14 +133,12 @@ p {
 
 input {
   flex: 1;
-  margin: 0px;
   max-width: 400px;
   min-height: 20px;
 }
 
 input[type="radio"] {
   max-width: 13px;
-  margin: 5px;
 }
 
 .text-area {

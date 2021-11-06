@@ -1,19 +1,25 @@
 @media only screen and (min-width: 500px) {
-    label[for="radio-opt"] {
-        margin: 8px 0px 0px 0px;
-    }
+  label[for="opt1"] {
+    margin: 8px 0px 0px 0px;
+  }
+  label[for="opt2"] {
+    margin: 8px 0px 0px 0px;
+  }
+  label[for="opt3"] {
+    margin: 8px 0px 0px 0px;
+  }
 
-    input {
-        min-height: 30px;
-    }
+  input {
+    min-height: 30px;
+  }
 
-    #text-area {
-        min-height: 45px;
-        max-width: 450px;
-    }
+  #text-area {
+    min-height: 45px;
+    max-width: 450px;
+  }
 
-    #submit-button {
-        max-width: 200px;
-        min-height: 35px;
-    }
+  #submit-button {
+    max-width: 200px;
+    min-height: 35px;
+  }
 }
