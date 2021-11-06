@@ -21,8 +21,8 @@
         <img
           class="logo"
           src="img/Weather(1).png"
-          width="150px"
-          height="150px"
+          width="150"
+          height="150"
           alt="Logo"
         />
         <div class="name-frase">
@@ -85,7 +85,7 @@
           /><br />
           <label for="zip-code">Enter your Zip Code:</label>
           <input
-            type="number"
+            type="text"
             name="zip-code"
             id="zip-code"
             required
@@ -101,12 +101,7 @@
           <input type="date" name="storm-date" id="storm-date" /><br />
 
           <label for="storm-type">Storm Type:</label>
-          <input
-            type="list"
-            name="storm-type"
-            id="storm-type"
-            list="eventList"
-          />
+          <input name="storm-type" id="storm-type" list="eventList" />
           <datalist id="eventList">
             <option value="Flash Flood"></option>
             <option value="Hail"></option>
@@ -163,15 +158,15 @@
 
           <p>User In-danger:</p>
           <div class="radio-option">
-            <input type="radio" name="radio-opt" id="yes-opt" value="Yes" />
+            <input type="radio" name="radio-opt" id="radio-opt" value="Yes" />
             <label for="radio-opt">Yes</label>
           </div>
           <div class="radio-option">
-            <input type="radio" name="radio-opt" id="maybe-opt" value="Maybe" />
+            <input type="radio" name="radio-opt" id="radio-opt" value="Maybe" />
             <label for="radio-opt">Maybe</label>
           </div>
           <div class="radio-option">
-            <input type="radio" name="radio-opt" id="no-opt" value="No" />
+            <input type="radio" name="radio-opt" id="radio-opt" value="No" />
             <label for="radio-opt">No</label>
           </div>
         </fieldset>
@@ -179,7 +174,7 @@
         <fieldset class="text-area">
           <legend>Description</legend>
           <label for="text-area">Text Area</label>
-          <textarea type="text" name="text-area" id="text-area"></textarea>
+          <textarea name="text-area" id="text-area"></textarea>
 
           <input type="submit" value="Submit" id="submit-button" />
         </fieldset>
