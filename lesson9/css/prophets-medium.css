@@ -3,10 +3,11 @@
         display: grid;
         grid-template-columns: 350px 350px;
         margin: 0px;
+        border: 0px;
     }
 
     section {
         max-width: 300px;
-        margin-bottom: 10px;
+        margin: 30px;
     }
 }
