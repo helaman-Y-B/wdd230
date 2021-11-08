@@ -1,0 +1,12 @@
+@media only screen and (min-width: 700px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        margin: 0px;
+    }
+
+    section {
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+}

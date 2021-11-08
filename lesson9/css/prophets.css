@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap");
+
+body {
+    text-align: center;
+    margin: auto;
+}
+
+main {
+    margin: auto;
+    max-width: 700px;
+}
+
+h1 {
+    color: rgb(34, 117, 83);
+    font-family: "Ubuntu", sans-serif;
+}
+
+.cards {
+    box-shadow: 1px 0px 13px 8px grey;
+    margin: 10px;
+}
+
+section {
+    background-color: cadetblue;
+    margin: 5px;
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    max-width: 65%;
+    margin-bottom: 10px;
+}
+
+footer {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
