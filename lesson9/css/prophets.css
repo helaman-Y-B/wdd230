@@ -22,7 +22,7 @@ h1 {
 }
 
 section {
-    background-color: cadetblue;
+    background-color: rgb(91, 213, 218);
     margin: 5px;
 }
 
@@ -30,6 +30,7 @@ h2 {
     font-family: "Ubuntu", sans-serif;
     padding-top: 10px;
     margin: 0px;
+    color: rgb(0, 4, 255);
 }
 
 p {
