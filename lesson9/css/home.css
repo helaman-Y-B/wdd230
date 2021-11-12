@@ -87,6 +87,55 @@ li a {
     height: auto;
 }
 
+.hero-box {
+    max-width: 320px;
+    position: relative;
+}
+
+.hero-img {
+    max-width: 320px;
+}
+
+.contact-info {
+    background-color: #0e95ca77;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+.contact-info h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contact-info p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2,
+h3 {
+    font-family: "Ubuntu", sans-serif, serif;
+}
+
+p {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+}
+
+.city {
+    border: solid black;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #069e9e;
+    text-align: center;
+}
+
+.city img {
+    max-width: 290px;
+}
+
 footer {
     background-color: #0e95ca;
     font-family: "Noto Sans Display", sans-serif, helvetica;
