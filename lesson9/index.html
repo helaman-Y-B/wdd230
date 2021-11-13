@@ -1,112 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content="Helamã Barbour" />
-        <meta
-            name="description"
-            content="This Webpage shows some images from different kinds of weather, show the passion that people have with the beauty of the weather."
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Helamã Barbour" />
+    <meta
+      name="description"
+      content="This Webpage is the home page for the weather-site."
+    />
+    <link rel="icon" href="img/favicon-wheather.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/home-medium.css" />
+    <link rel="stylesheet" href="css/home-large.css" />
+    <title>Storm Center</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-name">
+        <img
+          class="logo"
+          src="img/Weather(1).png"
+          width="150"
+          height="150"
+          alt="Logo"
         />
-        <link rel="icon" href="img/favicon-wheather.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/home.css" />
-        <link rel="stylesheet" href="#" />
-        <link rel="stylesheet" href="#" />
-        <title>Storm Center</title>
-    </head>
-    <body>
-        <header>
-            <div class="logo-name">
-                <img
-                    class="logo"
-                    src="img/Weather(1).png"
-                    width="150"
-                    height="150"
-                    alt="Logo"
-                />
-                <div class="name-frase">
-                    <h1>Weather Moment</h1>
-                    <p>motto/cath frase</p>
-                </div>
-            </div>
-        </header>
+        <div class="name-frase">
+          <h1>Weather Moment</h1>
+          <p>motto/cath frase</p>
+        </div>
+      </div>
+    </header>
 
-        <nav>
-            <ul class="menu">
-                <li id="toggle-menu-list">
-                    <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
-                </li>
-                <li class="list-item"><a class="link" href="#">Home</a></li>
-                <li class="list-item">
-                    <a class="link" href="../lesson6/preston-6.html">Preston</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" href="#">Soda Spring</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" href="#">Fish Heaven</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" id="current-page" href="#">Storm Center</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" href="../lesson7/gallery-7.html">Gallery</a>
-                </li>
-            </ul>
-        </nav>
-        <main>
-            <div class="hero-box">
-                <picture>
-                    <img
-                        class="hero-img"
-                        src="img/place-holder-hero.png"
-                        alt="hero image"
-                        data-src="img/hero-img.jpg"
-                    />
-                </picture>
-                <div class="contact-info">
-                    <h3>Contact Info</h3>
-                    <p>Phone: xxxx-xxxx</p>
-                    <p>E-mail: Helamashi@gmail.com</p>
-                </div>
-            </div>
-            <div>Link to the wire frames</div>
-            <div class="city" id="preston">
-                <h2>Preston</h2>
-                <p>Year Founded:<span id="preston-year"></span></p>
-                <p>Population:<span id="preston-population"></span></p>
-                <p>Annual Rain Fall:<span id="preston-rain-fall"></span></p>
-            </div>
-            <div class="city" id="fish-haven">
-                <h2>Fish Haven</h2>
-                <p>Year Founded:<span id="haven-year"></span></p>
-                <p>Population:<span id="haven-population"></span></p>
-                <p>Annual Rain Fall:<span id="haven-rain-fall"></span></p>
-            </div>
-            <div class="city" id="soda-sprigs">
-                <h2>Soda Springs</h2>
-                <p>Year Founded:<span id="soda-year"></span></p>
-                <p>Population:<span id="soda-population"></span></p>
-                <p>Annual Rain Fall:<span id="soda-rain-fall"></span></p>
-            </div>
-            <div class="weather-moment">
-                <h2>Winter is coming!</h2>
-            </div>
-        </main>
-        <footer>
-            &copy;The Weather Moment | BYU-Idaho | Helamã Barbour
-            <!--<div id="visitors-box"></div>-->
-        </footer>
-        <script src="js/home.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script>
-            WebFont.load({
-                google: {
-                    families: ["Ubuntu", "Noto Sans Display"],
-                },
-            });
-        </script>
-    </body>
+    <nav>
+      <ul class="menu">
+        <li id="toggle-menu-list">
+          <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
+        </li>
+        <li class="list-item">
+          <a id="current-page" class="link" href="index.html">Home</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../lesson6/preston-6.html">Preston</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="#">Soda Spring</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="#">Fish Heaven</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../lesson8/stormcenter.html">Storm Center</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../lesson7/gallery-7.html">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="hero-box">
+        <picture>
+          <img
+            class="hero-img"
+            src="img/place-holder-hero.png"
+            alt="hero image"
+            data-src="img/hero-img.jpg"
+          />
+        </picture>
+        <div class="contact-info">
+          <h3>Contact Info</h3>
+          <p>Phone: xxxx-xxxx</p>
+          <p>E-mail: Helamashi@gmail.com</p>
+        </div>
+      </div>
+      <div class="wire-frames">
+        <h3>Link for the home page wireframes</h3>
+        <p><a href="home-wireframes.html">Wireframes page</a></p>
+      </div>
+      <div class="content">
+        <div class="city" id="preston">
+          <div>
+            <h2>Preston</h2>
+            <p>Year Founded:<span id="preston-year"></span></p>
+            <p>Population:<span id="preston-population"></span></p>
+            <p>Annual Rain Fall:<span id="preston-rain-fall"></span></p>
+          </div>
+        </div>
+
+        <div class="city" id="fish-haven">
+          <div>
+            <h2>Fish Haven</h2>
+            <p>Year Founded:<span id="haven-year"></span></p>
+            <p>Population:<span id="haven-population"></span></p>
+            <p>Annual Rain Fall:<span id="haven-rain-fall"></span></p>
+          </div>
+        </div>
+        <div class="city" id="soda-sprigs">
+          <div>
+            <h2>Soda Springs</h2>
+            <p>Year Founded:<span id="soda-year"></span></p>
+            <p>Population:<span id="soda-population"></span></p>
+            <p>Annual Rain Fall:<span id="soda-rain-fall"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="weather-moment">
+        <h2>Winter is coming!</h2>
+        <p>
+          We all know, if winter is coming, then Christmas is coming.<br /><br />
+          Christmas is easily one of our most favorite events and, since is one
+          of our favorites, we need to transform this cold weather, into a
+          weather moment!!<br />And there is no better way then sit and eat with
+          our whole family or friends! That's why we, from the weather moment
+          are going to share some recepies so that you can build awesome weather
+          moments with friends and family.<br /><br />Just follow the link and
+          enjoy:<br />
+          <a
+            id="recepies-link"
+            href="https://www.delish.com/holiday-recipes/christmas/g2575/classic-dinner-recipes/"
+            >60 iconic christmas recepies</a
+          >
+        </p>
+      </div>
+    </main>
+    <footer>
+      &copy;The Weather Moment | BYU-Idaho | Helamã Barbour
+      <!--<div id="visitors-box"></div>-->
+    </footer>
+    <script src="js/home.js"></script>
+    <script src="js/lazy-load.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Ubuntu", "Noto Sans Display"],
+        },
+      });
+    </script>
+  </body>
 </html>

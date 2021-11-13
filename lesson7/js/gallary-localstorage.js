@@ -1,6 +1,6 @@
 function putItems(day, month, year) {
     localStorage.setItem('accesAmount', 1);
-    localStorage.setItem(`${day}/${month + 1}/${year}`, localStorage.getItem('accesAmount'));
+    localStorage.setItem('lastVisit', `${day}/${month + 1}/${year}`);
 };
 
 function accesAmount(day, month, year) {

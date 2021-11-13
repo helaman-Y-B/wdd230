@@ -1,0 +1,85 @@
+@media only screen and (min-width: 900px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    background-color: #0e95ca;
+  }
+
+  #toggle-menu {
+    display: none;
+  }
+
+  .list-item {
+    display: block;
+    flex: 1;
+  }
+
+  .link {
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .menu li a:hover {
+    background-color: #165858;
+    color: white;
+  }
+
+  li a {
+    color: #000000;
+  }
+
+  .hero-box {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .hero-img {
+    max-width: 800px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .city {
+    margin: 2px;
+  }
+
+  #preston {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #preston div {
+    flex: 1;
+    padding: 10px;
+  }
+
+  #fish-haven {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #fish-haven div {
+    flex: 1;
+    padding: 10px;
+  }
+
+  #soda-sprigs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #soda-sprigs div {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .weather-moment p {
+    max-width: 500px;
+    margin: auto;
+  }
+}
