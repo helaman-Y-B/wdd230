@@ -45,6 +45,10 @@
     margin: 2px;
   }
 
+  .city img {
+    margin: auto;
+  }
+
   #preston {
     flex: 1;
     display: flex;
