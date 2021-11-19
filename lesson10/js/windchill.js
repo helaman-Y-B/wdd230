@@ -80,10 +80,6 @@ function showForeCastData(data) {
 function showOutPut(cast, temps) {
     temps[indexNumber].textContent = `${cast.main.temp}°F`;
     indexNumber += 1;
-
-    //temps.forEach(temp => {
-    //    temp.textContent = `${cast.main.temp}°F`;
-    //});
 };
 
 function windChillCalc(t, s) {
