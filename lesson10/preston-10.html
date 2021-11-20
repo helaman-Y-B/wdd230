@@ -1,243 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Preston Weather Moment</title>
-        <meta name="author" content="Helamã Barbour" />
-        <meta name="description" content="Weather info for Preston city." />
-        <link rel="icon" href="img/favicon-wheather.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="css/small-preston.css" />
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/medium.css" />
-        <link rel="stylesheet" href="css/large.css" />
-    </head>
-    <body>
-        <header>
-            <div class="pancake-day"></div>
-            <div class="logo-name">
-                <img class="logo" src="img/Weather(1).png" alt="Logo" />
-                <div class="name-frase">
-                    <h1>Weather Moment</h1>
-                    <p>motto/cath frase</p>
-                </div>
-            </div>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preston Weather Moment</title>
+    <meta name="author" content="Helamã Barbour" />
+    <meta name="description" content="Weather info for Preston city." />
+    <link rel="icon" href="img/favicon-wheather.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/small-preston.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header>
+      <div class="pancake-day"></div>
+      <div class="logo-name">
+        <img class="logo" src="img/Weather(1).png" alt="Logo" />
+        <div class="name-frase">
+          <h1>Weather Moment</h1>
+          <p>motto/cath frase</p>
+        </div>
+      </div>
+    </header>
 
-        <nav>
-            <ul class="menu">
-                <li id="toggle-menu-list">
-                    <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" href="../lesson9/index.html">Home</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" id="current-page" href="#">Preston</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" href="#">Soda Spring</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" href="#">Fish Heaven</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" href="../lesson8/stormcenter.html"
-                        >Storm Center</a
-                    >
-                </li>
-                <li class="list-item">
-                    <a class="link" href="../lesson7/gallery-7.html">Gallery</a>
-                </li>
-            </ul>
-        </nav>
+    <nav>
+      <ul class="menu">
+        <li id="toggle-menu-list">
+          <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../lesson9/index.html">Home</a>
+        </li>
+        <li class="list-item">
+          <a class="link" id="current-page" href="#">Preston</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="#">Soda Spring</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="#">Fish Heaven</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../lesson8/stormcenter.html">Storm Center</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../lesson7/gallery-7.html">Gallery</a>
+        </li>
+      </ul>
+    </nav>
 
-        <main>
-            <h2>Preston Idaho</h2>
-            <div id="summary">
-                <picture>
-                    <source
-                        media="(max-width:945px)"
-                        srcset="img/wdd230_image_franklinOriginal-medium.jpg" />
-                    <source
-                        media="(max-width:1000px)"
-                        srcset="img/wdd230_image_franklinOriginal-large.jpg" />
-                    <source
-                        media="(max-width:520px)"
-                        srcset="img/wdd230_image_franklinOriginal-small.jpg" />
-                    <img
-                        src="img/wdd230_image_franklinOriginal-small.jpg"
-                        alt="Hero image"
-                /></picture>
-                <div class="weather-summary">
-                    <h3>Weather Summary</h3>
-                    <div>
-                        <p>Currently: Sunny</p>
-                        <p>High: <span id="avg-temp"></span>°F</p>
-                        <p id="wind-chill-text">
-                            Wind Chill: <span id="wind-chill"></span>°F
-                        </p>
-                        <p>Humidity: <span id="humidity"></span></p>
-                        <p>Wind Speed: <span id="wind-speed"></span>mph</p>
-                    </div>
-                </div>
-            </div>
-            <h3 class="five-daycast-h3">Five Day Forecast</h3>
-            <div class="forecast">
-                <div class="cast-conteiner">
-                    <h6 class="cast-title">Wed</h6>
-                    <img
-                        class="cast-icon"
-                        src="img/sunny-icon.png"
-                        alt="Sunny"
-                    />
-                    <p class="temp-info"></p>
-                </div>
-                <div class="cast-conteiner">
-                    <h6 class="cast-title">Thu</h6>
-                    <img
-                        class="cast-icon"
-                        src="img/sunny-icon.png"
-                        alt="Sunny"
-                    />
-                    <p class="temp-info"></p>
-                </div>
-                <div class="cast-conteiner">
-                    <h6 class="cast-title">Fri</h6>
-                    <img
-                        class="cast-icon"
-                        src="img/sunny-icon.png"
-                        alt="Sunny"
-                    />
-                    <p class="temp-info"></p>
-                </div>
-                <div class="cast-conteiner">
-                    <h6 class="cast-title">Sat</h6>
-                    <img
-                        class="cast-icon"
-                        src="img/partialy-sunny-icon.png"
-                        alt="partialy sunny"
-                    />
-                    <p class="temp-info"></p>
-                </div>
-                <div class="cast-conteiner">
-                    <h6 class="cast-title">Sun</h6>
-                    <img
-                        class="cast-icon"
-                        src="img/cloudy-icon.png"
-                        alt="cloudy"
-                    />
-                    <p class="temp-info"></p>
-                </div>
-            </div>
-            <div id="article">
-                <picture>
-                    <source
-                        media="(max-width:945px)"
-                        srcset="img/Lets-recicle-medium.jpg" />
-                    <source
-                        media="(max-width:1000px)"
-                        srcset="img/Lets-recicle-large.jpg" />
-                    <source
-                        media="(max-width:520px)"
-                        srcset="img/Lets-recicle-small.jpg" />
-                    <img
-                        class="bottles-img"
-                        src="img/Lets-recicle-small.jpg"
-                        alt="Lets recicle some plastic bottles"
-                /></picture>
-                <article>
-                    <h4>For days like this, we need to refresh ourselves!</h4>
-                    <h5>By Helamã Barbour</h5>
-                    <p>
-                        There is a lot of different ways to refresh ourselves,
-                        but today, I will talk about a method that brought a lot
-                        of funny moments with my cousins and friends.<br /><br />
-                        So, lets go, and build more "weather moments", with the
-                        power of recicling plastic bottles, which we will use to
-                        make a rocket that works with water and air
-                        preassure.<br /><br />
-                        With a little search, I found a tutorial of how to make
-                        one, so prepare yourselves, because you will get a
-                        little wet by making a<a
-                            target="blanck"
-                            href="https://www.science-sparks.com/making-a-bottle-rocket/"
-                        >
-                            bottle rocket.</a
-                        >
-                    </p>
-                </article>
-            </div>
-            <div id="contact">
-                <img class="map" src="img/preston-map.jpg" alt="Map" />
-                <div class="infos">
-                    <h5>The Weather Moment</h5>
-                    <p>30 N 1 st E Preston, ID 83263<br /></p>
-                    <div class="phone-email">
-                        <img
-                            class="contact-inf-img"
-                            src="img/phone-icon.png"
-                            alt="phone-icon"
-                        />
-                        <p>99133-1144</p>
-                    </div>
-                    <div class="phone-email">
-                        <img
-                            class="contact-inf-img"
-                            src="img/email-icon.ico"
-                            alt="email-icon"
-                        />
-                        <p>Helamashi@gmail.com</p>
-                    </div>
-                    <a href="https://www.facebook.com/"
-                        ><img
-                            class="midia-img"
-                            src="img/Facebook-logo.jpg"
-                            alt="Facebook icon"
-                    /></a>
-                    <a href="https://www.whatsapp.com/"
-                        ><img
-                            class="midia-img"
-                            src="img/whatsapp-icon.jpg"
-                            alt="whatsapp icon"
-                    /></a>
-                    <a href="https://twitter.com/"
-                        ><img
-                            class="midia-img"
-                            src="img/twitter-icon.jpg"
-                            alt="twitter icon"
-                    /></a>
-                    <a href="https://pinterest.com/"
-                        ><img
-                            class="midia-img"
-                            src="img/pinterest-icon.png"
-                            alt="pinterest icon"
-                    /></a>
-                </div>
-            </div>
-        </main>
-        <footer>
-            &copy;The Weather Moment | BYU-Idaho | Helamã Barbour
-            <p><span id="current-date"></span></p>
-            <p>The weather information is provided by openweather</p>
-            <p>
-                <a href="https://openweathermap.org/"
-                    >https://openweathermap.org/</a
-                >
+    <main>
+      <h2>Preston Idaho</h2>
+      <div id="summary">
+        <picture>
+          <source
+            media="(max-width:945px)"
+            srcset="img/wdd230_image_franklinOriginal-medium.jpg" />
+          <source
+            media="(max-width:1000px)"
+            srcset="img/wdd230_image_franklinOriginal-large.jpg" />
+          <source
+            media="(max-width:520px)"
+            srcset="img/wdd230_image_franklinOriginal-small.jpg" />
+          <img
+            src="img/wdd230_image_franklinOriginal-small.jpg"
+            alt="Hero image"
+        /></picture>
+        <div class="weather-summary">
+          <h3>Weather Summary</h3>
+          <div>
+            <p>Currently: Sunny</p>
+            <p>High: <span id="avg-temp"></span>°F</p>
+            <p id="wind-chill-text">
+              Wind Chill: <span id="wind-chill"></span>°F
             </p>
-        </footer>
-        <script src="js/preston.js"></script>
-        <script src="js/pancake-day.js"></script>
-        <script src="js/which-page.js"></script>
-        <script src="js/windchill.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script>
-            WebFont.load({
-                google: {
-                    families: ["Ubuntu", "Noto Sans Display"],
-                },
-            });
-        </script>
-    </body>
+            <p>Humidity: <span id="humidity"></span></p>
+            <p>Wind Speed: <span id="wind-speed"></span>mph</p>
+          </div>
+        </div>
+      </div>
+      <h3 class="five-daycast-h3">Five Day Forecast</h3>
+      <div class="forecast">
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Wed</h6>
+          <img class="cast-icon" src="" alt="Sunny" />
+          <p class="temp-info"></p>
+        </div>
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Thu</h6>
+          <img class="cast-icon" src="" alt="Sunny" />
+          <p class="temp-info"></p>
+        </div>
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Fri</h6>
+          <img class="cast-icon" src="" alt="Sunny" />
+          <p class="temp-info"></p>
+        </div>
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Sat</h6>
+          <img class="cast-icon" src="" alt="partialy sunny" />
+          <p class="temp-info"></p>
+        </div>
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Sun</h6>
+          <img class="cast-icon" src="" alt="cloudy" />
+          <p class="temp-info"></p>
+        </div>
+      </div>
+      <div id="article">
+        <picture>
+          <source
+            media="(max-width:945px)"
+            srcset="img/Lets-recicle-medium.jpg" />
+          <source
+            media="(max-width:1000px)"
+            srcset="img/Lets-recicle-large.jpg" />
+          <source
+            media="(max-width:520px)"
+            srcset="img/Lets-recicle-small.jpg" />
+          <img
+            class="bottles-img"
+            src="img/Lets-recicle-small.jpg"
+            alt="Lets recicle some plastic bottles"
+        /></picture>
+        <article>
+          <h4>For days like this, we need to refresh ourselves!</h4>
+          <h5>By Helamã Barbour</h5>
+          <p>
+            There is a lot of different ways to refresh ourselves, but today, I
+            will talk about a method that brought a lot of funny moments with my
+            cousins and friends.<br /><br />
+            So, lets go, and build more "weather moments", with the power of
+            recicling plastic bottles, which we will use to make a rocket that
+            works with water and air preassure.<br /><br />
+            With a little search, I found a tutorial of how to make one, so
+            prepare yourselves, because you will get a little wet by making a<a
+              target="blanck"
+              href="https://www.science-sparks.com/making-a-bottle-rocket/"
+            >
+              bottle rocket.</a
+            >
+          </p>
+        </article>
+      </div>
+      <div id="contact">
+        <img class="map" src="img/preston-map.jpg" alt="Map" />
+        <div class="infos">
+          <h5>The Weather Moment</h5>
+          <p>30 N 1 st E Preston, ID 83263<br /></p>
+          <div class="phone-email">
+            <img
+              class="contact-inf-img"
+              src="img/phone-icon.png"
+              alt="phone-icon"
+            />
+            <p>99133-1144</p>
+          </div>
+          <div class="phone-email">
+            <img
+              class="contact-inf-img"
+              src="img/email-icon.ico"
+              alt="email-icon"
+            />
+            <p>Helamashi@gmail.com</p>
+          </div>
+          <a href="https://www.facebook.com/"
+            ><img
+              class="midia-img"
+              src="img/Facebook-logo.jpg"
+              alt="Facebook icon"
+          /></a>
+          <a href="https://www.whatsapp.com/"
+            ><img
+              class="midia-img"
+              src="img/whatsapp-icon.jpg"
+              alt="whatsapp icon"
+          /></a>
+          <a href="https://twitter.com/"
+            ><img
+              class="midia-img"
+              src="img/twitter-icon.jpg"
+              alt="twitter icon"
+          /></a>
+          <a href="https://pinterest.com/"
+            ><img
+              class="midia-img"
+              src="img/pinterest-icon.png"
+              alt="pinterest icon"
+          /></a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      &copy;The Weather Moment | BYU-Idaho | Helamã Barbour
+      <p><span id="current-date"></span></p>
+      <p>The weather information is provided by openweather</p>
+      <p>
+        <a href="https://openweathermap.org/">https://openweathermap.org/</a>
+      </p>
+    </footer>
+    <script src="js/preston.js"></script>
+    <script src="js/pancake-day.js"></script>
+    <script src="js/which-page.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Ubuntu", "Noto Sans Display"],
+        },
+      });
+    </script>
+  </body>
 </html>
