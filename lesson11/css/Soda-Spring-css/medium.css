@@ -1,0 +1,103 @@
+@media only screen and (min-width: 32.5em) {
+    main {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header p {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    main h3 {
+        display: block;
+    }
+
+    .weather-summary {
+        font-size: 15px;
+        top: 15px;
+        left: 15px;
+    }
+
+    .weather-summary h3 {
+        font-size: 20px;
+    }
+
+    .forecast {
+        display: block;
+        font-family: "Noto Sans Display", sans-serif, helvetica;
+        background-color: #069e9e;
+        margin-top: 20px;
+        font-size: 25px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cast-conteiner {
+        flex: 1;
+        text-align: center;
+        border: solid 1px black;
+    }
+
+    .cast-title {
+        padding: 10px 0px 10px 0px;
+        margin: 0px;
+        background-color: #115c5c;
+        color: white;
+    }
+
+    .cast-icon {
+        max-width: 50px;
+        margin-top: 10px;
+    }
+
+    .temp-info {
+        margin: 10px 0px 10px 0px;
+    }
+
+    #article {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    h4 {
+        font-size: 30px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+
+    .bottles-img {
+        max-width: 250px;
+        float: right;
+        margin: 20px;
+    }
+
+    #contact {
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .map {
+        display: block;
+        flex: 1;
+        max-width: 230px;
+    }
+
+    .infos {
+        flex: 1;
+        margin: 8px;
+    }
+
+    footer {
+        font-size: 20px;
+        margin: auto;
+    }
+}
