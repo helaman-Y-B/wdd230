@@ -1,174 +1,176 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Ubuntu:wght@500&display=swap");
 
 body {
-  background-color: #c7fdbd;
-  margin: 0px;
+    background-color: #c7fdbd;
+    margin: 0px;
 }
 
 header {
-  display: flex;
-  font-family: "Ubuntu", sans-serif, serif;
-  background-color: #07c4aa;
-  flex-direction: column;
+    display: flex;
+    font-family: "Ubuntu", sans-serif, serif;
+    background-color: #07c4aa;
+    flex-direction: column;
 }
 
 .logo-name {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .name-frase {
-  flex: 1;
-  text-align: center;
-  margin: auto;
+    flex: 1;
+    text-align: center;
+    margin: auto;
 }
 
 .name-frase h1 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .name-frase p {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 20px;
 }
 
 .menu {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Ubuntu", sans-serif, serif;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif, serif;
 }
 
 nav {
-  overflow: hidden;
-  text-align: center;
+    overflow: hidden;
+    text-align: center;
 }
 
 #toggle-menu {
-  display: block;
-  list-style-type: none;
-  background-color: #0e95ca;
-  font-size: 18px;
-  padding: 20px;
-  font-size: 18px;
+    display: block;
+    list-style-type: none;
+    background-color: #0e95ca;
+    font-size: 18px;
+    padding: 20px;
+    font-size: 18px;
 }
 
 .list-item {
-  display: none;
-  background-color: #08aef0;
-  text-decoration: none;
+    display: none;
+    background-color: #08aef0;
+    text-decoration: none;
 }
 
 li a:hover {
-  background-color: #165858;
-  color: white;
+    background-color: #165858;
+    color: white;
 }
 
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 li a {
-  color: black;
+    color: black;
 }
 
 .responsive .list-item {
-  display: block;
-  list-style-type: none;
+    display: block;
+    list-style-type: none;
 }
 
 .link {
-  display: block;
-  list-style-type: none;
-  padding: 20px;
-  font-size: 18px;
+    display: block;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 18px;
 }
 
 .logo {
-  max-width: 150px;
-  height: auto;
+    max-width: 150px;
+    height: auto;
 }
 
 .hero-box {
-  max-width: 320px;
-  position: relative;
-  margin: auto;
+    max-width: 320px;
+    position: relative;
+    margin: auto;
 }
 
 .hero-img {
-  max-width: 320px;
+    max-width: 320px;
 }
 
 .contact-info {
-  background-color: #0e95ca77;
-  position: absolute;
-  top: 20px;
-  left: 10px;
-  border: black solid 2px;
-  border-radius: 5px;
-  color: white;
+    background-color: #0e95ca77;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    border: black solid 2px;
+    border-radius: 5px;
+    color: white;
 }
 
 .contact-info h3 {
-  padding-left: 10px;
-  padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .contact-info p {
-  padding-left: 10px;
-  padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h2,
 h3 {
-  font-family: "Ubuntu", sans-serif, serif;
+    font-family: "Ubuntu", sans-serif, serif;
 }
 
 p {
-  font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
 }
 
 .wire-frames {
-  text-align: center;
-  background-color: #0e95ca;
+    text-align: center;
+    background-color: #0e95ca;
 }
 
 .wire-frames h3 {
-  margin: 0px;
-  padding: 5px;
+    margin: 0px;
+    padding: 5px;
 }
 
 .wire-frames p {
-  padding: 5px;
-  margin: 0px;
+    padding: 5px;
+    margin: 0px;
 }
 
 .city {
-  border: solid black;
-  border-radius: 5px;
-  margin: 10px;
-  background-color: #069e9e;
-  text-align: center;
+    border: solid black;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #069e9e;
+    text-align: center;
 }
 
 .city img {
-  max-width: 290px;
+    max-width: 290px;
 }
 
 .weather-moment {
-  background-color: #069e9e;
-  margin: 10px;
-  border: black solid;
-  border-radius: 5px;
-  text-align: center;
+    background-color: #069e9e;
+    margin: 10px;
+    border: black solid;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .weather-moment p {
-  margin: 5px;
+    margin: 5px;
 }
 
 footer {
-  background-color: #0e95ca;
-  font-family: "Noto Sans Display", sans-serif, helvetica;
-  font-size: 20px;
-  padding: 10px;
-  text-align: center;
+    background-color: #0e95ca;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
 }

@@ -1,189 +1,191 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Ubuntu:wght@500&display=swap");
 
 body {
-  background-color: #c7fdbd;
-  margin: 0px;
+    background-color: #c7fdbd;
+    margin: 0px;
 }
 
 header {
-  display: flex;
-  font-family: "Ubuntu", sans-serif, serif;
-  background-color: #07c4aa;
-  flex-direction: column;
+    display: flex;
+    font-family: "Ubuntu", sans-serif, serif;
+    background-color: #07c4aa;
+    flex-direction: column;
 }
 
 .logo-name {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .name-frase {
-  flex: 1;
-  text-align: center;
-  margin: auto;
+    flex: 1;
+    text-align: center;
+    margin: auto;
 }
 
 .name-frase h1 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .name-frase p {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 20px;
 }
 
 .menu {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Ubuntu", sans-serif, serif;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif, serif;
 }
 
 nav {
-  overflow: hidden;
-  text-align: center;
+    overflow: hidden;
+    text-align: center;
 }
 
 #toggle-menu {
-  display: block;
-  list-style-type: none;
-  background-color: #0e95ca;
-  font-size: 18px;
-  padding: 20px;
-  font-size: 18px;
+    display: block;
+    list-style-type: none;
+    background-color: #0e95ca;
+    font-size: 18px;
+    padding: 20px;
+    font-size: 18px;
 }
 
 .list-item {
-  display: none;
-  background-color: #08aef0;
-  text-decoration: none;
+    display: none;
+    background-color: #08aef0;
+    text-decoration: none;
 }
 
 li a:hover {
-  background-color: #165858;
-  color: white;
+    background-color: #165858;
+    color: white;
 }
 
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 li a {
-  color: black;
+    color: black;
 }
 
 .responsive .list-item {
-  display: block;
-  list-style-type: none;
+    display: block;
+    list-style-type: none;
 }
 
 .link {
-  display: block;
-  list-style-type: none;
-  padding: 20px;
-  font-size: 18px;
+    display: block;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 18px;
 }
 
 .logo {
-  max-width: 150px;
-  height: auto;
+    max-width: 150px;
+    height: auto;
 }
 
 main {
-  max-width: 600px;
-  margin: auto;
+    max-width: 600px;
+    margin: auto;
 }
 
 form {
-  background-color: rgb(6, 158, 158);
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-  font-family: "Noto Sans Display", sans-serif, helvetica;
-  border-radius: 10px;
+    background-color: rgb(6, 158, 158);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    border-radius: 10px;
 }
 
 fieldset {
-  border: solid;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
+    border: solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .radio-option {
-  flex: 1;
-  display: flex;
-  margin: 10px 0px 0px 10px;
+    flex: 1;
+    display: flex;
+    margin: 10px 0px 0px 10px;
 }
 
 label {
-  flex: 1;
-  margin: 0px;
-  max-width: 200px;
+    flex: 1;
+    margin: 0px;
+    max-width: 200px;
 }
 
 label[for="radio-opt"] {
-  margin: 3px;
+    margin: 3px;
 }
 
 p {
-  flex: 1;
-  margin: 10px 0px 0px 10px;
+    flex: 1;
+    margin: 10px 0px 0px 10px;
 }
 
 input {
-  flex: 1;
-  max-width: 400px;
-  min-height: 20px;
+    flex: 1;
+    max-width: 400px;
+    min-height: 20px;
 }
 
 input[type="radio"] {
-  max-width: 13px;
+    max-width: 13px;
 }
 
 .text-area {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #text-area {
-  min-height: 45px;
-  max-width: 250px;
+    min-height: 45px;
+    max-width: 250px;
 }
 
 #severity-info {
-  display: flex;
-  max-width: 260px;
+    display: flex;
+    max-width: 260px;
 }
 
 #storm-region {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 input:invalid {
-  background-color: #fdd;
-  color: #000;
+    background-color: #fdd;
+    color: #000;
 }
 input:valid {
-  background-color: #dfd;
-  color: #000;
+    background-color: #dfd;
+    color: #000;
 }
 
 #severity-number {
-  margin: 5px;
+    margin: 5px;
 }
 
 #submit-button {
-  margin-top: 10px;
-  max-width: 100px;
-  min-height: 50px;
-  font-size: 20px;
+    margin-top: 10px;
+    max-width: 100px;
+    min-height: 50px;
+    font-size: 20px;
 }
 
 footer {
-  background-color: #0e95ca;
-  font-family: "Noto Sans Display", sans-serif, helvetica;
-  font-size: 20px;
-  padding: 10px;
-  text-align: center;
+    background-color: #0e95ca;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
 }

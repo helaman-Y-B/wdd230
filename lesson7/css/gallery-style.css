@@ -29,6 +29,8 @@ header {
 
 .name-frase p {
     margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 20px;
 }
 
 .menu {
