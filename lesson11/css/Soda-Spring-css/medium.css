@@ -73,8 +73,13 @@
         margin-top: 15px;
     }
 
-    .bottles-img {
+    article h5 {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .family-img {
         max-width: 250px;
+        height: 250px;
         float: right;
         margin: 20px;
     }

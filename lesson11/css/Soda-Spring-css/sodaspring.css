@@ -163,7 +163,7 @@ img {
     text-align: center;
 }
 
-.bottles-img {
+.family-img {
     box-shadow: 2px 2px 11px 3px #000000;
     max-width: 320px;
 }
@@ -171,6 +171,8 @@ img {
 h4 {
     font-family: "Ubuntu", sans-serif, serif;
     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #contact {
@@ -190,6 +192,10 @@ h4 {
     font-size: 15px;
     margin-left: 2em;
     text-align: left;
+}
+
+article h5 {
+    padding: 0px;
 }
 
 h5 {
