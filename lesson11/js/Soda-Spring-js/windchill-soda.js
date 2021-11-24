@@ -81,7 +81,7 @@ function showOutPut(cast, temps) {
 
 function placeIcon(cast, icons) {
     const img = "https://openweathermap.org/img/w/" + cast.weather[0].icon + ".png";
-    const desc = cast.weather.description;
+    const desc = cast.weather[0].description;
     icons[indexNumber].setAttribute("src", img);
     icons[indexNumber].setAttribute("alt", desc);
 };

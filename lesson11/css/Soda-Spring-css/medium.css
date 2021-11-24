@@ -23,7 +23,6 @@
     .weather-summary {
         font-size: 15px;
         top: 15px;
-        left: 15px;
     }
 
     .weather-summary h3 {
@@ -94,6 +93,7 @@
         display: block;
         flex: 1;
         max-width: 230px;
+        margin: 30px;
     }
 
     .infos {

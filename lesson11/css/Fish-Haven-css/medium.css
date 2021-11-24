@@ -73,6 +73,10 @@
         margin-top: 15px;
     }
 
+    h5 {
+        padding: 10px 0px 0px 0px;
+    }
+
     .bottles-img {
         max-width: 250px;
         float: right;
@@ -85,10 +89,15 @@
         flex-direction: row;
     }
 
+    #contact h5 {
+        margin-top: 0px;
+    }
+
     .map {
         display: block;
         flex: 1;
         max-width: 230px;
+        margin: 30px;
     }
 
     .infos {

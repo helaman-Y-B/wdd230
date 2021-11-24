@@ -1,12 +1,12 @@
 function getInput() {
-    const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=da3a67b621a6f2f21a31a6932df16c19";
+    const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&appid=da3a67b621a6f2f21a31a6932df16c19";
     getApi(apiURL);
-    const foreApiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=508ff6423b7d3397f77fec0caef04f94";
+    const foreApiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&appid=508ff6423b7d3397f77fec0caef04f94";
     getApi(foreApiURL);
 };
 
 function getApi(url) {
-    if (url === "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=da3a67b621a6f2f21a31a6932df16c19") {
+    if (url === "https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&appid=da3a67b621a6f2f21a31a6932df16c19") {
         fetch(url)
             .then((response) => {
                 if (response.ok) {
@@ -81,7 +81,7 @@ function showOutPut(cast, temps) {
 
 function placeIcon(cast, icons) {
     const img = "https://openweathermap.org/img/w/" + cast.weather[0].icon + ".png";
-    const desc = cast.weather.description;
+    const desc = cast.weather[0].description;
     icons[indexNumber].setAttribute("src", img);
     icons[indexNumber].setAttribute("alt", desc);
 };
