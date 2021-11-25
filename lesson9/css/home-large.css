@@ -29,12 +29,22 @@
     }
 
     .hero-box {
-        max-width: 800px;
+        max-width: 1000px;
+        height: 500px;
         margin: auto;
     }
 
     .hero-img {
-        max-width: 800px;
+        max-width: 1000px;
+        height: 500px;
+    }
+
+    .contact-info p {
+        font-size: 20px;
+    }
+
+    .contact-info h3 {
+        font-size: 30px;
     }
 
     .content {

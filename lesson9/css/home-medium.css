@@ -1,46 +1,46 @@
-@media only screen and (min-width: 500px) {
-  .hero-box {
-    max-width: 500px;
-    margin: auto;
-  }
+@media only screen and (min-width: 520px) {
+    .hero-box {
+        max-width: 650px;
+        margin: auto;
+    }
 
-  .hero-img {
-    max-width: 500px;
-  }
+    .hero-img {
+        max-width: 650px;
+    }
 
-  #preston {
-    display: flex;
-    flex-direction: row;
-  }
+    #preston {
+        display: flex;
+        flex-direction: row;
+    }
 
-  #preston div {
-    flex: 1;
-    padding-top: 50px;
-  }
+    #preston div {
+        flex: 1;
+        padding-top: 50px;
+    }
 
-  #fish-haven {
-    display: grid;
-    grid-template-columns: 290px 1fr;
-  }
+    #fish-haven {
+        display: grid;
+        grid-template-columns: 290px 1fr;
+    }
 
-  #fish-haven div {
-    grid-column: 2;
-    grid-row: 1;
-    padding-top: 50px;
-  }
+    #fish-haven div {
+        grid-column: 2;
+        grid-row: 1;
+        padding-top: 50px;
+    }
 
-  #fish-haven picture {
-    grid-column: 1;
-    grid-row: 1;
-  }
+    #fish-haven picture {
+        grid-column: 1;
+        grid-row: 1;
+    }
 
-  #soda-sprigs {
-    display: flex;
-    flex-direction: row;
-  }
+    #soda-sprigs {
+        display: flex;
+        flex-direction: row;
+    }
 
-  #soda-sprigs div {
-    flex: 1;
-    padding-top: 50px;
-  }
+    #soda-sprigs div {
+        flex: 1;
+        padding-top: 50px;
+    }
 }

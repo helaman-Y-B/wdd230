@@ -90,13 +90,15 @@ li a {
 }
 
 .hero-box {
-    max-width: 320px;
     position: relative;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-img {
-    max-width: 320px;
+    width: 100%;
+    height: auto;
+    flex: 1;
 }
 
 .contact-info {

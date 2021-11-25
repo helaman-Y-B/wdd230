@@ -69,11 +69,22 @@
         <main>
             <div class="hero-box">
                 <picture>
+                    <source
+                        media="(max-width:900px)"
+                        srcset="img/hero-img-medium.jpg"
+                    />
+                    <source
+                        media="(max-width:1000px)"
+                        srcset="img/hero-img-large.jpg"
+                    />
+                    <source
+                        media="(max-width:520px)"
+                        srcset="img/hero-img-small.jpg"
+                    />
                     <img
                         class="hero-img"
-                        src="img/place-holder-hero.png"
-                        alt="hero image"
-                        data-src="img/hero-img.jpg"
+                        src="img/hero-img-small.jpg"
+                        alt="A snowy mountain"
                     />
                 </picture>
                 <div class="contact-info">

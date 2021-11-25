@@ -1,4 +1,4 @@
-@media only screen and (min-width: 945px) {
+@media only screen and (min-width: 900px) {
     .menu {
         display: flex;
         flex-direction: row;
@@ -16,7 +16,7 @@
 
     .link {
         padding: 20px;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .menu li a:hover {
