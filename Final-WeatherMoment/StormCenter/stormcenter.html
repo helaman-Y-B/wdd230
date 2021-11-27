@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Helamã Barbour" />
+    <meta
+      name="description"
+      content="This Webpage shows some images from different kinds of weather, show the passion that people have with the beauty of the weather."
+    />
+    <link rel="icon" href="img/favicon-wheather.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/storm_css.css" />
+    <link rel="stylesheet" href="css/storm_medium.css" />
+    <link rel="stylesheet" href="css/storm_large.css" />
+    <title>Storm Center</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-name">
+        <img
+          class="logo"
+          src="img/Weather(1).png"
+          width="150"
+          height="150"
+          alt="Logo"
+        />
+        <div class="name-frase">
+          <h1>Weather Moment</h1>
+          <p>Weather can Bring Moments</p>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <ul class="menu">
+        <li id="toggle-menu-list">
+          <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../Home/index.html">Home</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../Preston/preston.html">Preston</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../Fish-and-Soda/sodasprig.html">Soda Spring</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../Fish-and-Soda/fishhaven.html">Fish Heaven</a>
+        </li>
+        <li class="list-item">
+          <a class="link" id="current-page" href="#">Storm Center</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../Gallery/gallery.html">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <form action="thankyou.html" method="get">
+        <fieldset>
+          <legend>User Information</legend>
+          <label for="name-input">Enter your full name:</label>
+          <input
+            type="text"
+            name="name-input"
+            id="name-input"
+            minlength="5"
+            pattern="[a-zA-Z\s]+"
+            required
+          /><br />
+          <label for="email">Enter your Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="user@gmail.com"
+          /><br />
+          <label for="phone-number">Enter your Phone Number:</label>
+          <input
+            type="tel"
+            name="phone-number"
+            id="phone-number"
+            required
+            placeholder="###-###-####"
+          /><br />
+          <label for="zip-code">Enter your Zip Code:</label>
+          <input
+            type="text"
+            name="zip-code"
+            id="zip-code"
+            required
+            pattern="(\d{5}([\-]\d{4})?)"
+            placeholder="######-####"
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend>Storm Information</legend>
+
+          <label for="storm-date">Enter the Date:</label>
+          <input type="date" name="storm-date" id="storm-date" /><br />
+
+          <label for="storm-type">Storm Type:</label>
+          <input name="storm-type" id="storm-type" list="eventList" />
+          <datalist id="eventList">
+            <option value="Flash Flood"></option>
+            <option value="Hail"></option>
+            <option value="Hurricane"></option>
+            <option value="ThunderStorm"></option>
+            <option value="Tornado"></option></datalist
+          ><br />
+          <label for="storm-severity">Storm Severity:</label>
+          <div id="severity-info">
+            <input
+              type="range"
+              name="storm-severity"
+              id="storm-severity"
+              min="1"
+              max="10"
+              value="5"
+              step="1"
+              list="tickmarks"
+              oninput="showNumber(this.value)"
+              onchange="showNumber(this.value)"
+            />
+
+            <span id="severity-number">5</span>
+
+            <datalist id="tickmarks">
+              <option value="0"></option>
+              <option value="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+              <option value="4"></option>
+              <option value="5"></option>
+              <option value="6"></option>
+              <option value="7"></option>
+              <option value="8"></option>
+              <option value="9"></option>
+              <option value="10"></option>
+            </datalist>
+          </div>
+          <br />
+
+          <label>
+            <select
+              name="storm-region"
+              id="storm-region"
+              onchange="selectResponse()"
+            >
+              <option value="" disabled selected>Select a City ...</option>
+              <option value="Idaho falls">Idaho Falls</option>
+              <option value="Preston">Preston</option>
+              <option value="Fish heaven">Fish Heaven</option>
+              <option value="Soda spring">Soda Spring</option>
+            </select></label
+          >
+
+          <p>User In-danger:</p>
+          <div class="radio-option">
+            <input type="radio" name="radio-opt" id="opt1" value="Yes" />
+            <label for="opt1">Yes</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" name="radio-opt" id="opt2" value="Maybe" />
+            <label for="opt2">Maybe</label>
+          </div>
+          <div class="radio-option">
+            <input type="radio" name="radio-opt" id="opt3" value="No" />
+            <label for="opt3">No</label>
+          </div>
+        </fieldset>
+
+        <fieldset class="text-area">
+          <legend>Description</legend>
+          <label for="text-area">Text Area</label>
+          <textarea name="text-area" id="text-area"></textarea>
+
+          <input type="submit" value="Submit" id="submit-button" />
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      &copy;The Weather Moment | BYU-Idaho | Helamã Barbour
+      <!--<div id="visitors-box"></div>-->
+    </footer>
+    <script src="js/storm_js.js"></script>
+    <script src="js/regular_expression.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Ubuntu", "Noto Sans Display"],
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fish Haven Weather Moment</title>
+    <meta name="author" content="Helamã Barbour" />
+    <meta name="description" content="Weather info for Preston city." />
+    <link rel="icon" href="img/favicon-wheather.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/Fish-Haven-css/fishhaven.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/Fish-Haven-css/medium.css" />
+    <link rel="stylesheet" href="css/Fish-Haven-css/large.css" />
+  </head>
+  <body>
+    <header>
+      <div class="pancake-day"></div>
+      <div class="logo-name">
+        <img class="logo" src="img/Weather(1).png" alt="Logo" />
+        <div class="name-frase">
+          <h1>Weather Moment</h1>
+          <p>Weather can Bring Moments</p>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <ul class="menu">
+        <li id="toggle-menu-list">
+          <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../Home/index.html">Home</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../Preston/preston.html">Preston</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="sodasprig.html">Soda Spring</a>
+        </li>
+        <li class="list-item">
+          <a class="link" id="current-page" href="#">Fish Heaven</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../StormCenter/stormcenter.html"
+            >Storm Center</a
+          >
+        </li>
+        <li class="list-item">
+          <a class="link" href="../Gallery/gallery.html">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Fish Haven</h2>
+      <div id="summary">
+        <picture>
+          <source
+            media="(max-width:945px)"
+            srcset="img/Fish-haven-img/Fish-Haven-hero-medium.jpg" />
+          <source
+            media="(max-width:1000px)"
+            srcset="img/Fish-haven-img/Fish-Haven-hero-large.jpg" />
+          <source
+            media="(max-width:520px)"
+            srcset="img/Fish-haven-img/Fish-Haven-hero-small.jpg" />
+          <img
+            src="img/Fish-haven-img/Fish-Haven-hero-small.jpg"
+            alt="A photo of a cabin near a lake"
+        /></picture>
+        <div class="weather-summary">
+          <h3>Weather Summary</h3>
+          <div>
+            <p>Currently: Sunny</p>
+            <p>High: <span id="avg-temp"></span>°F</p>
+            <p id="wind-chill-text">
+              Wind Chill: <span id="wind-chill"></span>°F
+            </p>
+            <p>Humidity: <span id="humidity"></span></p>
+            <p>Wind Speed: <span id="wind-speed"></span>mph</p>
+          </div>
+        </div>
+      </div>
+      <h3 class="five-daycast-h3">Five Day Forecast</h3>
+      <div class="forecast">
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Wed</h6>
+          <img class="cast-icon" src="#" alt="Sunny" />
+          <p class="temp-info"></p>
+        </div>
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Thu</h6>
+          <img class="cast-icon" src="#" alt="Sunny" />
+          <p class="temp-info"></p>
+        </div>
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Fri</h6>
+          <img class="cast-icon" src="#" alt="Sunny" />
+          <p class="temp-info"></p>
+        </div>
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Sat</h6>
+          <img class="cast-icon" src="#" alt="partialy sunny" />
+          <p class="temp-info"></p>
+        </div>
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Sun</h6>
+          <img class="cast-icon" src="#" alt="cloudy" />
+          <p class="temp-info"></p>
+        </div>
+      </div>
+      <div id="article">
+        <picture>
+          <source
+            media="(max-width:945px)"
+            srcset="img/Fish-haven-img/article-photo-medium.jpg" />
+          <source
+            media="(max-width:1000px)"
+            srcset="img/Fish-haven-img/article-photo-large.jpg" />
+          <source
+            media="(max-width:520px)"
+            srcset="img/Fish-haven-img/article-photo-small.jpg" />
+          <img
+            class="article-img"
+            src="img/Fish-haven-img/article-photo-small.jpg"
+            alt="A girl taking a picture"
+        /></picture>
+        <article>
+          <h4>Just Take a Picture!</h4>
+          <h5>By Larissa</h5>
+          <p>
+            There's so many beautiful things in this world, and a lot of times
+            we just ignore it, beauty can be seen in almost everything in the
+            world, we just need to pay more attention to our surroundings.<br /><br />
+            Not too long ago, I started to look at the pictures of the gallary
+            from the
+            <a href="../lesson7/gallery-7.html">Weather Moment page</a>, and
+            after that, I felt inspired to also start to take pictures of
+            things, places, or people. Because of this action, I started to look
+            to the world with different eyes! Taking pictures changed my
+            perspective of the world!<br /><br />
+            The happiness that I feel every time I took a picture, is really
+            vicious, so be careful to not get addicted as well :D
+          </p>
+        </article>
+      </div>
+      <div id="contact">
+        <img
+          class="map"
+          src="img/Fish-haven-img/Fish-haven-map-location.jpg"
+          alt="Map"
+        />
+        <div class="infos">
+          <h5>The Weather Moment</h5>
+          <p>30 N 1 st E Preston, ID 83263<br /></p>
+          <div class="phone-email">
+            <img
+              class="contact-inf-img"
+              src="img/phone-icon.png"
+              alt="phone-icon"
+            />
+            <p>99133-1144</p>
+          </div>
+          <div class="phone-email">
+            <img
+              class="contact-inf-img"
+              src="img/email-icon.ico"
+              alt="email-icon"
+            />
+            <p>Helamashi@gmail.com</p>
+          </div>
+          <a href="https://www.facebook.com/"
+            ><img
+              class="midia-img"
+              src="img/Facebook-logo.jpg"
+              alt="Facebook icon"
+          /></a>
+          <a href="https://www.whatsapp.com/"
+            ><img
+              class="midia-img"
+              src="img/whatsapp-icon.jpg"
+              alt="whatsapp icon"
+          /></a>
+          <a href="https://twitter.com/"
+            ><img
+              class="midia-img"
+              src="img/twitter-icon.jpg"
+              alt="twitter icon"
+          /></a>
+          <a href="https://pinterest.com/"
+            ><img
+              class="midia-img"
+              src="img/pinterest-icon.png"
+              alt="pinterest icon"
+          /></a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      &copy;The Weather Moment | BYU-Idaho | Helamã Barbour
+      <p><span id="current-date"></span></p>
+      <p>The weather information is provided by openweather</p>
+      <p>
+        <a href="https://openweathermap.org/">https://openweathermap.org/</a>
+      </p>
+    </footer>
+    <script src="js/Fish-Haven-js/fishhaven.js"></script>
+    <script src="js/Fish-Haven-js/which-page.js"></script>
+    <script src="js/Fish-Haven-js/windchill-fish.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Ubuntu", "Noto Sans Display"],
+        },
+      });
+    </script>
+  </body>
+</html>

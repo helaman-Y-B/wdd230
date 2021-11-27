@@ -1,0 +1,95 @@
+@media only screen and (min-width: 900px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        background-color: #0e95ca;
+    }
+
+    #toggle-menu {
+        display: none;
+    }
+
+    #summary img {
+        max-height: 500px;
+    }
+
+    .weather-summary {
+        top: 50px;
+        left: 50px;
+        font-size: 20px;
+    }
+
+    .weather-summary h3 {
+        font-size: 25px;
+    }
+
+    .weather-summary ul {
+        margin: 20px;
+    }
+
+    .weather-summary li:hover {
+        background-color: #069e9e;
+    }
+
+    article {
+        text-align: left;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    article h4 {
+        font-size: 30px;
+    }
+
+    .family-img {
+        max-width: 450px;
+        height: 300px;
+        margin: 20px;
+        float: right;
+    }
+
+    .list-item {
+        display: block;
+        flex: 1;
+    }
+
+    .link {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .menu li a:hover {
+        background-color: #165858;
+        color: white;
+    }
+
+    li a {
+        color: #000000;
+    }
+
+    main {
+        max-width: 1000px;
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+    }
+
+    .map {
+        display: block;
+        flex: 1;
+        max-width: 300px;
+        margin: 60px;
+    }
+
+    .infos {
+        flex: 1;
+        margin: 60px;
+    }
+
+    .forecast {
+        margin: 50px;
+    }
+}

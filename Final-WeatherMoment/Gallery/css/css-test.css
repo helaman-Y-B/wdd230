@@ -1,0 +1,18 @@
+.lazyload {
+  display: flex;
+  flex-flow: column;
+  max-width: 400px;
+}
+
+img {
+  margin: 50px;
+}
+
+img[data-src] {
+  filter: blur(0.5em);
+}
+
+src {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}

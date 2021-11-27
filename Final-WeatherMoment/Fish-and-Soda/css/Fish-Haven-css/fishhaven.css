@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Ubuntu:wght@500&display=swap");
+
+body {
+    background-color: #c7fdbd;
+}
+
+header {
+    display: flex;
+    font-family: "Ubuntu", sans-serif, serif;
+    background-color: #07c4aa;
+    flex-direction: column;
+}
+
+.pancake-day {
+    background-color: #165858;
+    text-align: center;
+}
+
+.pancake-day p {
+    margin: 10px;
+    color: white;
+}
+
+.logo-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-frase {
+    flex: 1;
+    text-align: center;
+    margin: auto;
+}
+
+.name-frase h1 {
+    margin-bottom: 10px;
+}
+
+.name-frase p {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif, serif;
+}
+
+nav {
+    overflow: hidden;
+    text-align: center;
+}
+
+#toggle-menu {
+    display: block;
+    list-style-type: none;
+    background-color: #0e95ca;
+    font-size: 18px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.list-item {
+    display: none;
+    background-color: #08aef0;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #165858;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+li a {
+    color: black;
+}
+
+.responsive .list-item {
+    display: block;
+    list-style-type: none;
+}
+
+.link {
+    display: block;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif, serif;
+    margin-left: 20px;
+}
+
+.five-daycast-h3 {
+    font-size: 25px;
+    display: none;
+    margin-top: 20px;
+    font-family: "Ubuntu", sans-serif, serif;
+    text-align: center;
+}
+
+#summary {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    flex: 1;
+}
+
+.weather-summary {
+    border: solid black;
+    max-width: 250px;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    flex: 1;
+    color: white;
+    background-color: #069e9e;
+}
+
+.weather-summary div {
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    list-style-type: none;
+}
+
+.weather-summary h3 {
+    margin: 5px;
+    font-size: 15px;
+}
+
+.forecast {
+    display: none;
+}
+
+#article {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 20px;
+    margin: 20px 5px 5px 5px;
+    border: solid 3px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #069e9e;
+    text-align: center;
+}
+
+.article-img {
+    box-shadow: 2px 2px 11px 3px #000000;
+    max-width: 520px;
+}
+
+h4 {
+    font-family: "Ubuntu", sans-serif, serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contact {
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    margin-top: 20px;
+    background-color: #069e9e;
+    text-align: center;
+    align-items: center;
+    border: solid 3px;
+}
+
+#contact h5 {
+    margin-top: 20px;
+}
+
+.map {
+    display: none;
+}
+
+.infos {
+    font-size: 15px;
+    margin-left: 2em;
+    text-align: left;
+}
+
+h5 {
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif, serif;
+    margin: 0px;
+}
+
+.midia-img {
+    max-width: 40px;
+    margin: 10px;
+}
+
+.contact-inf-img {
+    flex: 1;
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.phone-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone-email p {
+    flex: 1;
+}
+
+footer {
+    background-color: #0e95ca;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}

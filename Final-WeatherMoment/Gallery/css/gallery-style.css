@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Ubuntu:wght@500&display=swap");
+
+body {
+    background-color: #c7fdbd;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    font-family: "Ubuntu", sans-serif, serif;
+    background-color: #07c4aa;
+    flex-direction: column;
+}
+
+.logo-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-frase {
+    flex: 1;
+    text-align: center;
+    margin: auto;
+}
+
+.name-frase h1 {
+    margin-bottom: 10px;
+}
+
+.name-frase p {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif, serif;
+}
+
+nav {
+    overflow: hidden;
+    text-align: center;
+}
+
+#toggle-menu {
+    display: block;
+    list-style-type: none;
+    background-color: #0e95ca;
+    font-size: 18px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.list-item {
+    display: none;
+    background-color: #08aef0;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #165858;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+li a {
+    color: black;
+}
+
+.responsive .list-item {
+    display: block;
+    list-style-type: none;
+}
+
+.link {
+    display: block;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+h1 {
+    font-family: "Ubuntu", sans-serif, serif;
+    text-align: center;
+}
+
+.cards {
+    max-width: 300px;
+    height: 260px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #069e9e;
+    box-shadow: 10px 10px 10px rgb(68, 68, 68);
+}
+
+.text {
+    text-align: center;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 18px;
+    margin: 0px;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+footer {
+    background-color: #0e95ca;
+    font-family: "Noto Sans Display", sans-serif, helvetica;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
