@@ -13,13 +13,13 @@ function toggleMenu() {
 
 function date() {
     const weekDays = [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
+        'Sunday',
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday'
     ]
 
     const months = [
@@ -38,15 +38,17 @@ function date() {
     ]
 
     const currentDate = new Date();
-    const day = currentDate.getUTCDay();
+    const day = currentDate.getDay();
     const numberDay = currentDate.getDate();
     const month = currentDate.getMonth();
     const year = currentDate.getFullYear();
 
     const monthString = months[month];
-    const dayString = weekDays[day - 1];
+    const dayString = weekDays[day];
 
+    
     document.querySelector("#current-date").textContent = `${dayString}, ${numberDay} ${monthString} ${year}`;
+    
 };
 
 date();
