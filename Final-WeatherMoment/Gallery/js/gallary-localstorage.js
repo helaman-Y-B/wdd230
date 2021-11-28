@@ -2,10 +2,11 @@ function visit(){
     let lastVisit;
     if ("lastVisit" in localStorage) {
         lastVisit = JSON.parse(window.localStorage.getItem('lastvisit'));
-        let lastVisitDate = new Date(lastVisit);
         calculateDays(lastVisitDate);
     } else {
         lastVisit = Date.now();
+        let lastVisitDate = new Date(lastVisit);
+        calculateDays(lastVisitDate);
     };
 };
 
