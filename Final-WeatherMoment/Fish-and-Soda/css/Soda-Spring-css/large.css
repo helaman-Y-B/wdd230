@@ -1,95 +1,99 @@
 @media only screen and (min-width: 900px) {
-    .menu {
-        display: flex;
-        flex-direction: row;
-        background-color: #0e95ca;
-    }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    background-color: #0e95ca;
+  }
 
-    #toggle-menu {
-        display: none;
-    }
+  #toggle-menu {
+    display: none;
+  }
 
-    #summary img {
-        max-height: 500px;
-    }
+  #summary img {
+    max-height: 500px;
+  }
 
-    .weather-summary {
-        top: 50px;
-        left: 50px;
-        font-size: 20px;
-    }
+  .weather-summary {
+    top: 50px;
+    left: 50px;
+    font-size: 20px;
+  }
 
-    .weather-summary h3 {
-        font-size: 25px;
-    }
+  .weather-summary h3 {
+    font-size: 25px;
+  }
 
-    .weather-summary ul {
-        margin: 20px;
-    }
+  .weather-summary ul {
+    margin: 20px;
+  }
 
-    .weather-summary li:hover {
-        background-color: #069e9e;
-    }
+  .weather-summary li:hover {
+    background-color: #069e9e;
+  }
 
-    article {
-        text-align: left;
-        margin-left: 20px;
-        font-size: 25px;
-    }
+  .events {
+    max-width: 500px;
+  }
 
-    article h4 {
-        font-size: 30px;
-    }
+  article {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 25px;
+  }
 
-    .family-img {
-        max-width: 450px;
-        height: 300px;
-        margin: 20px;
-        float: right;
-    }
+  article h4 {
+    font-size: 30px;
+  }
 
-    .list-item {
-        display: block;
-        flex: 1;
-    }
+  .family-img {
+    max-width: 450px;
+    height: 300px;
+    margin: 20px;
+    float: right;
+  }
 
-    .link {
-        padding: 20px;
-        font-size: 18px;
-    }
+  .list-item {
+    display: block;
+    flex: 1;
+  }
 
-    .menu li a:hover {
-        background-color: #165858;
-        color: white;
-    }
+  .link {
+    padding: 20px;
+    font-size: 18px;
+  }
 
-    li a {
-        color: #000000;
-    }
+  .menu li a:hover {
+    background-color: #165858;
+    color: white;
+  }
 
-    main {
-        max-width: 1000px;
-    }
+  li a {
+    color: #000000;
+  }
 
-    #contact {
-        display: flex;
-        flex-direction: row;
-        max-width: 1000px;
-    }
+  main {
+    max-width: 1000px;
+  }
 
-    .map {
-        display: block;
-        flex: 1;
-        max-width: 300px;
-        margin: 60px;
-    }
+  #contact {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+  }
 
-    .infos {
-        flex: 1;
-        margin: 60px;
-    }
+  .map {
+    display: block;
+    flex: 1;
+    max-width: 300px;
+    margin: 60px;
+  }
 
-    .forecast {
-        margin: 50px;
-    }
+  .infos {
+    flex: 1;
+    margin: 60px;
+  }
+
+  .forecast {
+    margin: 50px;
+  }
 }

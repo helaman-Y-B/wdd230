@@ -1,241 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Soda Spring Weather Moment</title>
-        <meta name="author" content="Helamã Barbour" />
-        <meta name="description" content="Weather info for Preston city." />
-        <link rel="icon" href="img/favicon-wheather.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="css/Soda-Spring-css/sodaspring.css" />
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/Soda-Spring-css/medium.css" />
-        <link rel="stylesheet" href="css/Soda-Spring-css/large.css" />
-    </head>
-    <body>
-        <header>
-            <div class="pancake-day"></div>
-            <div class="logo-name">
-                <img
-                    class="logo"
-                    src="img/Weather(1).png"
-                    alt="The Logo from weather moment."
-                />
-                <div class="name-frase">
-                    <h1>Weather Moment</h1>
-                    <p>Weather can Bring Moments</p>
-                </div>
-            </div>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soda Spring Weather Moment</title>
+    <meta name="author" content="Helamã Barbour" />
+    <meta name="description" content="Weather info for Preston city." />
+    <link rel="icon" href="img/favicon-wheather.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/Soda-Spring-css/sodaspring.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/Soda-Spring-css/medium.css" />
+    <link rel="stylesheet" href="css/Soda-Spring-css/large.css" />
+  </head>
+  <body>
+    <header>
+      <div class="pancake-day"></div>
+      <div class="logo-name">
+        <img
+          class="logo"
+          src="img/Weather(1).png"
+          alt="The Logo from weather moment."
+        />
+        <div class="name-frase">
+          <h1>Weather Moment</h1>
+          <p>Weather can Bring Moments</p>
+        </div>
+      </div>
+    </header>
 
-        <nav>
-            <ul class="menu">
-                <li id="toggle-menu-list">
-                    <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" href="../lesson9/index.html">Home</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" href="../lesson10/preston-10.html"
-                        >Preston</a
-                    >
-                </li>
-                <li class="list-item">
-                    <a class="link" id="current-page" href="#">Soda Spring</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" href="fishhaven.html">Fish Heaven</a>
-                </li>
-                <li class="list-item">
-                    <a class="link" href="../lesson8/stormcenter.html"
-                        >Storm Center</a
-                    >
-                </li>
-                <li class="list-item">
-                    <a class="link" href="../lesson7/gallery-7.html">Gallery</a>
-                </li>
-            </ul>
-        </nav>
+    <nav>
+      <ul class="menu">
+        <li id="toggle-menu-list">
+          <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../lesson9/index.html">Home</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../lesson10/preston-10.html">Preston</a>
+        </li>
+        <li class="list-item">
+          <a class="link" id="current-page" href="#">Soda Spring</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="fishhaven.html">Fish Heaven</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../lesson8/stormcenter.html">Storm Center</a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="../lesson7/gallery-7.html">Gallery</a>
+        </li>
+      </ul>
+    </nav>
 
-        <main>
-            <h2>Soda Spring</h2>
-            <div id="summary">
-                <picture>
-                    <source
-                        media="(max-width:945px)"
-                        srcset="
-                            img/Soda-Spring-img/Soda-spring--hero-medium.jpg
-                        " />
-                    <source
-                        media="(max-width:1000px)"
-                        srcset="
-                            img/Soda-Spring-img/Soda-Spring-hero-large.jpg
-                        " />
-                    <source
-                        media="(max-width:520px)"
-                        srcset="
-                            img/Soda-Spring-img/Soda-spring-hero-small.jpg
-                        " />
-                    <img
-                        src="img/Soda-Spring-img/Soda-spring-hero-small.jpg"
-                        alt="A train working on a snowy day."
-                /></picture>
-                <div class="weather-summary">
-                    <h3>Weather Summary</h3>
-                    <div>
-                        <p>Currently: Sunny</p>
-                        <p>High: <span id="avg-temp"></span>°F</p>
-                        <p id="wind-chill-text">
-                            Wind Chill: <span id="wind-chill"></span>°F
-                        </p>
-                        <p>Humidity: <span id="humidity"></span></p>
-                        <p>Wind Speed: <span id="wind-speed"></span>mph</p>
-                    </div>
-                </div>
-            </div>
-            <h3 class="five-daycast-h3">Five Day Forecast</h3>
-            <div class="forecast">
-                <div class="cast-conteiner">
-                    <h6 class="cast-title">Wed</h6>
-                    <img class="cast-icon" src="#" alt="Sunny" />
-                    <p class="temp-info"></p>
-                </div>
-                <div class="cast-conteiner">
-                    <h6 class="cast-title">Thu</h6>
-                    <img class="cast-icon" src="#" alt="Sunny" />
-                    <p class="temp-info"></p>
-                </div>
-                <div class="cast-conteiner">
-                    <h6 class="cast-title">Fri</h6>
-                    <img class="cast-icon" src="#" alt="Sunny" />
-                    <p class="temp-info"></p>
-                </div>
-                <div class="cast-conteiner">
-                    <h6 class="cast-title">Sat</h6>
-                    <img class="cast-icon" src="#" alt="partialy sunny" />
-                    <p class="temp-info"></p>
-                </div>
-                <div class="cast-conteiner">
-                    <h6 class="cast-title">Sun</h6>
-                    <img class="cast-icon" src="#" alt="cloudy" />
-                    <p class="temp-info"></p>
-                </div>
-            </div>
-            <div id="article">
-                <picture>
-                    <source
-                        media="(max-width:945px)"
-                        srcset="img/Soda-Spring-img/family-medium.jpg" />
-                    <source
-                        media="(max-width:1000px)"
-                        srcset="img/Soda-Spring-img/family-large.jpg" />
-                    <source
-                        media="(max-width:520px)"
-                        srcset="img/Soda-Spring-img/family-small.jpg" />
-                    <img
-                        class="family-img"
-                        src="img/Soda-Spring-img/family-small.jpg"
-                        alt="A draw of a family in the cities lights."
-                /></picture>
-                <article>
-                    <h4>The Magic of Thanks Giving!</h4>
-                    <h5>By Cibele</h5>
-                    <p>
-                        In United States, close to the end of the year, there is
-                        a celebration called "ThanksGiving". In ThanksGiving as
-                        the name suggest, we celebrate and "say thank you" for
-                        something that we have, something that we achived or,
-                        something that we felt during the year, or during our
-                        whole lives.<br /><br />
-                        Thanks giving is something very special for me and my
-                        family, because we can sit together and talk, laugh, or
-                        cry with our emotions. We all had a very difficult year,
-                        because of the COVID-19, but that does not mean that
-                        everything was bad, and we should be thankful for being
-                        able to support all of the events that happended.
-                        <br /><br />
-                        So, I want to invite everybody from the weather moment,
-                        to remember and share, what were you grateful for this
-                        year, it doesn't matter if you're from a different place
-                        with a different culture, we all should remember to be
-                        grateful!
-                    </p>
-                </article>
-            </div>
-            <div id="contact">
-                <img
-                    class="map"
-                    src="img/Soda-Spring-img/Soda-spring-img.JPG"
-                    alt="The upper view from the Soda Spring map."
-                />
-                <div class="infos">
-                    <h5>The Weather Moment</h5>
-                    <p>30 N 1 st E Preston, ID 83263<br /></p>
-                    <div class="phone-email">
-                        <img
-                            class="contact-inf-img"
-                            src="img/phone-icon.png"
-                            alt="phone-icon"
-                        />
-                        <p>99133-1144</p>
-                    </div>
-                    <div class="phone-email">
-                        <img
-                            class="contact-inf-img"
-                            src="img/email-icon.ico"
-                            alt="email-icon"
-                        />
-                        <p>Helamashi@gmail.com</p>
-                    </div>
-                    <a href="https://www.facebook.com/"
-                        ><img
-                            class="midia-img"
-                            src="img/Facebook-logo.jpg"
-                            alt="Facebook icon"
-                    /></a>
-                    <a href="https://www.whatsapp.com/"
-                        ><img
-                            class="midia-img"
-                            src="img/whatsapp-icon.jpg"
-                            alt="whatsapp icon"
-                    /></a>
-                    <a href="https://twitter.com/"
-                        ><img
-                            class="midia-img"
-                            src="img/twitter-icon.jpg"
-                            alt="twitter icon"
-                    /></a>
-                    <a href="https://pinterest.com/"
-                        ><img
-                            class="midia-img"
-                            src="img/pinterest-icon.png"
-                            alt="pinterest icon"
-                    /></a>
-                </div>
-            </div>
-        </main>
-        <footer>
-            &copy;The Weather Moment | BYU-Idaho | Helamã Barbour
-            <p><span id="current-date"></span></p>
-            <p>The weather information is provided by openweather</p>
-            <p>
-                <a href="https://openweathermap.org/"
-                    >https://openweathermap.org/</a
-                >
+    <main>
+      <h2>Soda Spring</h2>
+      <div id="summary">
+        <picture>
+          <source
+            media="(max-width:945px)"
+            srcset="img/Soda-Spring-img/Soda-spring--hero-medium.jpg" />
+          <source
+            media="(max-width:1000px)"
+            srcset="img/Soda-Spring-img/Soda-Spring-hero-large.jpg" />
+          <source
+            media="(max-width:520px)"
+            srcset="img/Soda-Spring-img/Soda-spring-hero-small.jpg" />
+          <img
+            src="img/Soda-Spring-img/Soda-spring-hero-small.jpg"
+            alt="A train working on a snowy day."
+        /></picture>
+        <div class="weather-summary">
+          <h3>Weather Summary</h3>
+          <div>
+            <p>Currently: Sunny</p>
+            <p>High: <span id="avg-temp"></span>°F</p>
+            <p id="wind-chill-text">
+              Wind Chill: <span id="wind-chill"></span>°F
             </p>
-        </footer>
-        <script src="js/Soda-Spring-js/sodaspring.js"></script>
-        <script src="js/Soda-Spring-js/which-page.js"></script>
-        <script src="js/Soda-Spring-js/windchill-soda.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script>
-            WebFont.load({
-                google: {
-                    families: ["Ubuntu", "Noto Sans Display"],
-                },
-            });
-        </script>
-    </body>
+            <p>Humidity: <span id="humidity"></span></p>
+            <p>Wind Speed: <span id="wind-speed"></span>mph</p>
+          </div>
+        </div>
+      </div>
+      <h3 class="five-daycast-h3">Five Day Forecast</h3>
+      <div class="forecast">
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Wed</h6>
+          <img class="cast-icon" src="#" alt="Sunny" />
+          <p class="temp-info"></p>
+        </div>
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Thu</h6>
+          <img class="cast-icon" src="#" alt="Sunny" />
+          <p class="temp-info"></p>
+        </div>
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Fri</h6>
+          <img class="cast-icon" src="#" alt="Sunny" />
+          <p class="temp-info"></p>
+        </div>
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Sat</h6>
+          <img class="cast-icon" src="#" alt="partialy sunny" />
+          <p class="temp-info"></p>
+        </div>
+        <div class="cast-conteiner">
+          <h6 class="cast-title">Sun</h6>
+          <img class="cast-icon" src="#" alt="cloudy" />
+          <p class="temp-info"></p>
+        </div>
+      </div>
+      <div class="events">
+        <h3>Upcoming Events:</h3>
+        <p class="event"></p>
+        <p class="event"></p>
+        <p class="event"></p>
+      </div>
+      <div id="article">
+        <picture>
+          <source
+            media="(max-width:945px)"
+            srcset="img/Soda-Spring-img/family-medium.jpg" />
+          <source
+            media="(max-width:1000px)"
+            srcset="img/Soda-Spring-img/family-large.jpg" />
+          <source
+            media="(max-width:520px)"
+            srcset="img/Soda-Spring-img/family-small.jpg" />
+          <img
+            class="family-img"
+            src="img/Soda-Spring-img/family-small.jpg"
+            alt="A draw of a family in the cities lights."
+        /></picture>
+        <article>
+          <h4>The Magic of Thanks Giving!</h4>
+          <h5>By Cibele</h5>
+          <p>
+            In United States, close to the end of the year, there is a
+            celebration called "ThanksGiving". In ThanksGiving as the name
+            suggest, we celebrate and "say thank you" for something that we
+            have, something that we achived or, something that we felt during
+            the year, or during our whole lives.<br /><br />
+            Thanks giving is something very special for me and my family,
+            because we can sit together and talk, laugh, or cry with our
+            emotions. We all had a very difficult year, because of the COVID-19,
+            but that does not mean that everything was bad, and we should be
+            thankful for being able to support all of the events that happended.
+            <br /><br />
+            So, I want to invite everybody from the weather moment, to remember
+            and share, what were you grateful for this year, it doesn't matter
+            if you're from a different place with a different culture, we all
+            should remember to be grateful!
+          </p>
+        </article>
+      </div>
+      <div id="contact">
+        <img
+          class="map"
+          src="img/Soda-Spring-img/Soda-spring-img.JPG"
+          alt="The upper view from the Soda Spring map."
+        />
+        <div class="infos">
+          <h5>The Weather Moment</h5>
+          <p>30 N 1 st E Preston, ID 83263<br /></p>
+          <div class="phone-email">
+            <img
+              class="contact-inf-img"
+              src="img/phone-icon.png"
+              alt="phone-icon"
+            />
+            <p>99133-1144</p>
+          </div>
+          <div class="phone-email">
+            <img
+              class="contact-inf-img"
+              src="img/email-icon.ico"
+              alt="email-icon"
+            />
+            <p>Helamashi@gmail.com</p>
+          </div>
+          <a href="https://www.facebook.com/"
+            ><img
+              class="midia-img"
+              src="img/Facebook-logo.jpg"
+              alt="Facebook icon"
+          /></a>
+          <a href="https://www.whatsapp.com/"
+            ><img
+              class="midia-img"
+              src="img/whatsapp-icon.jpg"
+              alt="whatsapp icon"
+          /></a>
+          <a href="https://twitter.com/"
+            ><img
+              class="midia-img"
+              src="img/twitter-icon.jpg"
+              alt="twitter icon"
+          /></a>
+          <a href="https://pinterest.com/"
+            ><img
+              class="midia-img"
+              src="img/pinterest-icon.png"
+              alt="pinterest icon"
+          /></a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      &copy;The Weather Moment | BYU-Idaho | Helamã Barbour
+      <p><span id="current-date"></span></p>
+      <p>The weather information is provided by openweather</p>
+      <p>
+        <a href="https://openweathermap.org/">https://openweathermap.org/</a>
+      </p>
+    </footer>
+    <script src="js/Soda-Spring-js/sodaspring.js"></script>
+    <script src="js/Soda-Spring-js/soda-events.js"></script>
+    <script src="js/Soda-Spring-js/which-page.js"></script>
+    <script src="js/Soda-Spring-js/windchill-soda.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Ubuntu", "Noto Sans Display"],
+        },
+      });
+    </script>
+  </body>
 </html>
