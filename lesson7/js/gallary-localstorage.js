@@ -1,29 +1,32 @@
-function putItems(day, month, year) {
-    localStorage.setItem('accesAmount', 1);
-    localStorage.setItem('lastVisit', `${day}/${month + 1}/${year}`);
+function visit() {
+    let lastVisit;
+    if ("lastVisit" in localStorage) {
+        lastVisit = JSON.parse(window.localStorage.getItem('lastvisit'));
+        let lastVisitDate = new Date(lastVisit);
+        calculateDays(lastVisitDate);
+    } else {
+        lastVisit = Date.now();
+        let lastVisitDate = new Date(lastVisit);
+        calculateDays(lastVisitDate);
+    };
 };
 
-function accesAmount(day, month, year) {
-    let visit = localStorage.getItem(`${day}/${month + 1}/${year}`);
-    let addingVisitor = parseInt(visit) + 1;
-    localStorage.setItem(`${day}/${month + 1}/${year}`, addingVisitor);
-    insertingHtml(day, month, year);
+function calculateDays(lastVisitDate) {
+    let numberOfDays;
+    if (lastVisitDate !== 0) {
+        numberOfDays = Math.round((today - lastVisitDate) / milisecondsToDays);
+        showOutput(numberOfDays, today);
+    } else {
+        numberOfDays = 0;
+    };
 };
 
-function insertingHtml(day, month, year) {
-    const html = '<p>The amount of visitors today is: <span id="visits-number"></span></p>';
-    document.querySelector('#visitors-box').innerHTML = html;
-    document.getElementById('visits-number').textContent = localStorage.getItem(`${day}/${month + 1}/${year}`);
-
+function showOutput(LastVisit, today) {
+    document.getElementById("days").textContent = LastVisit;
+    window.localStorage.setItem('lastvisit', JSON.stringify(today));
 };
 
-const currentDate = new Date();
-const day = currentDate.getDate();
-const month = currentDate.getMonth();
-const year = currentDate.getFullYear();
+const milisecondsToDays = 8640000;
+let today = new Date(Date.now());
 
-if (!localStorage.getItem(`${day}/${month + 1}/${year}`)) {
-    putItems(day, month, year);
-} else {
-    accesAmount(day, month, year);
-};
+visit();
