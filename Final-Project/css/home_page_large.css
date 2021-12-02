@@ -1,0 +1,49 @@
+@media only screen and (min-width: 800px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        background-color: #0e95ca;
+    }
+
+    #toggle-menu {
+        display: none;
+    }
+
+    .nav-op {
+        display: block;
+        flex: 1;
+    }
+
+    .link {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .menu li a:hover {
+        background-color: #165858;
+        color: white;
+    }
+
+    li a {
+        color: #000000;
+    }
+
+    .company-name {
+        max-width: 400px;
+        margin: 0px;
+    }
+
+    .purpouse {
+        margin: 0px;
+    }
+
+    .domain {
+        margin: 0px;
+        width: 400px;
+        margin-left: 370px;
+    }
+
+    .why {
+        margin: 0px;
+    }
+}

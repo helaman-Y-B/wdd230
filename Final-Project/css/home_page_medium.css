@@ -1,0 +1,53 @@
+@media only screen and (min-width: 520px) {
+    header div {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .company-name-header {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .mottoh {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .company-name {
+        margin-right: 150px;
+        margin-top: 30px;
+        padding: 15px;
+    }
+
+    .purpouse {
+        margin-left: 150px;
+        margin-top: 30px;
+        padding: 15px;
+    }
+
+    .domain {
+        margin-right: 150px;
+        margin-top: 30px;
+        padding: 15px;
+    }
+
+    .why {
+        padding: 20px;
+    }
+}

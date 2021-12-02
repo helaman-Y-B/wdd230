@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,400&family=Roboto+Slab&display=swap");
+body {
+    background-color: rgb(117, 201, 235);
+    margin: 0px;
+}
+
+img {
+    max-width: 150px;
+    height: 150px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(3, 113, 146);
+}
+
+header img {
+    flex: 1;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.company-name-header {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.mottoh {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: italic;
+}
+
+nav {
+    font-family: "Roboto Slab", serif;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif, serif;
+}
+
+#toggle-menu {
+    display: block;
+    list-style-type: none;
+    background-color: #0e95ca;
+}
+
+.nav-op {
+    display: none;
+    background-color: #08aef0;
+    text-decoration: none;
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    background-color: #165858;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.responsive .nav-op {
+    display: block;
+    list-style-type: none;
+}
+
+.link {
+    display: block;
+    list-style-type: none;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.company-name {
+    flex: 1;
+    background-color: rgb(67, 250, 235);
+    text-align: center;
+}
+
+.purpouse {
+    flex: 1;
+    background-color: rgb(61, 166, 185);
+    text-align: center;
+}
+
+.domain {
+    flex: 1;
+    background-color: rgb(101, 155, 200);
+    text-align: center;
+}
+
+.why {
+    text-align: center;
+}
+
+h2,
+h3,
+h4 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+    font-family: "Roboto Slab", serif;
+}
+
+footer {
+    background-color: rgb(3, 113, 146);
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
