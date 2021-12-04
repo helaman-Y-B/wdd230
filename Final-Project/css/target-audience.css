@@ -106,41 +106,31 @@ main {
     margin-top: 50px;
 }
 
-main h2 {
+.target-audience {
     text-align: center;
 }
 
-main img {
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-.company-name {
-    flex: 1;
+.persosas {
     background-color: rgb(67, 250, 235);
-    text-align: center;
 }
 
-.purpouse {
-    flex: 1;
+.persosas h2 {
+    padding-left: 10px;
+}
+
+.persona {
     background-color: rgb(61, 166, 185);
     text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
 }
 
-.domain {
-    flex: 1;
-    background-color: rgb(101, 155, 200);
-    text-align: center;
-}
-
-.why {
-    text-align: center;
-}
-
+h1,
 h2,
 h3,
 h4 {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 p {
