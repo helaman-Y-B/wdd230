@@ -30,9 +30,15 @@ header div h1 {
     padding-left: 10px;
 }
 
-header div p {
+.header div p {
     padding-left: 10px;
     font-size: 15px;
+    text-align: left;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
 }
 
 .company-name-header {
@@ -115,36 +121,66 @@ main img {
     margin-bottom: 20px;
 }
 
-.company-name {
-    flex: 1;
-    background-color: rgb(67, 250, 235);
+.purpouse {
     text-align: center;
 }
 
-.purpouse {
+.purpouse h1 {
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+}
+
+.weather-info {
+    text-align: center;
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-one {
+    flex: 1;
+    background-color: rgb(67, 250, 235);
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.company-two {
     flex: 1;
     background-color: rgb(61, 166, 185);
     text-align: center;
 }
 
-.domain {
+.company-tree {
     flex: 1;
     background-color: rgb(101, 155, 200);
     text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
-.why {
+.text-section {
+    flex: 1;
+}
+
+.sub-info {
+    text-align: center;
+}
+
+.upcoming-events {
     text-align: center;
 }
 
 h2,
 h3,
 h4 {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 p {
     font-family: "Roboto Slab", Arial, serif;
+    text-align: center;
 }
 
 footer {

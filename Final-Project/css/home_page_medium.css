@@ -9,6 +9,10 @@
         margin-top: 20px;
     }
 
+    .header div p {
+        text-align: center;
+    }
+
     .mottoh {
         font-size: 20px;
     }
@@ -29,25 +33,38 @@
         font-size: 17px;
     }
 
-    .company-name {
-        margin-right: 150px;
-        margin-top: 30px;
-        padding: 20px;
-    }
-
     .purpouse {
-        margin-left: 150px;
-        margin-top: 30px;
-        padding: 20px;
+        margin: auto;
     }
 
-    .domain {
-        margin-right: 150px;
-        margin-top: 30px;
-        padding: 20px;
+    .purpouse h1 {
+        max-width: 450px;
     }
 
-    .why {
+    .companies {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .companies h2 {
+        grid-column: 1/5;
+    }
+
+    .company-one {
+        margin-top: 10px;
         padding: 20px;
+        grid-column: 1/3;
+    }
+
+    .company-two {
+        margin-top: 30px;
+        padding: 20px;
+        grid-column: 1/5;
+    }
+
+    .company-tree {
+        margin-top: 30px;
+        padding: 20px;
+        grid-column: 2/5;
     }
 }
