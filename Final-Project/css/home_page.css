@@ -189,3 +189,7 @@ footer {
     text-align: center;
     padding: 20px 0px 20px 0px;
 }
+
+footer p {
+    margin-bottom: 0px;
+}
