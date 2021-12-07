@@ -30,9 +30,15 @@ header div h1 {
     padding-left: 10px;
 }
 
-header div p {
+.header div p {
     padding-left: 10px;
     font-size: 15px;
+    text-align: left;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
 }
 
 .company-name-header {
@@ -106,24 +112,34 @@ main {
     margin-top: 50px;
 }
 
-.target-audience {
+main h2 {
     text-align: center;
 }
 
-.persosas {
+main img {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.history {
     background-color: rgb(67, 250, 235);
-}
-
-.persosas h2 {
-    padding-left: 10px;
-}
-
-.persona {
-    background-color: rgb(61, 166, 185);
+    padding: 10px;
     text-align: center;
+}
+
+.demography {
+    background-color: rgb(61, 166, 185);
+}
+
+.events {
+    background-color: rgb(101, 155, 200);
+    text-align: center;
+}
+
+.event {
+    background-color: rgb(117, 201, 235);
+    border: 5px inset #055474;
     margin: 10px;
-    border-radius: 5px;
-    padding: 20px;
 }
 
 h1,
@@ -133,8 +149,14 @@ h4 {
     font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
+.history a {
+    font-family: "Roboto Slab", Arial, serif;
+    float: left;
+}
+
 p {
     font-family: "Roboto Slab", Arial, serif;
+    text-align: center;
 }
 
 footer {
@@ -142,4 +164,8 @@ footer {
     font-family: "Roboto Slab", Arial, serif;
     text-align: center;
     padding: 20px 0px 20px 0px;
+}
+
+footer p {
+    margin-bottom: 0px;
 }
