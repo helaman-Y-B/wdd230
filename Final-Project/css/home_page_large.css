@@ -42,6 +42,10 @@
 
     .companies {
         display: block;
+        margin: 0px;
+        max-width: 1000px;
+        background-color: white;
+        border: 0px;
     }
 
     .company-one {
@@ -58,5 +62,13 @@
         margin: 0px;
         max-width: 600px;
         float: right;
+    }
+
+    .upcoming-events {
+        background-color: rgb(117, 201, 235);
+        border: 5px inset rgb(3, 113, 146);
+        width: 600px;
+        padding: 20px;
+        margin: auto;
     }
 }

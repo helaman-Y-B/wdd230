@@ -1,5 +1,5 @@
 function getInput() {
-    const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=da3a67b621a6f2f21a31a6932df16c19";
+    const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Londrina,BR&units=imperial&appid=0327868391c97cdf99a11d497a5a830f";
     getApi(apiURL);
 };
 
@@ -23,9 +23,11 @@ function getApi(url) {
 };
 
 function showData(data) {
+    let currently = document.querySelector("#currently");
     let temp = document.querySelector("#avg-temp");
-    let humidity = document.querySelector("#humidity")
-    let windSpeed = document.querySelector("#wind-speed")
+    let humidity = document.querySelector("#humidity");
+    let windSpeed = document.querySelector("#wind-speed");
+    currently.textContent = data.weather[0].description;
     temp.textContent = data.main.temp;
     humidity.textContent = `${data.main.humidity}%`;
     windSpeed.textContent = data.wind.speed;

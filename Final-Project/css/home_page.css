@@ -123,6 +123,9 @@ main img {
 
 .purpouse {
     text-align: center;
+    padding: 10px;
+    background-color: rgb(117, 201, 235);
+    border: 5px inset rgb(3, 113, 146);
 }
 
 .purpouse h1 {
@@ -136,6 +139,7 @@ main img {
 .companies {
     display: flex;
     flex-direction: column;
+    border: 5px outset rgb(3, 113, 146);
 }
 
 .company-one {

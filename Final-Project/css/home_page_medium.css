@@ -35,15 +35,17 @@
 
     .purpouse {
         margin: auto;
-    }
-
-    .purpouse h1 {
-        max-width: 450px;
+        padding: 20px;
+        max-width: 600px;
     }
 
     .companies {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        background-color: rgb(117, 201, 235);
+        max-width: 700px;
+        margin: auto;
+        padding: 20px;
     }
 
     .companies h2 {
