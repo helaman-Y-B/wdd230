@@ -34,27 +34,40 @@
     }
 
     .sub-options {
-        max-width: 800px;
+        max-width: 700px;
         margin: auto;
     }
 
     .user-info {
-        max-width: 600px;
+        max-width: 700px;
         margin: auto;
     }
 
     .busisness-info {
-        max-width: 600px;
+        max-width: 700px;
         margin: auto;
+        margin-top: 20px;
     }
 
     .text-area {
-        max-width: 600px;
+        max-width: 500px;
         margin: auto;
+        margin-top: 20px;
     }
 
     .member-radio {
-        max-width: 600px;
+        max-width: 300px;
         margin: auto;
+        margin-top: 20px;
+    }
+
+    #text-area {
+        min-height: 45px;
+        max-width: 700px;
+    }
+
+    input {
+        font-family: "Josefin Sans", Helvetica, sans-serif;
+        width: 600px;
     }
 }

@@ -155,10 +155,13 @@ main {
 
 form {
     margin-top: 10px;
+    padding: 5px;
 }
 
 fieldset {
     margin-top: 10px;
+    border: 5px double;
+    border-radius: 5px;
 }
 
 legend {
@@ -175,6 +178,15 @@ input {
     width: 70vw;
 }
 
+input:invalid {
+    background-color: rgb(251, 200, 200);
+    color: #000;
+}
+input:valid {
+    background-color: rgb(203, 255, 203);
+    color: #000;
+}
+
 .user-info {
     max-width: 370px;
     margin: auto;
@@ -183,24 +195,33 @@ input {
 .busisness-info {
     max-width: 370px;
     margin: auto;
+    margin-top: 10px;
 }
 
 .text-area {
     max-width: 370px;
     margin: auto;
+    margin-top: 10px;
 }
 
 .member-radio {
     max-width: 370px;
     margin: auto;
+    margin-top: 10px;
 }
 
 .opt {
     width: 30px;
 }
 
+#text-area {
+    min-height: 45px;
+    max-width: 250px;
+}
+
 #submit-button {
     max-width: 70px;
+    padding: 10px;
 }
 
 h1,
