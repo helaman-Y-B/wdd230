@@ -33,12 +33,12 @@
         font-size: 17px;
     }
 
-    main {
+    .main-div {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    main img {
+    .main-div img {
         grid-column: 1/4;
         grid-row: 1;
     }

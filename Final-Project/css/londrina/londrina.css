@@ -106,17 +106,21 @@ a:link {
 
 main {
     background-color: rgb(233, 226, 240);
-    display: flex;
-    flex-direction: column;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
-main h2 {
+.main-div {
+    background-color: rgb(233, 226, 240);
+    display: flex;
+    flex-direction: column;
+}
+
+.main-div h2 {
     text-align: center;
 }
 
-main img {
+.main-div img {
     margin: auto;
     margin-bottom: 20px;
 }
