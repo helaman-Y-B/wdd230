@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,400&family=Roboto+Slab&display=swap");
+body {
+    background-color: rgb(117, 201, 235);
+    margin: 0px;
+}
+
+img {
+    max-width: 150px;
+    height: 150px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(3, 113, 146);
+}
+
+header img {
+    flex: 1;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    color: white;
+}
+
+header div h1 {
+    padding-left: 10px;
+}
+
+.header div p {
+    padding-left: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.company-name-header {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+}
+
+.mottoh {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    font-style: italic;
+}
+
+nav {
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+#toggle-menu {
+    display: block;
+    list-style-type: none;
+    background-color: #0e95ca;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.nav-op {
+    display: none;
+    background-color: #08aef0;
+    text-decoration: none;
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    background-color: #055474;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.responsive .nav-op {
+    display: block;
+    list-style-type: none;
+}
+
+.link {
+    display: block;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 18px;
+}
+
+main {
+    background-color: rgb(233, 226, 240);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.busisness {
+    background-color: rgb(61, 166, 185);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 10px double #055474;
+    border-bottom: 10px double #055474;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+}
+
+main h1 {
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+}
+
+p {
+    font-family: "Roboto Slab", Arial, serif;
+}
+
+footer {
+    background-color: rgb(3, 113, 146);
+    font-family: "Roboto Slab", Arial, serif;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+footer p {
+    margin-bottom: 0px;
+}

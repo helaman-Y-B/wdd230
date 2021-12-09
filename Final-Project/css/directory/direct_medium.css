@@ -1,0 +1,33 @@
+@media only screen and (min-width: 520px) {
+    header div {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .company-name-header {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .header div p {
+        text-align: center;
+    }
+
+    .mottoh {
+        font-size: 20px;
+    }
+
+    .busisness {
+        max-width: 600px;
+        margin: auto;
+        margin-top: 20px;
+        border: 5px double rgb(3, 113, 146);
+        border-radius: 10px;
+    }
+
+    .busisness p {
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+    }
+}
