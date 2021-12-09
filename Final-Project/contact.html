@@ -4,11 +4,11 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Subscription Plans</title>
+        <title>Contact Information</title>
         <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="#" />
-        <link rel="stylesheet" href="#" />
-        <link rel="stylesheet" href="#" />
+        <link rel="stylesheet" href="css/contact/contact.css" />
+        <link rel="stylesheet" href="css/contact/contact_medium.css" />
+        <link rel="stylesheet" href="css/contact/contact_large.css" />
     </head>
     <body>
         <header>
@@ -45,7 +45,70 @@
                 </li>
             </ul>
         </nav>
-        <main></main>
+        <main>
+            <div class="bus-contact">
+                <h1>Little London Commerce Contact Information</h1>
+                <p>Phone: 99133-1144</p>
+                <p>E-mail: helamashi@gmail.com</p>
+                <p>Social Midias Pages:</p>
+                <img
+                    class="media-icon"
+                    src="img/facebook-icon.jpg"
+                    alt="Facebook"
+                />
+                <img
+                    class="media-icon"
+                    src="img/instagram.jpg"
+                    alt="Instagram"
+                />
+                <img class="media-icon" src="img/snapchat.jpg" alt="Snapchat" />
+                <img class="media-icon" src="img/twitter.jpg" alt="Twitter" />
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d139428.74885358918!2d-51.22226928740167!3d-23.319006872825653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435a57af586d%3A0x23ac11a5c614f971!2sLondrina%2C%20State%20of%20Paran%C3%A1!5e0!3m2!1sen!2sbr!4v1639068229472!5m2!1sen!2sbr"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                id="google-map"
+            ></iframe>
+
+            <form action="#">
+                <fieldset>
+                    <legend>Contact Us!</legend>
+                    <label for="user-name">What's your name? </label><br />
+                    <input
+                        type="text"
+                        name="user-name"
+                        id="user-name"
+                        minlength="3"
+                        pattern="[a-zA-Z\s]+"
+                    />
+                    <br />
+
+                    <!--Find a patter for emails!-->
+                    <label for="email">What's your email? </label><br />
+                    <input
+                        type="text"
+                        name="email"
+                        id="email"
+                        minlength="5"
+                        pattern="[a-zA-Z\s]+"
+                    />
+                    <br />
+
+                    <label for="user-message"
+                        >What would you like to say for us? </label
+                    ><br />
+                    <textarea name="user-message" id="user-message"></textarea>
+                </fieldset>
+            </form>
+            <div class="board-director">
+                <h2>Board Director</h2>
+                <p>???????????????</p>
+            </div>
+        </main>
         <footer>
             &copy;2021 | Helamã Barbour | BYU-Idaho | Little London Commerce
         </footer>

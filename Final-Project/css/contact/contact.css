@@ -106,78 +106,29 @@ a:link {
 
 main {
     background-color: rgb(233, 226, 240);
-    display: flex;
-    flex-direction: column;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
-main h2 {
+.bus-contact {
     text-align: center;
-}
-
-main img {
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-.purpouse {
-    text-align: center;
-    padding: 10px;
-    background-color: rgb(117, 201, 235);
-    border: 10px inset rgb(3, 113, 146);
-    border-radius: 5px;
-}
-
-.purpouse h1 {
-    font-family: "Josefin Sans", Helvetica, sans-serif;
-}
-
-.weather-info {
-    text-align: center;
-}
-
-.companies {
-    display: flex;
-    flex-direction: column;
-    border: 10px outset rgb(3, 113, 146);
-    border-radius: 5px;
-}
-
-.company-one {
-    flex: 1;
     background-color: rgb(67, 250, 235);
-    text-align: center;
-    display: flex;
-    flex-direction: column-reverse;
 }
 
-.company-two {
-    flex: 1;
+form {
     background-color: rgb(61, 166, 185);
-    text-align: center;
 }
 
-.company-tree {
-    flex: 1;
+.board-director {
     background-color: rgb(101, 155, 200);
-    text-align: center;
-    display: flex;
-    flex-direction: column-reverse;
 }
 
-.text-section {
-    flex: 1;
+.media-icon {
+    max-width: 50px;
+    height: 50px;
 }
 
-.sub-info {
-    text-align: center;
-}
-
-.upcoming-events {
-    text-align: center;
-}
-
+h1,
 h2,
 h3,
 h4 {
@@ -186,21 +137,10 @@ h4 {
 
 p {
     font-family: "Roboto Slab", Arial, serif;
-    text-align: center;
 }
 
-.media-icons {
-    display: flex;
-    max-width: 320px;
-    margin: auto;
-    margin-bottom: 10px;
-}
-
-.media-icon {
-    max-width: 50px;
-    height: 50px;
-    flex: 1;
-    margin: auto;
+#google-map {
+    display: none;
 }
 
 footer {

@@ -1,0 +1,19 @@
+@media only screen and (min-width: 520px) {
+    header div {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .company-name-header {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .header div p {
+        text-align: center;
+    }
+
+    .mottoh {
+        font-size: 20px;
+    }
+}

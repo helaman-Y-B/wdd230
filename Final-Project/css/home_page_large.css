@@ -38,6 +38,8 @@
         max-width: 1000px;
         margin-top: 50px;
         margin-bottom: 50px;
+        border: 10px solid #055474;
+        border-radius: 10px;
     }
 
     .companies {
@@ -51,11 +53,13 @@
     .company-one {
         max-width: 600px;
         margin: 0px;
+        margin-bottom: 10px;
     }
 
     .company-two {
         margin: auto;
         max-width: 600px;
+        margin-bottom: 10px;
     }
 
     .company-tree {

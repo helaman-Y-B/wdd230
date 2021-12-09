@@ -1,0 +1,35 @@
+@media only screen and (min-width: 800px) {
+    .header {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        background-color: #0e95ca;
+    }
+
+    #toggle-menu {
+        display: none;
+    }
+
+    .nav-op {
+        display: block;
+        flex: 1;
+    }
+
+    .link {
+        font-size: 20px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .menu li a:hover {
+        background-color: #055474;
+        color: white;
+    }
+
+    li a {
+        color: #000000;
+    }
+}
