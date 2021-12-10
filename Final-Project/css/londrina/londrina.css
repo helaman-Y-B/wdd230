@@ -153,6 +153,11 @@ h4 {
     font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
+h3 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
 .history a {
     font-family: "Roboto Slab", Arial, serif;
     float: left;

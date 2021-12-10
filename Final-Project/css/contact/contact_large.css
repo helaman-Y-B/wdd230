@@ -32,4 +32,34 @@
     li a {
         color: #000000;
     }
+
+    main {
+        max-width: 800px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bus-contact {
+        max-width: 550px;
+        margin-left: 20px;
+    }
+
+    #google-map {
+        max-width: 800px;
+        width: 800px;
+    }
+
+    form {
+        max-width: 550px;
+        text-align: center;
+    }
+
+    input {
+        max-width: 400px;
+    }
+
+    #user-message {
+        max-width: 400px;
+    }
 }
