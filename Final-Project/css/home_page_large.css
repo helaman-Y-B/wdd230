@@ -71,8 +71,20 @@
     .upcoming-events {
         background-color: rgb(117, 201, 235);
         border: 5px inset rgb(3, 113, 146);
+        border-radius: 5px;
         width: 600px;
         padding: 20px;
         margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .sub-info {
+        border: 5px inset rgb(3, 113, 146);
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .sub-info h4 {
+        font-size: 25px;
     }
 }

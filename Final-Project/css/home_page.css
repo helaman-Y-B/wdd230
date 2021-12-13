@@ -121,6 +121,10 @@ main img {
     margin-bottom: 20px;
 }
 
+.city-info {
+    padding: 10px;
+}
+
 .purpouse {
     text-align: center;
     padding: 10px;
@@ -171,11 +175,24 @@ main img {
 }
 
 .sub-info {
+    background-color: rgb(117, 201, 235);
     text-align: center;
+    padding: 10px;
+    border: 10px inset rgb(3, 113, 146);
+    border-radius: 5px;
+}
+
+.sub-info h4 {
+    font-size: 20px;
 }
 
 .upcoming-events {
     text-align: center;
+    padding: 10px;
+}
+
+.upcoming-events h3 {
+    margin-top: 0px;
 }
 
 h2,

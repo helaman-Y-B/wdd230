@@ -144,6 +144,8 @@ main {
     background-color: rgb(117, 201, 235);
     border: 5px inset #055474;
     margin: 10px;
+    padding: 10px;
+    height: 250px;
 }
 
 h1,
@@ -166,6 +168,20 @@ h3 {
 p {
     font-family: "Roboto Slab", Arial, serif;
     text-align: center;
+}
+
+.media-icons {
+    display: flex;
+    max-width: 320px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.media-icon {
+    max-width: 50px;
+    height: 50px;
+    flex: 1;
+    margin: auto;
 }
 
 footer {

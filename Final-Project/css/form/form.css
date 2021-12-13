@@ -119,6 +119,7 @@ main {
 
 .sub-options h1 {
     text-align: center;
+    margin-top: 0px;
 }
 
 .sub h3 {
@@ -130,8 +131,13 @@ main {
 }
 
 .sub ul {
-    margin-left: 50px;
+    margin-left: 30px;
+    padding-right: 10px;
     font-family: "Roboto Slab", Arial, serif;
+}
+
+.sub li {
+    margin-top: 10px;
 }
 
 #non-profit {
@@ -215,12 +221,13 @@ input:valid {
 }
 
 #text-area {
-    min-height: 45px;
-    max-width: 250px;
+    min-height: 150px;
+    max-width: 350px;
+    width: 85vw;
 }
 
 #submit-button {
-    max-width: 70px;
+    max-width: 100px;
     padding: 10px;
 }
 
