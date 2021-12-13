@@ -1,0 +1,58 @@
+@media only screen and (min-width: 520px) {
+    header div {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .company-name-header {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .header div p {
+        text-align: center;
+    }
+
+    .mottoh {
+        font-size: 20px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .bus-contact {
+        grid-column: 1/3;
+        grid-row: 1;
+        margin: 10px;
+        border: 10px inset rgb(3, 113, 146);
+    }
+
+    #google-map {
+        display: block;
+        max-width: 520px;
+        height: 300px;
+        margin: auto;
+        grid-column: 1/4;
+        grid-row: 2;
+    }
+
+    .board-director {
+        grid-column: 2/4;
+        margin: 10px;
+        border: 10px inset rgb(3, 113, 146);
+    }
+
+    form {
+        grid-column: 1/4;
+        grid-row: 5;
+        margin: 10px;
+        background-color: rgb(61, 166, 185);
+        border-radius: 5px;
+    }
+
+    .inputs {
+        margin-bottom: 10px;
+    }
+}

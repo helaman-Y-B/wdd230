@@ -4,7 +4,7 @@ body {
     margin: 0px;
 }
 
-header img {
+img {
     max-width: 150px;
     height: 150px;
 }
@@ -106,95 +106,132 @@ a:link {
 
 main {
     background-color: rgb(233, 226, 240);
-    display: flex;
-    flex-direction: column;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
-main h2 {
-    text-align: center;
-}
-
-#hero-img {
-    width: 100%;
-    height: 70%;
-}
-
-.city-info {
-    padding: 10px;
-}
-
-.purpouse {
-    text-align: center;
-    padding: 10px;
-    background-color: rgb(117, 201, 235);
-    border: 10px inset rgb(3, 113, 146);
-    border-radius: 5px;
-}
-
-.purpouse h1 {
-    font-family: "Josefin Sans", Helvetica, sans-serif;
-}
-
-.weather-info {
-    text-align: center;
-}
-
-.companies {
+.sub-options {
+    background-color: rgb(67, 250, 235);
     display: flex;
     flex-direction: column;
-    border: 10px outset rgb(3, 113, 146);
-    border-radius: 5px;
+    padding: 30px;
 }
 
-.company-one {
-    flex: 1;
-    background-color: rgb(67, 250, 235);
+.sub-options h1 {
     text-align: center;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.company-two {
-    flex: 1;
-    background-color: rgb(61, 166, 185);
-    text-align: center;
-}
-
-.company-tree {
-    flex: 1;
-    background-color: rgb(101, 155, 200);
-    text-align: center;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.text-section {
-    flex: 1;
-}
-
-.sub-info {
-    background-color: rgb(117, 201, 235);
-    text-align: center;
-    padding: 10px;
-    border: 10px inset rgb(3, 113, 146);
-    border-radius: 5px;
-}
-
-.sub-info h4 {
-    font-size: 20px;
-}
-
-.upcoming-events {
-    text-align: center;
-    padding: 10px;
-}
-
-.upcoming-events h3 {
     margin-top: 0px;
 }
 
+.sub h3 {
+    text-align: center;
+}
+
+.sub p {
+    margin-left: 20px;
+}
+
+.sub ul {
+    margin-left: 30px;
+    padding-right: 10px;
+    font-family: "Roboto Slab", Arial, serif;
+}
+
+.sub li {
+    margin-top: 10px;
+}
+
+#non-profit {
+    background-color: rgb(61, 166, 185);
+}
+
+#bronze {
+    background-color: rgb(49, 49, 49);
+    color: #cd7f32;
+}
+
+#silver {
+    background-color: #055474;
+    color: silver;
+}
+
+#gold {
+    background-color: black;
+    color: gold;
+}
+
+form {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+fieldset {
+    margin-top: 10px;
+    border: 5px double;
+    border-radius: 5px;
+}
+
+legend {
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+label {
+    font-family: "Roboto Slab", Arial, serif;
+}
+
+input {
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    width: 70vw;
+}
+
+input:invalid {
+    background-color: rgb(251, 200, 200);
+    color: #000;
+}
+input:valid {
+    background-color: rgb(203, 255, 203);
+    color: #000;
+}
+
+.user-info {
+    max-width: 370px;
+    margin: auto;
+}
+
+.busisness-info {
+    max-width: 370px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.text-area {
+    max-width: 370px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.member-radio {
+    max-width: 370px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.opt {
+    width: 30px;
+}
+
+#text-area {
+    min-height: 150px;
+    max-width: 350px;
+    width: 85vw;
+}
+
+#submit-button {
+    max-width: 100px;
+    padding: 10px;
+}
+
+h1,
 h2,
 h3,
 h4 {
@@ -203,21 +240,6 @@ h4 {
 
 p {
     font-family: "Roboto Slab", Arial, serif;
-    text-align: center;
-}
-
-.media-icons {
-    display: flex;
-    max-width: 320px;
-    margin: auto;
-    margin-bottom: 10px;
-}
-
-.media-icon {
-    max-width: 50px;
-    height: 50px;
-    flex: 1;
-    margin: auto;
 }
 
 footer {

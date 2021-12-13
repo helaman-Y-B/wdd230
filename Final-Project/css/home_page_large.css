@@ -1,4 +1,9 @@
 @media only screen and (min-width: 800px) {
+    .header {
+        max-width: 800px;
+        margin: auto;
+    }
+
     .menu {
         display: flex;
         flex-direction: row;
@@ -15,12 +20,12 @@
     }
 
     .link {
-        padding: 20px;
-        font-size: 18px;
+        font-size: 20px;
+        padding: 20px 0px 20px 0px;
     }
 
     .menu li a:hover {
-        background-color: #165858;
+        background-color: #055474;
         color: white;
     }
 
@@ -28,22 +33,58 @@
         color: #000000;
     }
 
-    .company-name {
-        max-width: 400px;
-        margin: 0px;
+    main {
+        margin: auto;
+        max-width: 1000px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 10px solid #055474;
+        border-radius: 10px;
     }
 
-    .purpouse {
+    .companies {
+        display: block;
         margin: 0px;
+        max-width: 1000px;
+        background-color: rgb(233, 226, 240);
+        border: 0px;
     }
 
-    .domain {
+    .company-one {
+        max-width: 600px;
         margin: 0px;
-        width: 400px;
-        margin-left: 370px;
+        margin-bottom: 10px;
     }
 
-    .why {
+    .company-two {
+        margin: auto;
+        max-width: 600px;
+        margin-bottom: 10px;
+    }
+
+    .company-tree {
         margin: 0px;
+        max-width: 600px;
+        float: right;
+    }
+
+    .upcoming-events {
+        background-color: rgb(117, 201, 235);
+        border: 5px inset rgb(3, 113, 146);
+        border-radius: 5px;
+        width: 600px;
+        padding: 20px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .sub-info {
+        border: 5px inset rgb(3, 113, 146);
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .sub-info h4 {
+        font-size: 25px;
     }
 }

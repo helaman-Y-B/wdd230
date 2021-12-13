@@ -1,0 +1,72 @@
+@media only screen and (min-width: 800px) {
+    .header {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        background-color: #0e95ca;
+    }
+
+    #toggle-menu {
+        display: none;
+    }
+
+    .nav-op {
+        display: block;
+        flex: 1;
+    }
+
+    .link {
+        font-size: 20px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .menu li a:hover {
+        background-color: #055474;
+        color: white;
+    }
+
+    li a {
+        color: #000000;
+    }
+
+    .sub-options {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .user-info {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .busisness-info {
+        max-width: 700px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .text-area {
+        max-width: 500px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .member-radio {
+        max-width: 300px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #text-area {
+        max-width: 700px;
+    }
+
+    input {
+        font-family: "Josefin Sans", Helvetica, sans-serif;
+        width: 600px;
+    }
+}

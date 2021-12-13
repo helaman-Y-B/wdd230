@@ -4,7 +4,7 @@ body {
     margin: 0px;
 }
 
-header img {
+img {
     max-width: 150px;
     height: 150px;
 }
@@ -106,95 +106,47 @@ a:link {
 
 main {
     background-color: rgb(233, 226, 240);
-    display: flex;
-    flex-direction: column;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
-main h2 {
+.bus-contact {
     text-align: center;
-}
-
-#hero-img {
-    width: 100%;
-    height: 70%;
-}
-
-.city-info {
-    padding: 10px;
-}
-
-.purpouse {
-    text-align: center;
-    padding: 10px;
-    background-color: rgb(117, 201, 235);
-    border: 10px inset rgb(3, 113, 146);
-    border-radius: 5px;
-}
-
-.purpouse h1 {
-    font-family: "Josefin Sans", Helvetica, sans-serif;
-}
-
-.weather-info {
-    text-align: center;
-}
-
-.companies {
-    display: flex;
-    flex-direction: column;
-    border: 10px outset rgb(3, 113, 146);
-    border-radius: 5px;
-}
-
-.company-one {
-    flex: 1;
     background-color: rgb(67, 250, 235);
-    text-align: center;
-    display: flex;
-    flex-direction: column-reverse;
+    padding-bottom: 10px;
 }
 
-.company-two {
-    flex: 1;
-    background-color: rgb(61, 166, 185);
-    text-align: center;
-}
-
-.company-tree {
-    flex: 1;
-    background-color: rgb(101, 155, 200);
-    text-align: center;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.text-section {
-    flex: 1;
-}
-
-.sub-info {
-    background-color: rgb(117, 201, 235);
-    text-align: center;
-    padding: 10px;
-    border: 10px inset rgb(3, 113, 146);
-    border-radius: 5px;
-}
-
-.sub-info h4 {
-    font-size: 20px;
-}
-
-.upcoming-events {
-    text-align: center;
-    padding: 10px;
-}
-
-.upcoming-events h3 {
+.bus-contact h1 {
     margin-top: 0px;
+    padding-top: 20px;
 }
 
+.board-director {
+    background-color: rgb(101, 155, 200);
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.board-director h2 {
+    margin-top: 0px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.company-member {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    border: 5px inset rgb(117, 201, 235);
+    background-color: rgb(117, 201, 235);
+}
+
+.media-icon {
+    max-width: 50px;
+    height: 50px;
+}
+
+h1,
 h2,
 h3,
 h4 {
@@ -203,21 +155,34 @@ h4 {
 
 p {
     font-family: "Roboto Slab", Arial, serif;
-    text-align: center;
 }
 
-.media-icons {
-    display: flex;
-    max-width: 320px;
-    margin: auto;
-    margin-bottom: 10px;
+#google-map {
+    display: none;
 }
 
-.media-icon {
-    max-width: 50px;
-    height: 50px;
-    flex: 1;
-    margin: auto;
+fieldset {
+    border-radius: 5px;
+    border: 10px double;
+}
+
+legend {
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+label {
+    font-family: "Roboto Slab", Arial, serif;
+}
+
+input {
+    width: 85vw;
+}
+
+textarea {
+    width: 85vw;
+    height: 150px;
 }
 
 footer {
