@@ -1,70 +1,72 @@
 @media only screen and (min-width: 800px) {
-    .header {
-        max-width: 800px;
-        margin: auto;
-    }
+  .header {
+    max-width: 800px;
+    margin: auto;
+  }
 
-    .menu {
-        display: flex;
-        flex-direction: row;
-        background-color: #0e95ca;
-    }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    background-color: #0e95ca;
+  }
 
-    #toggle-menu {
-        display: none;
-    }
+  #toggle-menu {
+    display: none;
+  }
 
-    .nav-op {
-        display: block;
-        flex: 1;
-    }
+  .nav-op {
+    display: block;
+    flex: 1;
+  }
 
-    .link {
-        font-size: 20px;
-        padding: 20px 0px 20px 0px;
-    }
+  .link {
+    font-size: 20px;
+    padding: 20px 0px 20px 0px;
+  }
 
-    .menu li a:hover {
-        background-color: #055474;
-        color: white;
-    }
+  .menu li a:hover {
+    background-color: #055474;
+    color: white;
+  }
 
-    li a {
-        color: #000000;
-    }
+  li a {
+    color: #000000;
+  }
 
-    main {
-        max-width: 1000px;
-        margin: auto;
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
+  main {
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 10px solid #055474;
+    border-radius: 10px;
+  }
 
-    .main-div {
-        display: inline-block;
-    }
+  .main-div {
+    display: inline-block;
+  }
 
-    .history {
-        margin-left: 20px;
-        float: left;
-    }
+  .history {
+    margin-left: 20px;
+    float: left;
+  }
 
-    .demography {
-        margin: 0px;
-        margin: auto;
-        margin-right: 20px;
-        max-width: 500px;
-        width: 500px;
-        padding: 20px;
-    }
+  .demography {
+    margin: 0px;
+    margin: auto;
+    margin-right: 20px;
+    max-width: 500px;
+    width: 500px;
+    padding: 20px;
+  }
 
-    .events {
-        max-width: 700px;
-        margin: auto;
-        margin-top: 20px;
-    }
+  .events {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20px;
+  }
 
-    .event {
-        margin: 20px;
-    }
+  .event {
+    margin: 20px;
+  }
 }
