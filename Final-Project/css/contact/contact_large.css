@@ -51,8 +51,9 @@
     }
 
     form {
-        max-width: 550px;
+        width: 650px;
         text-align: center;
+        margin: auto;
     }
 
     input {

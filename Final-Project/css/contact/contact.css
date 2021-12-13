@@ -123,16 +123,22 @@ main {
 
 .board-director {
     background-color: rgb(101, 155, 200);
+    padding: 20px;
+    padding-top: 0px;
 }
 
 .board-director h2 {
-    margin-top: 10px;
+    margin-top: 0px;
     padding-top: 20px;
     text-align: center;
 }
 
 .company-member {
     text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    border: 5px inset rgb(117, 201, 235);
+    background-color: rgb(117, 201, 235);
 }
 
 .media-icon {
@@ -170,8 +176,13 @@ label {
     font-family: "Roboto Slab", Arial, serif;
 }
 
+input {
+    width: 85vw;
+}
+
 textarea {
-    width: 50vw;
+    width: 85vw;
+    height: 150px;
 }
 
 footer {
