@@ -120,7 +120,7 @@
                     </ul>
                 </div>
             </div>
-            <form action="thankyou.html" method="get">
+            <form action="form_submited.html" method="get">
                 <!--Search for patterns for accents-->
                 <fieldset class="user-info">
                     <legend>User Information</legend>
@@ -130,7 +130,7 @@
                             name="first-name"
                             id="first-name"
                             minlength="3"
-                            pattern="[a-zA-Z\s]+"
+                            pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
                             required
                     /></label>
 
@@ -141,7 +141,7 @@
                             name="last-name"
                             id="last-name"
                             minlength="1"
-                            pattern="[a-zA-Z\s]+"
+                            pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
                             required
                         />
                     </label>
@@ -154,7 +154,7 @@
                             name="title"
                             id="title"
                             minlength="3"
-                            pattern="[a-zA-Z\s]+"
+                            pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
                         />
                     </label>
 
@@ -166,6 +166,7 @@
                             name="email"
                             id="email"
                             placeholder="user@gmail.com"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                             required
                     /></label>
 
@@ -176,6 +177,7 @@
                             type="tel"
                             name="phone"
                             id="phone"
+                            pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"
                             placeholder="###-###-####"
                         />
                     </label>
@@ -188,7 +190,7 @@
                             type="text"
                             name="busisness-name"
                             id="busisness-name"
-                            pattern="[a-zA-Z\s]+"
+                            pattern="^(?!\s)(?!.*\s$)(?=.*[a-zA-Z0-9])[a-zA-Z0-9 '~?!]{2,}$"
                             required
                         />
                     </label>
@@ -198,7 +200,7 @@
                             type="text"
                             name="busisness-addr"
                             id="busisness-addr"
-                            pattern="[a-zA-Z\s]+"
+                            pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
                     /></label>
 
                     <br />
@@ -207,9 +209,8 @@
                             type="text"
                             name="busisness-webp"
                             id="busisness-webp"
-                            pattern="[a-zA-Z\s]+"
+                            pattern="[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
                     /></label>
-                    <!--Search for an pattern for webpages-->
                 </fieldset>
                 <fieldset class="text-area">
                     <legend>Busisness Description</legend>
@@ -227,6 +228,7 @@
                             id="opt1"
                             class="opt"
                             value="Non-Profit"
+                            required
                         />
                         <label for="opt1">Non-Profit</label>
                     </div>
