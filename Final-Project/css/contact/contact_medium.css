@@ -55,4 +55,10 @@
     .inputs {
         margin-bottom: 10px;
     }
+
+    #submit-button {
+        font-family: "Roboto Slab", Arial, serif;
+        max-width: 250px;
+        height: 40px;
+    }
 }

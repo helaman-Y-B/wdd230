@@ -189,7 +189,7 @@
                         id="user-name"
                         class="inputs"
                         minlength="3"
-                        pattern="[a-zA-Z\s]+"
+                        pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
                     />
 
                     <!--Find a patter for emails!-->
@@ -201,7 +201,7 @@
                         id="email"
                         class="inputs"
                         minlength="5"
-                        pattern="[a-zA-Z\s]+"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                     />
                     <br />
 
@@ -209,6 +209,8 @@
                         >What would you like to say for us? </label
                     ><br />
                     <textarea name="user-message" id="user-message"></textarea>
+
+                    <input type="submit" value="Submit" id="submit-button" />
                 </fieldset>
             </form>
         </main>

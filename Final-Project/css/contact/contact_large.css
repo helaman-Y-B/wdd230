@@ -62,6 +62,13 @@
         max-width: 400px;
     }
 
+    #submit-button {
+        max-width: 295px;
+        width: 80%;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+
     #user-message {
         max-width: 400px;
     }

@@ -163,7 +163,7 @@ p {
 
 fieldset {
     border-radius: 5px;
-    border: 10px double;
+    border: 5px double;
 }
 
 legend {
@@ -178,6 +178,12 @@ label {
 
 input {
     width: 85vw;
+}
+
+#submit-button {
+    font-family: "Roboto Slab", Arial, serif;
+    max-width: 150px;
+    height: 30px;
 }
 
 textarea {
