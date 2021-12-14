@@ -1,207 +1,213 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,400&family=Roboto+Slab&display=swap");
 body {
-  background-color: rgb(117, 201, 235);
-  margin: 0px;
+    background-color: rgb(117, 201, 235);
+    margin: 0px;
 }
 
 header {
-  display: flex;
-  background-color: rgb(3, 113, 146);
+    display: flex;
+    background-color: rgb(3, 113, 146);
 }
 
 header img {
-  flex: 1;
-  max-width: 150px;
-  height: 150px;
+    flex: 1;
+    max-width: 150px;
+    height: 150px;
 }
 
 header div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex: 1;
-  color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    color: white;
 }
 
 header div h1 {
-  padding-left: 10px;
+    padding-left: 10px;
 }
 
 .header div p {
-  padding-left: 10px;
-  font-size: 15px;
-  text-align: left;
+    padding-left: 10px;
+    font-size: 15px;
+    text-align: left;
 }
 
 .header {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .company-name-header {
-  margin-bottom: 5px;
-  margin-top: 10px;
-  font-family: "Josefin Sans", Helvetica, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 .mottoh {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-family: "Josefin Sans", Helvetica, sans-serif;
-  font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    font-style: italic;
 }
 
 nav {
-  font-family: "Josefin Sans", Helvetica, sans-serif;
-  overflow: hidden;
-  text-align: center;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    overflow: hidden;
+    text-align: center;
 }
 
 .menu {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #toggle-menu {
-  display: block;
-  list-style-type: none;
-  background-color: #0e95ca;
-  font-size: 18px;
-  padding: 20px;
+    display: block;
+    list-style-type: none;
+    background-color: #0e95ca;
+    font-size: 18px;
+    padding: 20px;
 }
 
 .nav-op {
-  display: none;
-  background-color: #08aef0;
-  text-decoration: none;
+    display: none;
+    background-color: #08aef0;
+    text-decoration: none;
 }
 
 li a {
-  color: black;
+    color: black;
 }
 
 li a:hover {
-  background-color: #055474;
-  color: white;
+    background-color: #055474;
+    color: white;
 }
 
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .responsive .nav-op {
-  display: block;
-  list-style-type: none;
+    display: block;
+    list-style-type: none;
 }
 
 .link {
-  display: block;
-  list-style-type: none;
-  padding: 20px;
-  font-size: 18px;
+    display: block;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 18px;
 }
 
 main {
-  background-color: rgb(233, 226, 240);
-  margin-bottom: 50px;
-  margin-top: 50px;
+    background-color: rgb(233, 226, 240);
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .main-div {
-  background-color: rgb(233, 226, 240);
-  display: flex;
-  flex-direction: column;
+    background-color: rgb(233, 226, 240);
+    display: flex;
+    flex-direction: column;
 }
 
 .main-div h2 {
-  text-align: center;
+    text-align: center;
 }
 
 .main-div img {
-  margin: auto;
-  margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .history {
-  background-color: rgb(67, 250, 235);
-  padding: 10px;
-  text-align: center;
+    background-color: rgb(67, 250, 235);
+    padding: 10px;
+    text-align: center;
 }
 
 .history img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .demography {
-  background-color: rgb(61, 166, 185);
-  padding: 10px;
+    background-color: rgb(61, 166, 185);
+    padding: 10px;
 }
 
 .demography img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .events {
-  background-color: rgb(101, 155, 200);
-  text-align: center;
+    background-color: rgb(101, 155, 200);
+    text-align: center;
 }
 
 .event {
-  background-color: rgb(117, 201, 235);
-  border: 5px inset #055474;
-  margin: 10px;
-  padding: 10px;
-  height: 250px;
+    background-color: rgb(117, 201, 235);
+    border: 5px inset #055474;
+    margin: 10px;
+    padding: 10px;
+    height: 250px;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: "Josefin Sans", Helvetica, sans-serif;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 h3 {
-  margin-top: 0px;
-  padding-top: 20px;
+    margin-top: 0px;
+    padding-top: 20px;
 }
 
 .history a {
-  font-family: "Roboto Slab", Arial, serif;
-  float: left;
+    font-family: "Roboto Slab", Arial, serif;
+    float: left;
 }
 
 p {
-  font-family: "Roboto Slab", Arial, serif;
-  text-align: center;
+    font-family: "Roboto Slab", Arial, serif;
+    text-align: center;
 }
 
 #hero-img {
-  width: 100%;
-  height: 70%;
+    width: 100%;
+    height: 70%;
 }
 
 .media-icons {
-  display: flex;
-  max-width: 320px;
-  margin: auto;
-  margin-bottom: 10px;
+    display: flex;
+    max-width: 320px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.media-icons a {
+    max-width: 50px;
+    height: 50px;
+    flex: 1;
+    margin: auto;
 }
 
 .media-icon {
-  max-width: 50px;
-  height: 50px;
-  flex: 1;
-  margin: auto;
+    max-width: 50px;
+    height: 50px;
+    margin: auto;
 }
 
 footer {
-  background-color: rgb(3, 113, 146);
-  font-family: "Roboto Slab", Arial, serif;
-  text-align: center;
-  padding: 20px 0px 20px 0px;
+    background-color: rgb(3, 113, 146);
+    font-family: "Roboto Slab", Arial, serif;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
 }
 
 footer p {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
