@@ -191,6 +191,12 @@ textarea {
     height: 150px;
 }
 
+.div-elem {
+    background-color: rgb(101, 155, 200);
+    text-align: center;
+    padding: 10px;
+}
+
 footer {
     background-color: rgb(3, 113, 146);
     font-family: "Roboto Slab", Arial, serif;

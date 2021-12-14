@@ -48,12 +48,18 @@
         grid-column: 1/4;
         grid-row: 5;
         margin: 10px;
+        margin-bottom: 0px;
         background-color: rgb(61, 166, 185);
         border-radius: 5px;
     }
 
     .inputs {
         margin-bottom: 10px;
+    }
+
+    .div-elem {
+        grid-column: 1/4;
+        grid-row: 6;
     }
 
     #submit-button {

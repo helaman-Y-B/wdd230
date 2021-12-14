@@ -222,9 +222,17 @@
                     ><br />
                     <textarea name="user-message" id="user-message"></textarea>
 
-                    <input type="submit" value="Submit" id="submit-button" />
+                    <input
+                        type="submit"
+                        value="Submit"
+                        id="submit-button"
+                        onclick="actionHandler()"
+                    />
                 </fieldset>
             </form>
+            <div class="div-elem">
+                <h4>Thank you for your FeedBack!</h4>
+            </div>
         </main>
         <footer>
             &copy;2021 | Helamã Barbour | BYU-Idaho | Little London Commerce
@@ -232,6 +240,7 @@
         <script src="#"></script>
         <script src="js/drop_down_menu.js"></script>
         <script src="js/which_page.js"></script>
+        <script src="js/contact/thankyou_message.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
             WebFont.load({
