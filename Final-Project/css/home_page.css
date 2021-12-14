@@ -141,6 +141,14 @@ main h2 {
     text-align: center;
 }
 
+.weather-info h2 {
+    font-size: 25px;
+}
+
+.weather-info p {
+    font-size: 15px;
+}
+
 .companies {
     display: flex;
     flex-direction: column;
