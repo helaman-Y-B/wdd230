@@ -1,70 +1,72 @@
 @media only screen and (min-width: 520px) {
-    header div {
-        justify-content: center;
-        text-align: center;
-    }
+  header div {
+    justify-content: center;
+    text-align: center;
+  }
 
-    .company-name-header {
-        font-size: 40px;
-        margin-top: 20px;
-    }
+  .company-name-header {
+    font-size: 40px;
+    margin-top: 20px;
+  }
 
-    .header div p {
-        text-align: center;
-    }
+  .header div p {
+    text-align: center;
+  }
 
-    .mottoh {
-        font-size: 20px;
-    }
+  .mottoh {
+    font-size: 20px;
+  }
 
-    main {
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
+  main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
 
-    .bus-contact {
-        grid-column: 1/3;
-        grid-row: 1;
-        margin: 10px;
-        border: 10px inset rgb(3, 113, 146);
-    }
+  .bus-contact {
+    grid-column: 1/3;
+    grid-row: 2;
+    margin: 10px;
+    border: 10px inset rgb(3, 113, 146);
+  }
 
-    #google-map {
-        display: block;
-        max-width: 520px;
-        height: 300px;
-        margin: auto;
-        grid-column: 1/4;
-        grid-row: 2;
-    }
+  #google-map {
+    display: block;
+    max-width: 520px;
+    height: 300px;
+    margin: auto;
+    grid-column: 1/4;
+    grid-row: 3;
+  }
 
-    .board-director {
-        grid-column: 2/4;
-        margin: 10px;
-        border: 10px inset rgb(3, 113, 146);
-    }
+  .board-director {
+    grid-column: 2/4;
+    grid-row: 4;
+    margin: 10px;
+    border: 10px inset rgb(3, 113, 146);
+  }
 
-    form {
-        grid-column: 1/4;
-        grid-row: 5;
-        margin: 10px;
-        margin-bottom: 0px;
-        background-color: rgb(61, 166, 185);
-        border-radius: 5px;
-    }
+  form {
+    grid-column: 1/4;
+    grid-row: 5;
+    margin: 10px;
+    margin-bottom: 0px;
+    background-color: rgb(61, 166, 185);
+    border-radius: 5px;
+  }
 
-    .inputs {
-        margin-bottom: 10px;
-    }
+  .inputs {
+    margin-bottom: 10px;
+  }
 
-    .div-elem {
-        grid-column: 1/4;
-        grid-row: 6;
-    }
+  .div-elem {
+    grid-column: 1/4;
+    grid-row: 1;
+    padding: 0px;
+  }
 
-    #submit-button {
-        font-family: "Roboto Slab", Arial, serif;
-        max-width: 250px;
-        height: 40px;
-    }
+  #submit-button {
+    font-family: "Roboto Slab", Arial, serif;
+    max-width: 250px;
+    height: 40px;
+  }
 }

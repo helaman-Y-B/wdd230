@@ -1,209 +1,219 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,400&family=Roboto+Slab&display=swap");
 body {
-    background-color: rgb(117, 201, 235);
-    margin: 0px;
+  background-color: rgb(117, 201, 235);
+  margin: 0px;
 }
 
 img {
-    max-width: 150px;
-    height: 150px;
+  max-width: 150px;
+  height: 150px;
 }
 
 header {
-    display: flex;
-    background-color: rgb(3, 113, 146);
+  display: flex;
+  background-color: rgb(3, 113, 146);
 }
 
 header img {
-    flex: 1;
+  flex: 1;
 }
 
 header div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  color: white;
 }
 
 header div h1 {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .header div p {
-    padding-left: 10px;
-    font-size: 15px;
-    text-align: left;
+  padding-left: 10px;
+  font-size: 15px;
+  text-align: left;
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .company-name-header {
-    margin-bottom: 5px;
-    margin-top: 10px;
-    font-family: "Josefin Sans", Helvetica, sans-serif;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 .mottoh {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-family: "Josefin Sans", Helvetica, sans-serif;
-    font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-style: italic;
 }
 
 nav {
-    font-family: "Josefin Sans", Helvetica, sans-serif;
-    overflow: hidden;
-    text-align: center;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  overflow: hidden;
+  text-align: center;
 }
 
 .menu {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #toggle-menu {
-    display: block;
-    list-style-type: none;
-    background-color: #0e95ca;
-    font-size: 18px;
-    padding: 20px;
+  display: block;
+  list-style-type: none;
+  background-color: #0e95ca;
+  font-size: 18px;
+  padding: 20px;
 }
 
 .nav-op {
-    display: none;
-    background-color: #08aef0;
-    text-decoration: none;
+  display: none;
+  background-color: #08aef0;
+  text-decoration: none;
 }
 
 li a {
-    color: black;
+  color: black;
 }
 
 li a:hover {
-    background-color: #055474;
-    color: white;
+  background-color: #055474;
+  color: white;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .responsive .nav-op {
-    display: block;
-    list-style-type: none;
+  display: block;
+  list-style-type: none;
 }
 
 .link {
-    display: block;
-    list-style-type: none;
-    padding: 20px;
-    font-size: 18px;
+  display: block;
+  list-style-type: none;
+  padding: 20px;
+  font-size: 18px;
 }
 
 main {
-    background-color: rgb(233, 226, 240);
-    margin-bottom: 50px;
-    margin-top: 50px;
+  background-color: rgb(233, 226, 240);
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .bus-contact {
-    text-align: center;
-    background-color: rgb(67, 250, 235);
-    padding-bottom: 10px;
+  text-align: center;
+  background-color: rgb(67, 250, 235);
+  padding-bottom: 10px;
 }
 
 .bus-contact h1 {
-    margin-top: 0px;
-    padding-top: 20px;
+  margin-top: 0px;
+  padding-top: 20px;
 }
 
 .board-director {
-    background-color: rgb(101, 155, 200);
-    padding: 20px;
-    padding-top: 0px;
+  background-color: rgb(101, 155, 200);
+  padding: 20px;
+  padding-top: 0px;
 }
 
 .board-director h2 {
-    margin-top: 0px;
-    padding-top: 20px;
-    text-align: center;
+  margin-top: 0px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .company-member {
-    text-align: center;
-    padding: 20px;
-    margin-top: 10px;
-    border: 5px inset rgb(117, 201, 235);
-    background-color: rgb(117, 201, 235);
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  border: 5px inset rgb(117, 201, 235);
+  background-color: rgb(117, 201, 235);
 }
 
 .media-icon {
-    max-width: 50px;
-    height: 50px;
+  max-width: 50px;
+  height: 50px;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 p {
-    font-family: "Roboto Slab", Arial, serif;
+  font-family: "Roboto Slab", Arial, serif;
 }
 
 #google-map {
-    display: none;
+  display: none;
 }
 
 fieldset {
-    border-radius: 5px;
-    border: 5px double;
+  border-radius: 5px;
+  border: 5px double;
 }
 
 legend {
-    font-family: "Josefin Sans", Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 5px;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 5px;
 }
 
 label {
-    font-family: "Roboto Slab", Arial, serif;
+  font-family: "Roboto Slab", Arial, serif;
 }
 
 input {
-    width: 85vw;
+  width: 85vw;
 }
 
 #submit-button {
-    font-family: "Roboto Slab", Arial, serif;
-    max-width: 150px;
-    height: 30px;
+  font-family: "Roboto Slab", Arial, serif;
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
 }
 
 textarea {
-    width: 85vw;
-    height: 150px;
+  width: 85vw;
+  height: 150px;
 }
 
 .div-elem {
-    background-color: rgb(101, 155, 200);
-    text-align: center;
-    padding: 10px;
+  display: none;
+  background-color: rgb(101, 155, 200);
+  text-align: center;
+  padding: 10px;
+}
+
+.thanksMessage {
+  display: block;
+  background-color: rgb(101, 155, 200);
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
 }
 
 footer {
-    background-color: rgb(3, 113, 146);
-    font-family: "Roboto Slab", Arial, serif;
-    text-align: center;
-    padding: 20px 0px 20px 0px;
+  background-color: rgb(3, 113, 146);
+  font-family: "Roboto Slab", Arial, serif;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
 }
 
 footer p {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
