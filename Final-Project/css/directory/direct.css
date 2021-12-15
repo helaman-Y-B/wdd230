@@ -4,7 +4,7 @@ body {
     margin: 0px;
 }
 
-img {
+#little-london-logo {
     max-width: 150px;
     height: 150px;
 }
@@ -110,9 +110,14 @@ main {
     margin-top: 50px;
 }
 
+.display-changer {
+    display: none;
+}
+
 .busisness {
     background-color: rgb(61, 166, 185);
     padding: 20px;
+    padding-bottom: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
     border-top: 10px double #055474;
@@ -129,6 +134,21 @@ h4 {
 main h1 {
     text-align: center;
     padding: 20px 20px 0px 20px;
+}
+
+main h4 {
+    margin-bottom: 10px;
+}
+
+main a {
+    font-family: "Roboto Slab", Arial, serif;
+    font-size: 13.5px;
+}
+
+.img-div {
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
 }
 
 p {

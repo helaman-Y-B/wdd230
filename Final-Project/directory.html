@@ -1,132 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Directory</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/directory/direct.css" />
-    <link rel="stylesheet" href="css/directory/direct_medium.css" />
-    <link rel="stylesheet" href="css/directory/direct_large.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header">
-        <img
-          src="img/Little-London-Commerce-fn-mottoh.png"
-          alt="Logo Company"
-        />
-        <div>
-          <h1 class="company-name-header">Little London Commerce</h1>
-          <p class="mottoh">Size is not a document</p>
-        </div>
-      </div>
-    </header>
-    <nav>
-      <ul class="menu">
-        <li id="toggle-menu-list">
-          <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
-        </li>
-        <li class="nav-op">
-          <a class="link" href="index.html">Little London</a>
-        </li>
-        <li class="nav-op">
-          <a class="link" href="londrina.html">Londrina</a>
-        </li>
-        <li class="nav-op">
-          <a class="link" href="form_page.html">Join</a>
-        </li>
-        <li class="nav-op">
-          <a id="current-page" class="link" href="#">Directory</a>
-        </li>
-        <li class="nav-op">
-          <a class="link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <h1>Avaible Local busisness in Londrina</h1>
-      <div class="busisness">
-        <h2><span class="name"></span></h2>
-        <h3>Description:</h3>
-        <p><span class="description"></span></p>
-        <h4 class="web-section">Their Web-page:</h4>
-        <p><span class="webpage"></span></p>
-        <img src="#" alt="Company Logo" class="logo" />
-      </div>
-      <div class="busisness">
-        <h2><span class="name"></span></h2>
-        <h3>Description:</h3>
-        <p><span class="description"></span></p>
-        <h4 class="web-section">Their Web-page:</h4>
-        <p><span class="webpage"></span></p>
-        <img src="#" alt="Company Logo" class="logo" />
-      </div>
-      <div class="busisness">
-        <h2><span class="name"></span></h2>
-        <h3>Description:</h3>
-        <p><span class="description"></span></p>
-        <h4 class="web-section">Their Web-page:</h4>
-        <p><span class="webpage"></span></p>
-        <img src="#" alt="Company Logo" class="logo" />
-      </div>
-      <div class="busisness">
-        <h2><span class="name"></span></h2>
-        <h3>Description:</h3>
-        <p><span class="description"></span></p>
-        <h4 class="web-section">Their Web-page:</h4>
-        <p><span class="webpage"></span></p>
-        <img src="#" alt="Company Logo" class="logo" />
-        <p class="web-section">Their Web-page:</p>
-      </div>
-      <div class="busisness">
-        <h2><span class="name"></span></h2>
-        <h3>Description:</h3>
-        <p><span class="description"></span></p>
-        <h4 class="web-section">Their Web-page:</h4>
-        <p><span class="webpage"></span></p>
-        <img src="#" alt="Company Logo" class="logo" />
-      </div>
-      <div class="busisness">
-        <h2><span class="name"></span></h2>
-        <h3>Description:</h3>
-        <p><span class="description"></span></p>
-        <h4 class="web-section">Their Web-page:</h4>
-        <p><span class="webpage"></span></p>
-        <img src="#" alt="Company Logo" class="logo" />
-      </div>
-      <div class="busisness">
-        <h2><span class="name"></span></h2>
-        <h3>Description:</h3>
-        <p><span class="description"></span></p>
-        <h4 class="web-section">Their Web-page:</h4>
-        <p><span class="webpage"></span></p>
-        <img src="#" alt="Company Logo" class="logo" />
-      </div>
-      <div class="busisness">
-        <h2><span class="name"></span></h2>
-        <h3>Description:</h3>
-        <p><span class="description"></span></p>
-        <h4 class="web-section">Their Web-page:</h4>
-        <p><span class="webpage"></span></p>
-        <img src="#" alt="Company Logo" class="logo" />
-      </div>
-    </main>
-    <footer>
-      &copy;2021 | Helamã Barbour | BYU-Idaho | Little London Commerce
-    </footer>
-    <script src="js/direct/londri_comp.json"></script>
-    <script src="js/direct/json_handler.js"></script>
-    <script src="js/drop_down_menu.js"></script>
-    <script src="js/which_page.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-      WebFont.load({
-        google: {
-          families: ["Josefin Sans", "Roboto Slab"],
-        },
-      });
-    </script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Directory</title>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/directory/direct.css" />
+        <link rel="stylesheet" href="css/directory/direct_medium.css" />
+        <link rel="stylesheet" href="css/directory/direct_large.css" />
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <img
+                    src="img/Little-London-Commerce-fn-mottoh.png"
+                    alt="Logo Company"
+                    id="little-london-logo"
+                />
+                <div>
+                    <h1 class="company-name-header">Little London Commerce</h1>
+                    <p class="mottoh">Size is not a document</p>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li id="toggle-menu-list">
+                    <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
+                </li>
+                <li class="nav-op">
+                    <a class="link" href="index.html">Little London</a>
+                </li>
+                <li class="nav-op">
+                    <a class="link" href="londrina.html">Londrina</a>
+                </li>
+                <li class="nav-op">
+                    <a class="link" href="form_page.html">Join</a>
+                </li>
+                <li class="nav-op">
+                    <a id="current-page" class="link" href="#">Directory</a>
+                </li>
+                <li class="nav-op">
+                    <a class="link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main-section">
+            <div class="layout-change">
+                <a
+                    onclick="changeLayoutToGrid()"
+                    id="grid"
+                    class="display-changer"
+                >
+                    <img
+                        class="opt-imgs"
+                        src="img/direct/grid-view.png"
+                        alt="two column display"
+                /></a>
+
+                <a
+                    onclick="changeLayoutToFlex()"
+                    id="flex"
+                    class="display-changer"
+                >
+                    <img
+                        class="opt-imgs"
+                        src="img/direct/flex-view.png"
+                        alt="one column display"
+                    />
+                </a>
+            </div>
+            <h1>Avaible Local busisness in Londrina</h1>
+            <div class="busisness">
+                <h2><span class="name"></span></h2>
+                <h3>Description:</h3>
+                <p><span class="description"></span></p>
+                <h4 class="web-section">Their Web-page:</h4>
+                <a class="webpage-link" href="#"
+                    ><span class="webpage"></span
+                ></a>
+                <div class="img-div">
+                    <img src="#" alt="Company Logo" class="logo" />
+                </div>
+            </div>
+            <div class="busisness">
+                <h2><span class="name"></span></h2>
+                <h3>Description:</h3>
+                <p><span class="description"></span></p>
+                <h4 class="web-section">Their Web-page:</h4>
+                <a class="webpage-link" href="#"
+                    ><span class="webpage"></span
+                ></a>
+                <div class="img-div">
+                    <img src="#" alt="Company Logo" class="logo" />
+                </div>
+            </div>
+            <div class="busisness">
+                <h2><span class="name"></span></h2>
+                <h3>Description:</h3>
+                <p><span class="description"></span></p>
+                <h4 class="web-section">Their Web-page:</h4>
+                <a class="webpage-link" href="#"
+                    ><span class="webpage"></span
+                ></a>
+                <div class="img-div">
+                    <img src="#" alt="Company Logo" class="logo" />
+                </div>
+            </div>
+            <div class="busisness">
+                <h2><span class="name"></span></h2>
+                <h3>Description:</h3>
+                <p><span class="description"></span></p>
+                <h4 class="web-section">Their Web-page:</h4>
+                <a class="webpage-link" href="#"
+                    ><span class="webpage"></span
+                ></a>
+                <div class="img-div">
+                    <img src="#" alt="Company Logo" class="logo" />
+                </div>
+            </div>
+            <div class="busisness">
+                <h2><span class="name"></span></h2>
+                <h3>Description:</h3>
+                <p><span class="description"></span></p>
+                <h4 class="web-section">Their Web-page:</h4>
+                <a class="webpage-link" href="#"
+                    ><span class="webpage"></span
+                ></a>
+                <div class="img-div">
+                    <img src="#" alt="Company Logo" class="logo" />
+                </div>
+            </div>
+            <div class="busisness">
+                <h2><span class="name"></span></h2>
+                <h3>Description:</h3>
+                <p><span class="description"></span></p>
+                <h4 class="web-section">Their Web-page:</h4>
+                <a class="webpage-link" href="#"
+                    ><span class="webpage"></span
+                ></a>
+                <div class="img-div">
+                    <img src="#" alt="Company Logo" class="logo" />
+                </div>
+            </div>
+            <div class="busisness">
+                <h2><span class="name"></span></h2>
+                <h3>Description:</h3>
+                <p><span class="description"></span></p>
+                <h4 class="web-section">Their Web-page:</h4>
+                <a class="webpage-link" href="#"
+                    ><span class="webpage"></span
+                ></a>
+                <div class="img-div">
+                    <img src="#" alt="Company Logo" class="logo" />
+                </div>
+            </div>
+            <div class="busisness">
+                <h2><span class="name"></span></h2>
+                <h3>Description:</h3>
+                <p><span class="description"></span></p>
+                <h4 class="web-section">Their Web-page:</h4>
+                <a class="webpage-link" href="#"
+                    ><span class="webpage"></span
+                ></a>
+                <div class="img-div">
+                    <img src="#" alt="Company Logo" class="logo" />
+                </div>
+            </div>
+        </main>
+        <footer>
+            &copy;2021 | Helamã Barbour | BYU-Idaho | Little London Commerce
+        </footer>
+        <script src="js/direct/json_handler.js"></script>
+        <script src="js/drop_down_menu.js"></script>
+        <script src="js/which_page.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ["Josefin Sans", "Roboto Slab"],
+                },
+            });
+        </script>
+    </body>
 </html>

@@ -48,14 +48,67 @@
 
     main h1 {
         grid-column: 1/3;
+        grid-row: 2;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .display-changer {
+        display: block;
+        margin-top: 10px;
+        padding: 0px;
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    .layout-change {
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+
+    #flex {
+        left: 30px;
+    }
+
+    .opt-imgs {
+        max-width: 20px;
+        margin: auto;
     }
 
     .busisness {
         width: 300px;
-        height: 300px;
+        height: 90%;
     }
 
     .busisness p {
         font-size: 15px;
+        margin: 20px;
+    }
+
+    .busisness a {
+        font-size: 14px;
+    }
+
+    .responsive-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .responsive-busisness {
+        width: 100%;
+        text-align: center;
+    }
+
+    .responsive-busisness .img-div {
+        margin: auto;
+    }
+
+    .responsive-busisness p {
+        margin: auto;
+    }
+
+    .img-div {
+        margin: 0px;
+        padding: 50px;
     }
 }

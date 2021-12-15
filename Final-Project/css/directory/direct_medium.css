@@ -28,6 +28,9 @@
     .busisness p {
         max-width: 500px;
         margin: auto;
-        text-align: center;
+    }
+
+    .busisness a {
+        font-size: 15px;
     }
 }
