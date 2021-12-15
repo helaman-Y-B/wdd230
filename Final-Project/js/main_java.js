@@ -92,4 +92,8 @@ function date() {
 
 };
 
+let upDate = document.lastModified;
+
+document.getElementById("update").textContent = `${upDate}`;
+
 date();
