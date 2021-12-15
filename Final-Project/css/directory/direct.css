@@ -155,6 +155,15 @@ p {
     font-family: "Roboto Slab", Arial, serif;
 }
 
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
 footer {
     background-color: rgb(3, 113, 146);
     font-family: "Roboto Slab", Arial, serif;

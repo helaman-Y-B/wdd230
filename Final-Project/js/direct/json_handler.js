@@ -15,7 +15,7 @@ function gettingContent(data) {
             webLinks[indexNum].setAttribute("href", data.companies.arnaldos.webPage);
             compDescriptions[indexNum].innerHTML = data.companies.arnaldos.description;
             webPages[indexNum].textContent = data.companies.arnaldos.webPage;
-            logos[indexNum].setAttribute("src", data.companies.arnaldos.logo);
+            logos[indexNum].setAttribute("data-src", data.companies.arnaldos.logo);
             indexNum += 1
         }
 
@@ -24,7 +24,7 @@ function gettingContent(data) {
             webLinks[indexNum].setAttribute("href", data.companies.superMuffato.webPage);
             compDescriptions[indexNum].innerHTML = data.companies.superMuffato.description;
             webPages[indexNum].textContent = data.companies.superMuffato.webPage;
-            logos[indexNum].setAttribute("src", data.companies.superMuffato.logo);
+            logos[indexNum].setAttribute("data-src", data.companies.superMuffato.logo);
             indexNum += 1
         }
 
@@ -33,7 +33,7 @@ function gettingContent(data) {
             webLinks[indexNum].setAttribute("href", data.companies.farmaciaDrogaMais.webPage);
             compDescriptions[indexNum].innerHTML = data.companies.farmaciaDrogaMais.description;
             webPages[indexNum].textContent = data.companies.farmaciaDrogaMais.webPage;
-            logos[indexNum].setAttribute("src", data.companies.farmaciaDrogaMais.logo);
+            logos[indexNum].setAttribute("data-src", data.companies.farmaciaDrogaMais.logo);
             indexNum += 1
         }
 
@@ -42,7 +42,7 @@ function gettingContent(data) {
             webLinks[indexNum].setAttribute("href", data.companies.camelodramo.webPage);
             compDescriptions[indexNum].innerHTML = data.companies.camelodramo.description;
             webPages[indexNum].textContent = data.companies.camelodramo.webPage;
-            logos[indexNum].setAttribute("src", data.companies.camelodramo.logo);
+            logos[indexNum].setAttribute("data-src", data.companies.camelodramo.logo);
             indexNum += 1
         }
 
@@ -51,7 +51,7 @@ function gettingContent(data) {
             webLinks[indexNum].setAttribute("href", data.companies.leroyMerlin.webPage);
             compDescriptions[indexNum].innerHTML = data.companies.leroyMerlin.description;
             webPages[indexNum].textContent = data.companies.leroyMerlin.webPage;
-            logos[indexNum].setAttribute("src", data.companies.leroyMerlin.logo);
+            logos[indexNum].setAttribute("data-src", data.companies.leroyMerlin.logo);
             indexNum += 1
         }
 
@@ -60,7 +60,7 @@ function gettingContent(data) {
             webLinks[indexNum].setAttribute("href", data.companies.shoppingCatuai.webPage);
             compDescriptions[indexNum].innerHTML = data.companies.shoppingCatuai.description;
             webPages[indexNum].textContent = data.companies.shoppingCatuai.webPage;
-            logos[indexNum].setAttribute("src", data.companies.shoppingCatuai.logo);
+            logos[indexNum].setAttribute("data-src", data.companies.shoppingCatuai.logo);
             indexNum += 1
         }
 
@@ -69,7 +69,7 @@ function gettingContent(data) {
             webLinks[indexNum].setAttribute("href", data.companies.mcDonalds.webPage);
             compDescriptions[indexNum].innerHTML = data.companies.mcDonalds.description;
             webPages[indexNum].textContent = data.companies.mcDonalds.webPage;
-            logos[indexNum].setAttribute("src", data.companies.mcDonalds.logo);
+            logos[indexNum].setAttribute("data-src", data.companies.mcDonalds.logo);
             indexNum += 1
         }
 
@@ -78,7 +78,7 @@ function gettingContent(data) {
             webLinks[indexNum].setAttribute("href", data.companies.theBestAçai.webPage);
             compDescriptions[indexNum].innerHTML = data.companies.theBestAçai.description;
             webPages[indexNum].textContent = data.companies.theBestAçai.webPage;
-            logos[indexNum].setAttribute("src", data.companies.theBestAçai.logo);
+            logos[indexNum].setAttribute("data-src", data.companies.theBestAçai.logo);
         }
     });
 
