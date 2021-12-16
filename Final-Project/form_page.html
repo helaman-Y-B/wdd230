@@ -1,295 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Subscription Plans</title>
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/form/form.css" />
-        <link rel="stylesheet" href="css/form/form_medium.css" />
-        <link rel="stylesheet" href="css/form/form_large.css" />
-        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-    </head>
-    <body>
-        <header>
-            <div class="header">
-                <img
-                    src="img/Little-London-Commerce-fn-mottoh.png"
-                    alt="Logo Company"
-                />
-                <div>
-                    <h1 class="company-name-header">Little London Commerce</h1>
-                    <p class="mottoh">Size is not a document</p>
-                </div>
-            </div>
-        </header>
-        <nav>
-            <ul class="menu">
-                <li id="toggle-menu-list">
-                    <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
-                </li>
-                <li class="nav-op">
-                    <a class="link" href="index.html">Little London</a>
-                </li>
-                <li class="nav-op">
-                    <a class="link" href="londrina.html">Londrina</a>
-                </li>
-                <li class="nav-op">
-                    <a id="current-page" class="link" href="#">Join</a>
-                </li>
-                <li class="nav-op">
-                    <a class="link" href="directory.html">Directory</a>
-                </li>
-                <li class="nav-op">
-                    <a class="link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <main>
-            <!--Maybe you should show information about the subscriptions-->
-            <!-- <div class="sub-info"></div> -->
-            <div class="sub-options">
-                <h1>Subscription Options</h1>
-                <div id="non-profit" class="sub">
-                    <h3>Non-Profit</h3>
-                    <p>Price: $100</p>
-                    <p>Features:</p>
-                    <ul>
-                        <li>Monthly Newsletter about news of Londrina.</li>
-                        <li>Access to Commerce Events.</li>
-                        <li>Educational Opportunities.</li>
-                        <li>Concierge Service at City Hall.</li>
-                        <li>-------------------</li>
-                        <li>-------------------</li>
-                        <li>-------------------</li>
-                    </ul>
-                </div>
-                <div id="bronze" class="sub">
-                    <h3>Bronze</h3>
-                    <p>Price: $200</p>
-                    <p>Features:</p>
-                    <ul>
-                        <li>
-                            A chance to be featured in the Newsletter every
-                            year.
-                        </li>
-                        <li>Access to Commerce Events.</li>
-                        <li>Educational Opportunities.</li>
-                        <li>Concierge Service at City Hall.</li>
-                        <li>Monthly Newsletter about news of Londrina.</li>
-                        <li>-------------------</li>
-                        <li>-------------------</li>
-                    </ul>
-                </div>
-                <div id="silver" class="sub">
-                    <h3>Silver</h3>
-                    <p>Price: $400</p>
-                    <p>Features:</p>
-                    <ul>
-                        <li>A chance to be featured in the Newsletter.</li>
-                        <li>Access to Commerce Events.</li>
-                        <li>Educational Opportunities.</li>
-                        <li>Concierge Service at City Hall.</li>
-                        <li>Monthly Newsletter about news of Londrina.</li>
-                        <li>
-                            Promote your business in our online directory 4
-                            times per year.
-                        </li>
-                        <li>-------------------</li>
-                    </ul>
-                </div>
-                <div id="gold" class="sub">
-                    <h3>Gold</h3>
-                    <p>Price: $1000</p>
-                    <p>Features:</p>
-                    <ul>
-                        <li>A chance to be featured in the Newsletter.</li>
-                        <li>Access to Commerce Events.</li>
-                        <li>Educational Opportunities.</li>
-                        <li>Concierge Service at City Hall.</li>
-                        <li>Monthly Newsletter about news of Londrina.</li>
-                        <li>
-                            Promote your business in our online directory
-                            monthly.
-                        </li>
-                        <li>
-                            Get connected with a seasoned business owner in your
-                            industry to get real-life advice from someone who's
-                            been there before.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <form action="form_submited.html" method="get">
-                <!--Search for patterns for accents-->
-                <fieldset class="user-info">
-                    <legend>User Information</legend>
-                    <label for="first-name"
-                        >Enter your FIRST name: <br /><input
-                            type="text"
-                            name="first-name"
-                            id="first-name"
-                            minlength="3"
-                            pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
-                            required
-                    /></label>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscription Plans</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/form/form.css" />
+    <link rel="stylesheet" href="css/form/form_medium.css" />
+    <link rel="stylesheet" href="css/form/form_large.css" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img
+          src="img/Little-London-Commerce-fn-mottoh.png"
+          alt="Logo Company"
+        />
+        <div>
+          <h1 class="company-name-header">Little London Commerce</h1>
+          <p class="mottoh">Size is not a document</p>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul class="menu">
+        <li id="toggle-menu-list">
+          <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
+        </li>
+        <li class="nav-op">
+          <a class="link" href="index.html">Little London</a>
+        </li>
+        <li class="nav-op">
+          <a class="link" href="londrina.html">Londrina</a>
+        </li>
+        <li class="nav-op">
+          <a id="current-page" class="link" href="#">Join</a>
+        </li>
+        <li class="nav-op">
+          <a class="link" href="directory.html">Directory</a>
+        </li>
+        <li class="nav-op">
+          <a class="link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <!--Maybe you should show information about the subscriptions-->
+      <!-- <div class="sub-info"></div> -->
+      <div class="sub-options">
+        <h1>Subscription Options</h1>
+        <div id="non-profit" class="sub">
+          <h3>Non-Profit</h3>
+          <p>Price: $100</p>
+          <p>Features:</p>
+          <ul>
+            <li>Monthly Newsletter about news of Londrina.</li>
+            <li>Access to Commerce Events.</li>
+            <li>Educational Opportunities.</li>
+            <li>Concierge Service at City Hall.</li>
+            <li>-------------------</li>
+            <li>-------------------</li>
+            <li>-------------------</li>
+          </ul>
+        </div>
+        <div id="bronze" class="sub">
+          <h3>Bronze</h3>
+          <p>Price: $200</p>
+          <p>Features:</p>
+          <ul>
+            <li>A chance to be featured in the Newsletter every year.</li>
+            <li>Access to Commerce Events.</li>
+            <li>Educational Opportunities.</li>
+            <li>Concierge Service at City Hall.</li>
+            <li>Monthly Newsletter about news of Londrina.</li>
+            <li>-------------------</li>
+            <li>-------------------</li>
+          </ul>
+        </div>
+        <div id="silver" class="sub">
+          <h3>Silver</h3>
+          <p>Price: $400</p>
+          <p>Features:</p>
+          <ul>
+            <li>A chance to be featured in the Newsletter.</li>
+            <li>Access to Commerce Events.</li>
+            <li>Educational Opportunities.</li>
+            <li>Concierge Service at City Hall.</li>
+            <li>Monthly Newsletter about news of Londrina.</li>
+            <li>
+              Promote your business in our online directory 4 times per year.
+            </li>
+            <li>-------------------</li>
+          </ul>
+        </div>
+        <div id="gold" class="sub">
+          <h3>Gold</h3>
+          <p>Price: $1000</p>
+          <p>Features:</p>
+          <ul>
+            <li>A chance to be featured in the Newsletter.</li>
+            <li>Access to Commerce Events.</li>
+            <li>Educational Opportunities.</li>
+            <li>Concierge Service at City Hall.</li>
+            <li>Monthly Newsletter about news of Londrina.</li>
+            <li>Promote your business in our online directory monthly.</li>
+            <li>
+              Get connected with a seasoned business owner in your industry to
+              get real-life advice from someone who's been there before.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form action="form_submited.html" method="get">
+        <!--Search for patterns for accents-->
+        <fieldset class="user-info">
+          <legend>User Information</legend>
+          <label for="first-name"
+            >Enter your FIRST name: <br /><input
+              type="text"
+              name="first-name"
+              id="first-name"
+              minlength="3"
+              pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
+              required
+          /></label>
 
-                    <br />
-                    <label for="last-name"
-                        >Enter your LAST name: <br /><input
-                            type="text"
-                            name="last-name"
-                            id="last-name"
-                            minlength="1"
-                            pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
-                            required
-                        />
-                    </label>
+          <br />
+          <label for="last-name"
+            >Enter your LAST name: <br /><input
+              type="text"
+              name="last-name"
+              id="last-name"
+              minlength="1"
+              pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
+              required
+            />
+          </label>
 
-                    <br />
+          <br />
 
-                    <label for="title"
-                        >Title: <br /><input
-                            type="text"
-                            name="title"
-                            id="title"
-                            minlength="3"
-                            pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
-                        />
-                    </label>
+          <label for="title"
+            >Title: <br /><input
+              type="text"
+              name="title"
+              id="title"
+              minlength="3"
+              pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
+            />
+          </label>
 
-                    <br />
+          <br />
 
-                    <label for="email"
-                        >E-mail:<br /><input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="user@gmail.com"
-                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                            required
-                    /></label>
+          <label for="email"
+            >E-mail:<br /><input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="user@gmail.com"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              required
+          /></label>
 
-                    <br />
+          <br />
 
-                    <label for="phone"
-                        >Cell-phone: <br /><input
-                            type="tel"
-                            name="phone"
-                            id="phone"
-                            pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"
-                            placeholder="###-###-####"
-                        />
-                    </label>
-                </fieldset>
+          <label for="phone"
+            >Cell-phone: <br /><input
+              type="tel"
+              name="phone"
+              id="phone"
+              pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"
+              placeholder="###-###-####"
+            />
+          </label>
+        </fieldset>
 
-                <fieldset class="busisness-info">
-                    <legend>Busisness Information</legend>
-                    <label for="busisness-name"
-                        >Busisness Name: <br /><input
-                            type="text"
-                            name="busisness-name"
-                            id="busisness-name"
-                            pattern="^(?!\s)(?!.*\s$)(?=.*[a-zA-Z0-9])[a-zA-Z0-9 '~?!]{2,}$"
-                            required
-                        />
-                    </label>
-                    <br />
-                    <label for="busisness-addr"
-                        >Busisness Address: <br /><input
-                            type="text"
-                            name="busisness-addr"
-                            id="busisness-addr"
-                            pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
-                    /></label>
+        <fieldset class="busisness-info">
+          <legend>Busisness Information</legend>
+          <label for="busisness-name"
+            >Busisness Name: <br /><input
+              type="text"
+              name="busisness-name"
+              id="busisness-name"
+              pattern="^(?!\s)(?!.*\s$)(?=.*[a-zA-Z0-9])[a-zA-Z0-9 '~?!]{2,}$"
+              required
+            />
+          </label>
+          <br />
+          <label for="busisness-addr"
+            >Busisness Address: <br /><input
+              type="text"
+              name="busisness-addr"
+              id="busisness-addr"
+              pattern="^(?!\s)(?!.*\s$)[a-zA-Z '~^`-_]+"
+          /></label>
 
-                    <br />
-                    <label for="busisness-webp"
-                        >Busisness Web-page: <br /><input
-                            type="text"
-                            name="busisness-webp"
-                            id="busisness-webp"
-                            pattern="[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
-                    /></label>
-                </fieldset>
-                <fieldset class="text-area">
-                    <legend>Busisness Description</legend>
+          <br />
+          <label for="busisness-webp"
+            >Busisness Web-page: <br /><input
+              type="text"
+              name="busisness-webp"
+              id="busisness-webp"
+              pattern="[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
+          /></label>
+        </fieldset>
+        <fieldset class="text-area">
+          <legend>Busisness Description</legend>
 
-                    <label for="text-area">Text Area</label><br />
+          <label for="text-area">Text Area</label><br />
 
-                    <textarea name="text-area" id="text-area"></textarea>
-                </fieldset>
-                <fieldset class="member-radio">
-                    <legend>Membership Choice</legend>
-                    <div class="option">
-                        <input
-                            type="radio"
-                            name="radio-opt"
-                            id="opt1"
-                            class="opt"
-                            value="Non-Profit"
-                            required
-                        />
-                        <label for="opt1">Non-Profit</label>
-                    </div>
+          <textarea name="text-area" id="text-area"></textarea>
+        </fieldset>
+        <fieldset class="member-radio">
+          <legend>Membership Choice</legend>
+          <div class="option">
+            <input
+              type="radio"
+              name="radio-opt"
+              id="opt1"
+              class="opt"
+              value="Non-Profit"
+              required
+            />
+            <label for="opt1">Non-Profit</label>
+          </div>
 
-                    <div class="option">
-                        <input
-                            type="radio"
-                            name="radio-opt"
-                            id="opt2"
-                            class="opt"
-                            value="Bronze"
-                        />
-                        <label for="opt2">Bronze</label>
-                    </div>
-                    <div class="option">
-                        <input
-                            type="radio"
-                            name="radio-opt"
-                            id="opt3"
-                            class="opt"
-                            value="Silver"
-                        />
-                        <label for="opt3">Silver</label>
-                    </div>
-                    <div class="option">
-                        <input
-                            type="radio"
-                            name="radio-opt"
-                            id="opt4"
-                            class="opt"
-                            value="Gold"
-                        />
+          <div class="option">
+            <input
+              type="radio"
+              name="radio-opt"
+              id="opt2"
+              class="opt"
+              value="Bronze"
+            />
+            <label for="opt2">Bronze</label>
+          </div>
+          <div class="option">
+            <input
+              type="radio"
+              name="radio-opt"
+              id="opt3"
+              class="opt"
+              value="Silver"
+            />
+            <label for="opt3">Silver</label>
+          </div>
+          <div class="option">
+            <input
+              type="radio"
+              name="radio-opt"
+              id="opt4"
+              class="opt"
+              value="Gold"
+            />
 
-                        <label for="opt4">Gold</label>
+            <label for="opt4">Gold</label>
 
-                        <br />
-                        <br />
+            <br />
+            <br />
 
-                        <input
-                            type="submit"
-                            value="Submit"
-                            id="submit-button"
-                        />
-                    </div>
-                </fieldset>
-            </form>
-        </main>
-        <footer>
-            &copy;2021 | Helamã Barbour | BYU-Idaho | Little London Commerce
-        </footer>
-        <script src="#"></script>
-        <script src="js/drop_down_menu.js"></script>
-        <script src="js/which_page.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script>
-            WebFont.load({
-                google: {
-                    families: ["Josefin Sans", "Roboto Slab"],
-                },
-            });
-        </script>
-    </body>
+            <input type="submit" value="Submit" id="submit-button" />
+          </div>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      &copy;2021 | Helamã Barbour | BYU-Idaho | Little London Commerce
+      <p><span id="current-date"></span></p>
+    </footer>
+    <script src="js/current_date.js"></script>
+    <script src="js/drop_down_menu.js"></script>
+    <script src="js/which_page.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Josefin Sans", "Roboto Slab"],
+        },
+      });
+    </script>
+  </body>
 </html>

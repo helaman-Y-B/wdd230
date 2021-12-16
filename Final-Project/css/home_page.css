@@ -1,263 +1,264 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,400&family=Roboto+Slab&display=swap");
 body {
-    background-color: rgb(117, 201, 235);
-    margin: 0px;
+  background-color: rgb(117, 201, 235);
+  margin: 0px;
 }
 
 header img {
-    max-width: 150px;
-    height: 150px;
+  max-width: 150px;
+  height: 150px;
 }
 
 header {
-    display: flex;
-    background-color: rgb(3, 113, 146);
+  display: flex;
+  background-color: rgb(3, 113, 146);
 }
 
 header img {
-    flex: 1;
+  flex: 1;
 }
 
 header div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  color: white;
 }
 
 header div h1 {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .header div p {
-    padding-left: 10px;
-    font-size: 15px;
-    text-align: left;
+  padding-left: 10px;
+  font-size: 15px;
+  text-align: left;
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .company-name-header {
-    margin-bottom: 5px;
-    margin-top: 10px;
-    font-family: "Josefin Sans", Helvetica, sans-serif;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 .mottoh {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-family: "Josefin Sans", Helvetica, sans-serif;
-    font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-style: italic;
 }
 
 nav {
-    font-family: "Josefin Sans", Helvetica, sans-serif;
-    overflow: hidden;
-    text-align: center;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  overflow: hidden;
+  text-align: center;
 }
 
 .menu {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #toggle-menu {
-    display: block;
-    list-style-type: none;
-    background-color: #0e95ca;
-    font-size: 18px;
-    padding: 20px;
+  display: block;
+  list-style-type: none;
+  background-color: #0e95ca;
+  font-size: 18px;
+  padding: 20px;
 }
 
 .nav-op {
-    display: none;
-    background-color: #08aef0;
-    text-decoration: none;
+  display: none;
+  background-color: #08aef0;
+  text-decoration: none;
 }
 
 li a {
-    color: black;
+  color: black;
 }
 
 li a:hover {
-    background-color: #055474;
-    color: white;
+  background-color: #055474;
+  color: white;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .responsive .nav-op {
-    display: block;
-    list-style-type: none;
+  display: block;
+  list-style-type: none;
 }
 
 .link {
-    display: block;
-    list-style-type: none;
-    padding: 20px;
-    font-size: 18px;
+  display: block;
+  list-style-type: none;
+  padding: 20px;
+  font-size: 18px;
 }
 
 main {
-    background-color: rgb(233, 226, 240);
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
-    margin-top: 50px;
+  background-color: rgb(233, 226, 240);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 main h2 {
-    text-align: center;
+  text-align: center;
 }
 
 #hero-img {
-    width: 100%;
-    height: 70%;
+  width: 100%;
+  height: 70%;
 }
 
 .city-info {
-    padding: 10px;
+  padding: 10px;
 }
 
 .purpouse {
-    text-align: center;
-    padding: 10px;
-    background-color: rgb(117, 201, 235);
-    border: 10px inset rgb(3, 113, 146);
-    border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(117, 201, 235);
+  border: 10px inset rgb(3, 113, 146);
+  border-radius: 5px;
 }
 
 .purpouse h1 {
-    font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 .weather-info {
-    text-align: center;
+  text-align: center;
 }
 
 .weather-info h2 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .weather-info p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .companies {
-    display: flex;
-    flex-direction: column;
-    border: 10px outset rgb(3, 113, 146);
-    border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  border: 10px outset rgb(3, 113, 146);
+  border-radius: 5px;
 }
 
 .company-one {
-    flex: 1;
-    background-color: rgb(67, 250, 235);
-    text-align: center;
-    display: flex;
-    flex-direction: column-reverse;
+  flex: 1;
+  background-color: rgb(67, 250, 235);
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .company-two {
-    flex: 1;
-    background-color: rgb(61, 166, 185);
-    text-align: center;
+  flex: 1;
+  background-color: rgb(61, 166, 185);
+  text-align: center;
 }
 
 .company-tree {
-    flex: 1;
-    background-color: rgb(101, 155, 200);
-    text-align: center;
-    display: flex;
-    flex-direction: column-reverse;
+  flex: 1;
+  background-color: rgb(101, 155, 200);
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .company-one img {
-    width: 100%;
+  width: 100%;
 }
 
 .company-tree img {
-    width: 100%;
+  width: 100%;
 }
 
 picture img[data-src] {
-    filter: blur(0.2em);
+  filter: blur(0.2em);
 }
 
 picture img {
-    filter: blur(0em);
-    transition: filter 0.5s;
+  filter: blur(0em);
+  transition: filter 0.5s;
 }
 
 .text-section {
-    flex: 1;
+  flex: 1;
 }
 
 .sub-info {
-    background-color: rgb(117, 201, 235);
-    text-align: center;
-    padding: 10px;
-    border: 10px inset rgb(3, 113, 146);
-    border-radius: 5px;
+  background-color: rgb(117, 201, 235);
+  text-align: center;
+  padding: 10px;
+  border: 10px inset rgb(3, 113, 146);
+  border-radius: 5px;
 }
 
 .sub-info h4 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .upcoming-events {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 10px;
 }
 
 .upcoming-events h3 {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 h2,
 h3,
 h4 {
-    font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 p {
-    font-family: "Roboto Slab", Arial, serif;
-    text-align: center;
+  font-family: "Roboto Slab", Arial, serif;
+  text-align: center;
 }
 
 .media-icons {
-    display: flex;
-    max-width: 320px;
-    margin: auto;
-    margin-bottom: 10px;
+  display: flex;
+  max-width: 320px;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .media-icons a {
-    max-width: 50px;
-    height: 50px;
-    flex: 1;
-    margin: auto;
+  max-width: 50px;
+  height: 50px;
+  flex: 1;
+  margin: auto;
 }
 
 .media-icon {
-    max-width: 50px;
-    height: 50px;
-    margin: auto;
+  max-width: 50px;
+  height: 50px;
+  margin: auto;
 }
 
 footer {
-    background-color: rgb(3, 113, 146);
-    font-family: "Roboto Slab", Arial, serif;
-    text-align: center;
-    padding: 20px 0px 20px 0px;
+  background-color: rgb(3, 113, 146);
+  font-family: "Roboto Slab", Arial, serif;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  color: white;
 }
 
 footer p {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
