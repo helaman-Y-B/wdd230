@@ -1,287 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Home Page</title>
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/home_page.css" />
-        <link rel="stylesheet" href="css/home_page_medium.css" />
-        <link rel="stylesheet" href="css/home_page_large.css" />
-        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-    </head>
-    <body>
-        <header>
-            <div class="header">
-                <img
-                    src="img/Little-London-Commerce-fn-mottoh.png"
-                    alt="Logo Company"
-                />
-                <div>
-                    <h1 class="company-name-header">Little London Commerce</h1>
-                    <p class="mottoh">Size is not a document</p>
-                </div>
-            </div>
-        </header>
-        <nav>
-            <ul class="menu">
-                <li id="toggle-menu-list">
-                    <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
-                </li>
-                <li class="nav-op">
-                    <a id="current-page" class="link" href="#">Little London</a>
-                </li>
-                <li class="nav-op">
-                    <a class="link" href="londrina.html">Londrina</a>
-                </li>
-                <li class="nav-op">
-                    <a class="link" href="form_page.html">Join</a>
-                </li>
-                <li class="nav-op">
-                    <a class="link" href="directory.html">Directory</a>
-                </li>
-                <li class="nav-op">
-                    <a class="link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <main>
-            <div class="hero-img">
-                <picture>
-                    <source
-                        media="(min-width:800px )"
-                        srcset="img/home-page/Londrina-home-page-large.jpg"
-                    />
-                    <source
-                        media="(min-width:520px )"
-                        srcset="img/home-page/Londrina-home-page-medium.jpg"
-                    />
-                    <source
-                        media="(min-width:320px )"
-                        srcset="img/home-page/Londrina-home-page-small.jpg"
-                    />
-                    <img
-                        src="img/home-page/Londrina-home-page-small.jpg"
-                        alt="Hero Image"
-                        id="hero-img"
-                    />
-                </picture>
-            </div>
-            <div class="purpouse">
-                <h1>The Purpouse of Little London Commerce</h1>
-                <p>
-                    The purpose of the “Little London Commerce” is to increase
-                    the awareness of the people from all around the world, about
-                    the commerce of the city. <br />
-                    <br />
-                    We also want to show that Londrina is not just for commerce,
-                    but also for turists, with a lot of different events and fun
-                    things to do during the year. <br />
-                    <br />
-                    Londrina have a big potential in a lot of different market
-                    fields of our world, and and because of that potencial, we
-                    created Little London Commerce, so that we can raise the
-                    curiosity and raise the interest of other companies, to work
-                    within the city. <br />
-                    <br />
-                    We assure you, that investing in Londrina will only bring
-                    profit for your company!
-                </p>
-            </div>
-            <div class="city-info">
-                <div class="weather-info">
-                    <h2>Weather Information</h2>
-                    <p>Currently: <span id="currently"></span></p>
-                    <p>Avarage Temperature: <span id="avg-temp"></span>°F</p>
-                    <p id="wind-chill-text">
-                        Wind Chill: <span id="wind-chill"></span>
-                    </p>
-                    <p>Humidity: <span id="humidity"></span></p>
-                    <p>Wind Speed: <span id="wind-speed"></span> mph</p>
-                </div>
-                <h2>City information</h2>
-                <p>
-                    Londrina was originally explored by British settlers, and
-                    then officially established in 1930 by a small group of
-                    Italian, Japanese and German settlers. It rapidly became the
-                    commercial, political, and cultural centre of the state's
-                    northern pioneer zone. <br />
-                    <br />
-                    Today Londrina has achived the incredible mark of 575.377
-                    habitants in 2020, it's a growth of 0,99% in relation to the
-                    2019 growth. There are almost 70 thousand more people in ten
-                    years!
-                </p>
-            </div>
-            <!--Don't Forget to Share their Links!!-->
-            <h2>Local Companies</h2>
-            <div class="companies">
-                <div class="company-one">
-                    <div class="text-section">
-                        <h3>Cacique</h3>
-                        <p>
-                            Cacique was founded in 1959 in Londrina by Horácio
-                            Sabino Coimbra, and sice that year, the company has
-                            been growing continuously, and today it's one of the
-                            biggest industries of instant coffe production in
-                            the world!
-                            <br />
-                            <br />
-                            Today they produce everyday, 90 tons of instant
-                            coffee, and it's present in more then 70 different
-                            countries.
-                        </p>
-                    </div>
-                    <picture>
-                        <img
-                            src="img/place-holder.png"
-                            data-src="img/home-page/Cacique-image.jpg"
-                            alt="Company 1 image/Maybe Logo"
-                        />
-                    </picture>
-                </div>
-
-                <div class="company-two">
-                    <h3>ADAMA</h3>
-                    <p>
-                        Adama is a company in Londrina, that sells and assist
-                        cultivators in protecting their products from pests,
-                        temporals and air aplications.
-                        <br /><br />
-                        Adama is one of the mundial liders in protection of
-                        cultivation, and started your busisness in 1945 in
-                        Israel. <br />
-                        But in Brazil the history started in 1970, when an
-                        Herbitechnic was opened in Londrina, and after a few
-                        years, the Herbitechnic got sold to the israel company,
-                        and became what we see today, ADAMA Company.
-                    </p>
-                </div>
-
-                <div class="company-tree">
-                    <picture>
-                        <img
-                            src="img/place-holder.png"
-                            data-src="img/home-page/A-YOSHII-image.jpg"
-                            alt="Company 1 image/Maybe Logo"
-                        />
-                    </picture>
-
-                    <div class="text-section">
-                        <h3>A.Yoshii</h3>
-                        <p>
-                            The company was founded in 1965 in a city called
-                            Apucarana, but ten years after being in the market,
-                            it decided to transfer it's company to Londrina.
-                            <br />
-                            <br />
-                            Today A.Yoshii is present in almost every corner of
-                            the country, with the construction of buildings,
-                            schools, universities, teathers, and many other
-                            things. In total they constructed more than two
-                            million cubic meters in all the country!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="upcoming-events">
-                <h3>Upcoming Events</h3>
-                <p>1 Dec: Water Show in the Igapo Lake!</p>
-                <p>17 Dec: Samba da Madrugada - Samba is popular therapy</p>
-                <p>17 to 19 Dec: Tormenta</p>
-                <p>18 Dec: First Pedal da lua cheia</p>
-            </div>
-            <div class="sub-info">
-                <h4>Subscriptions</h4>
-                <p>
-                    We from the Little London Commerce have merberships
-                    subscriptions, which brings a lot of differents benefits and
-                    perks for your company. <br />
-                    <br />
-                    We currently have 4 different types of annual subscriptions
-                    Non-profit, Bronze, Silver and Gold. <br />
-                    <br />
-                    Non-profit subscriptions are perfect for busisness that had
-                    just entered the market, the subscription gives the company
-                    Monthly Newsletter about news of Londrina, Access to
-                    Commerce Events, Educational Opportunities and Concierge
-                    Service at City Hall. <br />
-                    <br />
-                    Bronze are best for companies that just moved to Londrina,
-                    it gives all the features from Non-profit subscription plus
-                    A chance to be featured in the Newsletter every year.
-                    <br />
-                    <br />
-                    Silver gives all the benefits from Bronze plus a chance to
-                    promote your business in our online directory 4 times per
-                    year. It is recommended for busisness that are looking for
-                    investors or partners to work with them.
-                    <br />
-                    <br />
-                    Gold gives all the benefits from silver but instead of an 4
-                    time chance to promote your business in our online
-                    directory, it becomes a monthly feature, gold also gives you
-                    an opportunity to get connected with a seasoned business
-                    owner in your industry to get real-life advice from someone
-                    who's been there before. Perfect For busisness that feels
-                    that they just stopped in time, and can't get anymore
-                    profit, but they still want to make more profit.
-                    <br />
-                    <br />
-                    So what are you waiting for!<br /><a href="form_page.html"
-                        >Subscribe now!</a
-                    >
-                </p>
-            </div>
-        </main>
-        <div class="contact-info">
-            <p>Phone: 99133-1144</p>
-            <p>E-mail: Helamashi@gmail.com</p>
-            <p>Social medias</p>
-            <div class="media-icons">
-                <a href="https://www.facebook.com/"
-                    ><img
-                        class="media-icon"
-                        src="img/facebook-icon.jpg"
-                        alt="Facebook"
-                /></a>
-                <a href="https://www.instagram.com/"
-                    ><img
-                        class="media-icon"
-                        src="img/instagram.jpg"
-                        alt="Instagram"
-                /></a>
-                <a href="https://www.snapchat.com/"
-                    ><img
-                        class="media-icon"
-                        src="img/snapchat.jpg"
-                        alt="Snapchat"
-                /></a>
-                <a href="https://twitter.com/"
-                    ><img
-                        class="media-icon"
-                        src="img/twitter.jpg"
-                        alt="Twitter"
-                /></a>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/home_page.css" />
+    <link rel="stylesheet" href="css/home_page_medium.css" />
+    <link rel="stylesheet" href="css/home_page_large.css" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img
+          src="img/Little-London-Commerce-fn-mottoh.png"
+          alt="Logo Company"
+        />
+        <div>
+          <h1 class="company-name-header">Little London Commerce</h1>
+          <p class="mottoh">Size is not a document</p>
         </div>
-        <footer>
-            &copy; 2021 | Helamã Barbour | BYU-Idaho | Little London Commerce
-            <p><span id="current-date"></span></p>
-            <p><span id="update"></span></p>
-        </footer>
-        <script src="js/lazy_load.js"></script>
-        <script src="js/main_java.js"></script>
-        <script src="js/drop_down_menu.js"></script>
-        <script src="js/which_page.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script>
-            WebFont.load({
-                google: {
-                    families: ["Josefin Sans", "Roboto Slab"],
-                },
-            });
-        </script>
-    </body>
+      </div>
+    </header>
+    <nav>
+      <ul class="menu">
+        <li id="toggle-menu-list">
+          <a id="toggle-menu" onclick="toggleMenu()">Menu</a>
+        </li>
+        <li class="nav-op">
+          <a id="current-page" class="link" href="#">Little London</a>
+        </li>
+        <li class="nav-op">
+          <a class="link" href="londrina.html">Londrina</a>
+        </li>
+        <li class="nav-op">
+          <a class="link" href="form_page.html">Join</a>
+        </li>
+        <li class="nav-op">
+          <a class="link" href="directory.html">Directory</a>
+        </li>
+        <li class="nav-op">
+          <a class="link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="hero-img">
+        <picture>
+          <source
+            media="(min-width:800px )"
+            srcset="img/home-page/Londrina-home-page-large.jpg"
+          />
+          <source
+            media="(min-width:520px )"
+            srcset="img/home-page/Londrina-home-page-medium.jpg"
+          />
+          <source
+            media="(min-width:320px )"
+            srcset="img/home-page/Londrina-home-page-small.jpg"
+          />
+          <img
+            src="img/home-page/Londrina-home-page-small.jpg"
+            alt="Hero Image"
+            id="hero-img"
+          />
+        </picture>
+      </div>
+      <div class="purpouse">
+        <h1>The Purpose of Little London Commerce</h1>
+        <p>
+          The purpose of the “Little London Commerce” is to increase the
+          awareness of the people from all around the world, about the commerce
+          of the city. <br />
+          <br />
+          We also want to show that Londrina is not just for commerce, but also
+          for tourists, with a lot of different events and fun things to do
+          during the year. <br />
+          <br />
+          Londrina have a big potential in a lot of different market fields of
+          our world, and and because of that potential, we created Little London
+          Commerce, so that we can raise the curiosity and raise the interest of
+          other companies, to work within the city. <br />
+          <br />
+          We assure you, that investing in Londrina will only bring profit for
+          your company!
+        </p>
+      </div>
+      <div class="city-info">
+        <div class="weather-info">
+          <h2>Weather Information</h2>
+          <p>Currently: <span id="currently"></span></p>
+          <p>Average Temperature: <span id="avg-temp"></span>°F</p>
+          <p id="wind-chill-text">Wind Chill: <span id="wind-chill"></span></p>
+          <p>Humidity: <span id="humidity"></span></p>
+          <p>Wind Speed: <span id="wind-speed"></span> mph</p>
+        </div>
+        <h2>City information</h2>
+        <p>
+          Londrina was originally explored by British settlers, and then
+          officially established in 1930 by a small group of Italian, Japanese
+          and German settlers. It rapidly became the commercial, political, and
+          cultural center of the state's northern pioneer zone. <br />
+          <br />
+          Today Londrina has achieved the incredible mark of 575.377 habitants
+          in 2020, it's a growth of 0,99% in relation to the 2019 growth. There
+          are almost 70 thousand more people in ten years!
+        </p>
+      </div>
+      <!--Don't Forget to Share their Links!!-->
+      <h2>Local Companies</h2>
+      <div class="companies">
+        <div class="company-one">
+          <div class="text-section">
+            <h3>Cacique</h3>
+            <p>
+              Cacique was founded in 1959 in Londrina by Horácio Sabino Coimbra,
+              and since that year, the company has been growing continuously,
+              and today it's one of the biggest industries of instant coffee
+              production in the world!
+              <br />
+              <br />
+              Today they produce every day, 90 tons of instant coffee, and it's
+              present in more then 70 different countries.
+            </p>
+          </div>
+          <picture>
+            <img
+              src="img/place-holder.png"
+              data-src="img/home-page/Cacique-image.jpg"
+              alt="Company 1 image/Maybe Logo"
+            />
+          </picture>
+        </div>
+
+        <div class="company-two">
+          <h3>ADAMA</h3>
+          <p>
+            Adama is a company in Londrina, that sells and assist cultivators in
+            protecting their products from pests, different types of weather and
+            air applications.
+            <br /><br />
+            Adama is one of the world leaders in protection of cultivation, and
+            started your business in 1945 in Israel. <br />
+            But in Brazil the history started in 1970, when an Herbitechnic was
+            opened in Londrina, and after a few years, the Herbitechnic got sold
+            to the Israel company, and became what we see today, ADAMA Company.
+          </p>
+        </div>
+
+        <div class="company-tree">
+          <picture>
+            <img
+              src="img/place-holder.png"
+              data-src="img/home-page/A-YOSHII-image.jpg"
+              alt="Company 1 image/Maybe Logo"
+            />
+          </picture>
+
+          <div class="text-section">
+            <h3>A.Yoshii</h3>
+            <p>
+              The company was founded in 1965 in a city called Apucarana, but
+              ten years after being in the market, it decided to transfer it's
+              company to Londrina.
+              <br />
+              <br />
+              Today A.Yoshii is present in almost every corner of the country,
+              with the construction of buildings, schools, universities,
+              theaters, and many other things. In total they constructed more
+              than two million cubic meters in all the country!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="upcoming-events">
+        <h3>Upcoming Events</h3>
+        <p>1 Dec: Water Show in the Igapo Lake!</p>
+        <p>17 Dec: Samba da Madrugada - Samba is popular therapy</p>
+        <p>17 to 19 Dec: Tormenta</p>
+        <p>18 Dec: First Pedal da lua cheia</p>
+      </div>
+      <div class="sub-info">
+        <h4>Subscriptions</h4>
+        <p>
+          We from the Little London Commerce have memberships subscriptions,
+          which brings a lot of different benefits and perks for your company.
+          <br />
+          <br />
+          We currently have 4 different types of annual subscriptions
+          Non-profit, Bronze, Silver and Gold. <br />
+          <br />
+          Non-profit subscriptions are perfect for business that had just
+          entered the market, the subscription gives the company Monthly
+          Newsletter about news of Londrina, Access to Commerce Events,
+          Educational Opportunities and Concierge Service at City Hall. <br />
+          <br />
+          Bronze are best for companies that just moved to Londrina, it gives
+          all the features from Non-profit subscription plus a chance to be
+          featured in the Newsletter every year.
+          <br />
+          <br />
+          Silver gives all the benefits from Bronze plus a chance to promote
+          your business in our online directory 4 times per year. It is
+          recommended for business that are looking for investors or partners to
+          work with them.
+          <br />
+          <br />
+          Gold gives all the benefits from silver but instead of an 4 time
+          chance to promote your business in our online directory, it becomes a
+          monthly feature, gold also gives you an opportunity to get connected
+          with a seasoned business owner in your industry to get real-life
+          advice from someone who's been there before. Perfect for business that
+          feels that they just stopped in time, and can't get anymore profit,
+          but they still want to make more profit.
+          <br />
+          <br />
+          So what are you waiting for!<br /><a href="form_page.html"
+            >Subscribe now!</a
+          >
+        </p>
+      </div>
+    </main>
+    <div class="contact-info">
+      <p>Phone: 99133-1144</p>
+      <p>E-mail: Helamashi@gmail.com</p>
+      <p>Social medias</p>
+      <div class="media-icons">
+        <a href="https://www.facebook.com/"
+          ><img class="media-icon" src="img/facebook-icon.jpg" alt="Facebook"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img class="media-icon" src="img/instagram.jpg" alt="Instagram"
+        /></a>
+        <a href="https://www.snapchat.com/"
+          ><img class="media-icon" src="img/snapchat.jpg" alt="Snapchat"
+        /></a>
+        <a href="https://twitter.com/"
+          ><img class="media-icon" src="img/twitter.jpg" alt="Twitter"
+        /></a>
+      </div>
+    </div>
+    <footer>
+      &copy; 2021 | Helamã Barbour | BYU-Idaho | Little London Commerce
+      <p><span id="current-date"></span></p>
+      <p><span id="update"></span></p>
+    </footer>
+    <script src="js/lazy_load.js"></script>
+    <script src="js/main_java.js"></script>
+    <script src="js/drop_down_menu.js"></script>
+    <script src="js/which_page.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Josefin Sans", "Roboto Slab"],
+        },
+      });
+    </script>
+  </body>
 </html>

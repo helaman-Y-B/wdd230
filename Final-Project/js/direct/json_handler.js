@@ -106,13 +106,13 @@ let jsonData = {
         "arnaldos": {
             "name": "Arnaldos",
             "webPage": "http://www.arnaldos.com.br/",
-            "description": "Arnaldos is in Londrina for more then twenty years selling delicious hot dogs, fries and humburguers. <br /><br /> They are a very good example of an sucessful busisness and they recently started expanding their busisness to other cities around Londrina. <br /><br /> If you want to visit Londrina, you must go to Arnaldos!",
+            "description": "Arnaldos is in Londrina for more then twenty years selling delicious hot dogs, fries and hamburgers. <br /><br /> They are a very good example of an sucessful busisness and they recently started expanding their busisness to other cities around Londrina. <br /><br /> If you want to visit Londrina, you must go to Arnaldos!",
             "logo": "img/direct/arnaldos_logo.JPG"
         },
         "superMuffato": {
             "name": "Super Muffato",
             "webPage": "https://www.supermuffato.com.br/",
-            "description": "Super Muffato is a company of hypermarkets in Paraná, and it's an very famous one. <br /><br /> Super Muffato didn't started in Londrina, but when they created a Super Muffato in Londrina, it rapidaly started to gain profit. <br /><br /> Also the Super Muffato in Londrina, was the first to have an automated teller!",
+            "description": "Super Muffato is a company of hypermarkets in Paraná, and it's an very famous one. <br /><br /> Super Muffato didn't started in Londrina, but when they created a Super Muffato in Londrina, it rapidly started to gain profit. <br /><br /> Also the Super Muffato in Londrina, was the first to have an automated teller!",
             "logo": "img/direct/super_muffato_logo.JPG"
         },
         "farmaciaDrogaMais": {
@@ -136,19 +136,19 @@ let jsonData = {
         "shoppingCatuai": {
             "name": "Shopping Catuai",
             "webPage": "https://www.catuailondrina.com.br/",
-            "description": "Shopping Catuai is the oldest Shopping in Londrina and also the first to brign outside famous fast food, like McDonalds, burguer King, and also the most recent KFC! <br /><br /> The shopping is very beautiful and atracts a lot of different busisness, so what are you waiting for, let's go shopping!!",
+            "description": "Shopping Catuai is the oldest Shopping in Londrina and also the first to bring outside famous fast food, like McDonalds, burger King, and also the most recent KFC! <br /><br /> The shopping is very beautiful and attracts a lot of different business, so what are you waiting for, let's go shopping!!",
             "logo": "img/direct/catuai_logo.jpg"
         },
         "mcDonalds": {
             "name": "McDonalds",
             "webPage": "https://www.mcdonalds.com.br/",
-            "description": "McDonalds first came to Londrina in the Catuai Shopping, and since that day, McDonalds had continuasly grow in Londrina, and today you can find an McDonald in every corner of the city.",
+            "description": "McDonalds first came to Londrina in the Catuai Shopping, and since that day, McDonalds had continuously grow in Londrina, and today you can find an McDonald in every corner of the city.",
             "logo": "img/direct/mcdonalds_logo.jpg"
         },
         "theBestAçai": {
             "name": "The Best Açaí",
             "webPage": "https://www.amabest.net/",
-            "description": "Açaí it's a fruit that grows on Amazônia, and here in Londrina we like to eat the icecream version of it, and The Best Açaí do it just right! <br /><br /> They sell a lot of different mixtures of Açaí with a big variety of toppings. They also sell different IceCreams, but why not taste 'The Best Açaí' instead?",
+            "description": "Açaí it's a fruit that grows on Amazônia, and here in Londrina we like to eat the Ice Cream version of it, and The Best Açaí do it just right! <br /><br /> They sell a lot of different mixtures of Açaí with a big variety of toppings. They also sell different Ice Creams, but why not taste 'The Best Açaí' instead?",
             "logo": "img/direct/the_best_logo.jpg"
         }
 
